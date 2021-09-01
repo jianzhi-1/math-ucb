@@ -25,5 +25,15 @@ UC Berkeley Fall 2021, taught by Prof Koji
 - All Cauchy sequences are bounded.
 
 #### Subsequences
+- *n<sub>k</sub> ≥ k*
+- There is a subsequence of *(s<sub>n</sub>)* converging to a real *t* iff the set *{n ∈ N: |s<sub>n</sub> - t| < ε}* is infinite for all *ε > 0*.
+- If *(s<sub>n</sub>)* is unbounded, it contains a subsequence with limit ±∞.
+- If subsequence *(s<sub>n</sub>)* converges, then every subsequence converges to the same limit.
+- Every sequence *(s<sub>n</sub>)* has a monotonic subsequence.
+- (Bolzano-Weierstrass) Every bounded sequence has a convergent subsequence. (bounded ⇒ contains monotonic, bounded + monotonic ⇒ convergent)
+- For any sequence *(s<sub>n</sub>)*, exists a monotonic subsequence whose limit is *lim sup (s<sub>n</sub>)*. Similarly for *lim inf (s<sub>n</sub>)*.
+- If S denotes the set of subsequential limits, *sup S = lim sup (s<sub>n</sub>)*, *inf S = lim inf (s<sub>n</sub>)*.
+- *lim (s<sub>n</sub>)* exists iff *S* has exactly one element, namely *s<sub>n</sub>*.
+- one more 
 
 #### Series
