@@ -12,4 +12,8 @@ UC Berkeley Fall 2021, taught by Prof Koji
 
 #### Monotone Sequences and Cauchy Sequences
 - All *monotone* sequences converge (to a real number for bounded sequences) or diverges to +- inf.
-- *lim sup s<sub>n</sub> = lim sup{s<sub>n</sub>: n > N}*
+- *u<sub>N</sub> = inf{s<sub>n</sub>: n > N}*
+- *v<sub>N</sub> = sup{s<sub>n</sub>: n > N}*
+- *(u<sub>n</sub>)* is increasing, *(v<sub>n</sub>)* is decreasing
+- *lim sup s<sub>n</sub> = lim v<sub>N</sub> = lim sup{s<sub>n</sub>: n > N}*
+- *lim inf s<sub>n</sub> = lim u<sub>N</sub> = lim inf{s<sub>n</sub>: n > N}*
