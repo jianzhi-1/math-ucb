@@ -3,7 +3,11 @@
 UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 
 - [x] Week 0: Proofs, Real numbers (lec1)
-- [x] Week 1: Completeness Axiom, max, min, sup, inf (lec2)
+- [x] Week 1: Completeness Axiom, max, min, sup, inf (lec2), Epsilon-Delta (lec3)
+- [ ] Week 2:
+- [ ] Week 3:
+- [ ] Week 4:
+- [ ] Week 5:
 
 ### Notes
 - Completeness Axiom for reals: Any **nonempty** subset of R that is bounded above (i.e. admits at least 1 upper bound) admits suprenum (as a real).
