@@ -3,7 +3,7 @@
 UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 
 - [x] Week 0: Proofs, Real numbers (lec1)
-- [x] Week 1: Completeness Axiom, max, min, sup, inf (lec2), Epsilon-Delta (lec3)
+- [x] Week 1: Completeness Axiom, *max*, *min*, *sup*, *inf* (lec2), Convergence, ε-δ, "Smart" Estimates (lec3)
 - [ ] Week 2:
 - [ ] Week 3:
 - [ ] Week 4:
