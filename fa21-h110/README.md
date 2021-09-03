@@ -9,6 +9,8 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 
 ### Notes
 
+#### Quadratic Forms
+
 #### LPU Decomposition
 
 #### Spectral Theorem
