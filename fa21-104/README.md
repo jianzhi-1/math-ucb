@@ -41,3 +41,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - one more 
 
 #### Series
+
+#### Metric Space
+
+#### Darboux Integral
