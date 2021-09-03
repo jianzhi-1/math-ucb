@@ -10,9 +10,9 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [ ] Week 5:
 
 ### Notes
-- Completeness Axiom for reals: Any **nonempty** subset of R that is bounded above (i.e. admits at least 1 upper bound) admits suprenum (as a real).
-- Archimedean property: For any *a*, *b* *>0*, exists a natural number n s.t. *na > b*.
-- Denseness of Q: for every *a < b*, exists a rational *r* s.t. *a < r < b*.
+- Completeness Axiom for reals: Any **nonempty** subset of ℝ that is bounded above (i.e. admits at least 1 upper bound) admits suprenum (as a real).
+- Archimedean property: For any *a*, *b* *>0*, exists a natural number *n* s.t. *na > b*.
+- Denseness of ℚ: for every *a < b*, exists a rational *r* s.t. *a < r < b*.
 
 #### Monotone Sequences 
 - All *monotone* sequences converge (to a real number for bounded sequences) or diverges to ±∞.
@@ -30,7 +30,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 
 #### Subsequences
 - *n<sub>k</sub> ≥ k*
-- There is a subsequence of *(s<sub>n</sub>)* converging to a real *t* iff the set *{n ∈ N: |s<sub>n</sub> - t| < ε}* is infinite for all *ε > 0*.
+- There is a subsequence of *(s<sub>n</sub>)* converging to a real *t* iff the set *{n ∈ ℕ: |s<sub>n</sub> - t| < ε}* is infinite for all *ε > 0*.
 - If *(s<sub>n</sub>)* is unbounded, it contains a subsequence with limit ±∞.
 - If subsequence *(s<sub>n</sub>)* converges, then every subsequence converges to the same limit.
 - Every sequence *(s<sub>n</sub>)* has a monotonic subsequence.
