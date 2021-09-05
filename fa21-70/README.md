@@ -17,3 +17,10 @@ Suppose *A* is bijected to *B*.
 - Propose-and-Reject always terminate with a **stable** matching. (monotonicity)
 - Propose-and-Reject always outputs a matching that is *A*-optimal.
 - A matching that is *A*-optimal is *B*-pessimal.
+
+
+#### Graphs
+
+#### RSA and Polynomials
+
+#### Error Correcting Codes
