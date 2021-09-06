@@ -35,6 +35,11 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 
 #### Spectral Theorem
 
+- (Symmetric Matrices) Suppose *A* is a *n x n* real symmetric matrix. Then
+  - every eigenvalue λ of *A* is a real number and there exists a real eigenvalue *u* s.t. *Au = λu*
+  - eigenvectors corresponding to unique eigenvalues are necessarily orthogonal i.e. *u<sub>i</sub> · u<sub>j</sub> = 0*
+  - there exists a real diagonal matrix *D* and an orthogonal matrix *U* such that *A = UDU<sup>T</sup>*, where *D = diag(λ<sub>1</sub>, ..., λ<sub>n</sub>)* and *U = [u<sub>1</sub> ... u<sub>n</sub>]
+
 #### Jordan Canonical Form
 
 #### Quotient Space
