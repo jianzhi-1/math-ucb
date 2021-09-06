@@ -13,6 +13,8 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 
 All conic sections can be characterized by the eccentricity ε, the fixed ratio of distance to a fixed point *focus* and a fixed line *directrix*. ε is also *tan(α)/tan(θ)* where *α* is the angle of the cutting plane and *θ* is the angle of cone.
 
+Every quadratic form in a suitably rotated coordinate system assumes the form *Q = A·X<sup>2</sup> + B·Y<sup>2</sup>*.
+
 ###### Ellipse
 - Defined as set of points with the same sum of distance to two points (the foci)
 - *(x/α)<sup>2</sup> + (y/β)<sup>2</sup> = 1*
