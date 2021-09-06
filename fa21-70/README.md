@@ -21,6 +21,10 @@ Suppose *A* is bijected to *B*.
 
 #### Graphs
 
+- *K<sub>n</sub>*: complete graph of *n* vertices
+- *K<sub>m,n</sub>*: complete, bipartite graph of *m* and *n* nodes
+- Hypercubes: *2<sup>n</sup>* vertices, each vertex having *n* edges
+
 #### RSA and Polynomials
 
 #### Error Correcting Codes
