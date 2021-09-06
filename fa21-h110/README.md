@@ -13,7 +13,9 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 
 ##### Rank Theorem
 If *rank(A) = k*, then *A* can be row **and** column reduced into the form:
+
 [ I<sub>k</sub> 0 ]
+
 [ 0 0 ]
 
 ##### Inertia Theorem
