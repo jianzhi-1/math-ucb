@@ -18,6 +18,8 @@ If *rank(A) = k*, then *A* can be row **and** column reduced into the form:
 
 [ 0 0 ]
 
+Row and column operations preserve the rank.
+
 ##### Inertia Theorem
 
 ##### Orthogonal Diagonalization Theorem
