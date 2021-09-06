@@ -9,6 +9,19 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 
 ### Notes
 
+#### Cornerstones of Linear Algebra
+
+##### Rank Theorem
+If *rank(A) = k*, then *A* can be row **and** column reduced into the form:
+[ I<sub>k</sub> 0 ]
+[ 0 0 ]
+
+##### Inertia Theorem
+
+##### Orthogonal Diagonalization Theorem
+
+##### Jordan Canonical Form Theorem
+
 #### Quadratic Forms
 
 ###### Ellipse
