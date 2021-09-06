@@ -72,6 +72,8 @@ Row and column operations preserve the rank.
 
 ##### Inertia Theorem
 
+Every quadratic form in *n* variables can be transformed by a suitable linear change of variables to exactly one of the normal forms: *X<sub>1</sub><sup>2</sup> + ... *X<sub>p</sub><sup>2</sup> - *X<sub>p + 1</sub><sup>2</sup> - ... - *X<sub>p + q</sub><sup>2</sup>* where *0 ≤ p + q ≤ n*.
+
 ##### Orthogonal Diagonalization Theorem
 
 ##### Jordan Canonical Form Theorem
