@@ -48,7 +48,7 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 #### Cornerstones of Linear Algebra
 
 ##### Rank Theorem
-If *rank(A) = k*, then *A* can be row **and** column reduced into the form:
+Any *m x n* matrix *A* can be row **and** column reduced into the following form, where *k = rank(A)*:
 
 [ I<sub>k</sub> 0 ]
 
