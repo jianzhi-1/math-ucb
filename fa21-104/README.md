@@ -48,6 +48,9 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 #### Series
 
 Cauchy criterion...
+Ratio test
+Alternating series
+Integral test
 
 #### Metric Space
 
