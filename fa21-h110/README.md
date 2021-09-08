@@ -42,7 +42,26 @@ Completing squares allow you to see the classification of quadratic forms.
 - Equivalently, the tangent of the hyperbola at that point bisects the angle formed with the two foci
 - *ε > 1*
 
-#### LPU Decomposition
+#### Vector Spaces
+
+##### Direct Sums
+##### Affine Subspaces
+##### Dual Space
+##### Quotient Space
+##### Quotient Map
+##### Induced Map
+
+#### Matrices
+
+#### Determinants
+
+#### Rank
+
+#### Gaussian Elimination
+
+#### Inertia Theorem
+
+#### Minkowski-Hasse Theorem
 
 #### Spectral Theorem
 
@@ -51,13 +70,21 @@ Completing squares allow you to see the classification of quadratic forms.
   - eigenvectors corresponding to unique eigenvalues are necessarily orthogonal i.e. *u<sub>i</sub> · u<sub>j</sub> = 0*
   - there exists a real diagonal matrix *D* and an orthogonal matrix *U* such that *A = UDU<sup>T</sup>*, where *D = diag(λ<sub>1</sub>, ..., λ<sub>n</sub>)* and *U = [u<sub>1</sub> ... u<sub>n</sub>]*
 
+#### Euclidean Geometry
+
 #### Jordan Canonical Form
 
-#### Quotient Space
+#### Linear Dynamical System
+
+#### Quivers
+
+##### Gabriel's Theorem
+
+#### LPU Decomposition
+
+#### Jordan Canonical Form
 
 #### Nilpotence
-
-#### Dual Space
 
 #### Annihilators
 
