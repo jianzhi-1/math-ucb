@@ -1,4 +1,6 @@
 # CS70
+### Discrete Mathematics and Probability Theory
+UC Berkeley Fall 2021, taught by Prof Satish Rao
 
 ### Notes
 
