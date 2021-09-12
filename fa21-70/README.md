@@ -39,6 +39,7 @@ Suppose *A* is bijected to *B*.
 - An **Eulerian tour** is an Eulerian walk that is closed.
 - A graph is **planar** if it can be drawn on a plane without edges crossing.
 - A **connected component** is a *maximal* set of connected vertices
+- A **Hamiltonian tour** is a path that visits each vertex exactly once.
 
 ##### Theorems and Lemmas
 - (Euler's Theorem) An undirected graph *G* has an Eulerian tour iff all vertices have even degrees.
