@@ -40,6 +40,7 @@ Suppose *A* is bijected to *B*.
 - A graph is **planar** if it can be drawn on a plane without edges crossing.
 - A **connected component** is a *maximal* set of connected vertices
 - A **Hamiltonian tour** is a path that visits each vertex exactly once.
+- A **tournament** is a directed graph such that for distinct vertices *u*, *v*, exactly one of *(u, v)* and *(v, u)* is an edge.
 
 ##### Theorems and Lemmas
 - (Euler's Theorem) An undirected graph *G* has an Eulerian tour iff all vertices have even degrees.
