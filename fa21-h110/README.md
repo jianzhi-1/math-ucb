@@ -57,6 +57,9 @@ Completing squares allow you to see the classification of quadratic forms.
 ##### Quotient Map
 ##### Induced Map
 
+##### Annihilator
+The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all linear functions which vanishes on *W ⊆ V*. *W<sup>⊥</sup>* is a subspace of *V<sup>*</sup>*.
+
 #### Matrices
 
 #### Determinants
@@ -91,8 +94,6 @@ Completing squares allow you to see the classification of quadratic forms.
 #### Jordan Canonical Form
 
 #### Nilpotence
-
-#### Annihilators
 
 #### Cornerstones of Linear Algebra
 
