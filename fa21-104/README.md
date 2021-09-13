@@ -85,3 +85,8 @@ Integral test
 - (Heine-Borel) A subset *E* of *ℝ<sup>k</sup>* is compact iff it is closed and bounded.
 
 #### Darboux Integral
+
+### Exam Area
+
+#### Midterm 1 Prep 😤
+- [ ] YY Fall/Summer/Spring
