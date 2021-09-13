@@ -56,10 +56,11 @@ Completing squares allow you to see the classification of quadratic forms.
 An *affine subspace* *v + W* is constructed by adding a fixed vector *v ∈ V* to all vectors of subspace *W ⊆ V*. It is parallel to *W*. When *v ∉ W*, the affine subspace is not linear.
 
 ##### Dual Space
-The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *K*.
+The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *𝕂*.
 
 ##### Dual Dual Space
-
+The double dual is the set of all *linear functions* from *V<sup>*</sup>* to 𝕂. 
+The evaluation map *E: v → E<sub>v</sub>* is a linear map mapping *V* to *V<sup>**</sup>*, and provides an isomorphism between *V* and *V<sup>**</sup>*.
 
 ##### Quotient Space
 The *quotient space* of *V* by a subspace *W* is the set of equivalence classes s.t. all vectors from *V* are partitioned into and *v - v' ∈ W ⇒ v, v'* are equivalent mod *W* (i.e. same equivalence class).
@@ -70,7 +71,7 @@ The *quotient map π* maps every vector in *V* to its equivalence class in *V/W*
 ##### Induced Map
 
 ##### Annihilator
-The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all linear functions which vanishes on *W ⊆ V*. *W<sup>⊥</sup>* is a subspace of *V<sup>*</sup>*.
+The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all *linear functions* which vanishes on *W ⊆ V*. *W<sup>⊥</sup>* is a subspace of *V<sup>*</sup>*.
 
 #### Matrices
 
