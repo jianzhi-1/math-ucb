@@ -51,10 +51,22 @@ Completing squares allow you to see the classification of quadratic forms.
 #### Vector Spaces
 
 ##### Direct Sums
+
 ##### Affine Subspaces
+An *affine subspace* *v + W* is constructed by adding a fixed vector *v ∈ V* to all vectors of subspace *W ⊆ V*. It is parallel to *W*. When *v ∉ W*, the affine subspace is not linear.
+
 ##### Dual Space
+The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *K*.
+
+##### Dual Dual Space
+
+
 ##### Quotient Space
+The *quotient space* of *V* by a subspace *W* is the set of equivalence classes s.t. all vectors from *V* are partitioned into and *v - v' ∈ W ⇒ v, v'* are equivalent mod *W* (i.e. same equivalence class).
+
 ##### Quotient Map
+The *quotient map π* maps every vector in *V* to its equivalence class in *V/W*. It is a linear map.
+
 ##### Induced Map
 
 ##### Annihilator
