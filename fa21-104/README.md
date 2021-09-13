@@ -89,4 +89,5 @@ Integral test
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-- [ ] YY Fall/Summer/Spring
+- [ ] 19 Fall
+- [ ] 19 Fall (Practice)
