@@ -5,7 +5,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 0: Proofs, Real numbers (lec1)
 - [x] Week 1: Completeness Axiom, *max*, *min*, *sup*, *inf* (lec2), Convergence, ε-N, "Smart" Estimates (lec3)
 - [x] Week 2: Oracles, Limit Theorems (lec4), Monotone Sequences (lec5)
-- [ ] Week 3:
+- [ ] Week 3: lim sup, lim inf, Cauchy (lec6)
 - [ ] Week 4:
 - [ ] Week 5:
 
@@ -89,5 +89,7 @@ Integral test
 ### Exam Area
 
 #### Midterm 1 Prep 😤
+- [ ] 21 Practice 1
+- [ ] 21 Practice 2
 - [ ] 19 Fall
 - [ ] 19 Fall (Practice)
