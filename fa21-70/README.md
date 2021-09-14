@@ -47,6 +47,7 @@ Suppose *A* is bijected to *B*.
 - (Euler's Formula) V + F = E + 2
 - (Kuratowski) A graph is non-planar iff it contains *K<sub>5</sub>* or *K<sub>3,3</sub>*
 - Every planar graph can be colored with 5 colors
+- For a planar graph, *E ≤ 3V - 6* (double count face-edge pairs)
 - A graph is bipartite iff it does not contain an odd cycle (equivalently, iff it is two-colorable)
 
 #### RSA and Polynomials
