@@ -46,9 +46,22 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - If *lim |s<sub>n + 1</sub>/s<sub>n</sub>| = L*, then *lim |s<sub>n</sub>|<sup>1/n</sup>| = L*.
 
 #### Series
+- A series *Σa<sub>n</sub>* is absolutely convergent if *Σ|a<sub>n</sub>|* converges.
+- Absolutely convergent series are convergent.
+- A series *Σa<sub>n</sub>* satisfies the Cauchy criterion if for each *ε > 0*, *∃N* s.t. *n ≥ m > N* implies *|Σ<sub>k=m</sub><sup>n</sup>a<sub>k</sub>| < ε*.
+- If a series *Σa<sub>n</sub>* converges, then *lim a<sub>n</sub> = 0*.
+- Comparison Test: Let *Σa<sub>n</sub>* be a series where *a<sub>n</sub> ≥ 0* for all *n*:
+  - If *Σa<sub>n</sub>* converges and *a<sub>n</sub> ≥ |b<sub>n</sub>|* for all *n*, then *Σb<sub>n</sub>* converges.
+  - If *Σa<sub>n</sub> = ∞* converges and *b<sub>n</sub> ≥ a<sub>n</sub>* for all *n*, then *Σb<sub>n</sub> = ∞*.
+- Ratio Test: A series *Σa<sub>n</sub>* of **non-zero** terms:
+  - converges absolutely if *lim sup |a<sub>n+1</sub>/a<sub>n</sub>| < 1*
+  - diverges if *lim inf |a<sub>n+1</sub>/a<sub>n</sub>| > 1*
+  - otherwise the test gives no information (*lim inf |a<sub>n+1</sub>/a<sub>n</sub>| ≤ 1 ≤ lim sup |a<sub>n+1</sub>/a<sub>n</sub>|*)
+- Root Test: Let *Σa<sub>n</sub>* be a series and *α = lim sup |a<sub>n</sub>|<sup>1/n</sup>*, then the series *Σa<sub>n</sub>*
+  - converges absolutely if *α < 1*
+  - diverges if *α > 1*
+  - otherwise the test gives no information (*α = 1*)
 
-Cauchy criterion...
-Ratio test
 Alternating series
 Integral test
 
