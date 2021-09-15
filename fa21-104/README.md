@@ -61,9 +61,33 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
   - converges absolutely if *α < 1*
   - diverges if *α > 1*
   - otherwise the test gives no information (*α = 1*)
+- Integral Test: Suppose that *f(x)* is a continuous, positive and decreasing function on interval *\[k, ∞)* and *f(n) = a<sub>n</sub>*, then:
+  - *∫<sup>∞</sup><sub>k</sub>f(x) dx* is convergent implies *Σa<sub>n</sub>* is convergent
+  - *∫<sup>∞</sup><sub>k</sub>f(x) dx* is divergent implies *Σa<sub>n</sub>* is divergent
+- Alternating Series Test:
+  - If *a<sub>1</sub> ≥ a<sub>2</sub> ≥ ... ≥ a<sub>n</sub> ≥ ... ≥ 0* and *lim a<sub>n</sub> = 0*, then the alternating series *Σ(-1)<sup>n+1</sup>a<sub>n</sub>* converges.
+  - The partial sums *s<sub>n</sub> = Σ(-1)<sup>n+1</sup>a<sub>n</sub>* satisfy *|s - s<sub>n</sub>| ≤ a<sub>n</sub>|* for all *n*.
 
-Alternating series
-Integral test
+#### Continuity
+Continuous functions + properties
+unfiorm continuity
+limits of functions
+
+#### Functions
+Power Series
+Uniform Convergence
+differentiation and integration of power series
+
+#### Differentiation
+derivative
+mean value theorem
+l'hopital rule
+
+#### Integration
+Riemann integral
+fundamental theorem of calculus
+
+#### Taylor Series
 
 #### Metric Space
 
