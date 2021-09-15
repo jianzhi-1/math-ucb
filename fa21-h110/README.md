@@ -57,21 +57,30 @@ An *affine subspace* *v + W* is constructed by adding a fixed vector *v ∈ V* t
 
 ##### Dual Space
 The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *𝕂*.
+*dim V<sup>*</sup> = dim V*
+
+For a given basis of *V*, say *{b<sub>1</sub>, ... , b<sub>n</sub>}*, the **dual basis** is defined to be *{f<sub>1</sub>, ... , f<sub>n</sub>}* where *f<sub>i</sub>(b<sub>j</sub>) = δ<sub>ij</sub>*.
+
+If *T* maps *V* to *W*, the dual map *T'* maps *W<sup>*</sup>* to *V<sup>*</sup>* such that for *g ∈ W<sup>*</sup>* and *v ∈ V*, *T'(g)(x) = g(T(x))*.
 
 ##### Dual Dual Space
 The double dual is the set of all *linear functions* from *V<sup>*</sup>* to 𝕂. 
 The evaluation map *E: v → E<sub>v</sub>* is a linear map mapping *V* to *V<sup>**</sup>*, and provides an isomorphism between *V* and *V<sup>**</sup>*.
+*dim V<sup>**</sup> = dim V<sup>*</sup> = dim V*
 
 ##### Quotient Space
 The *quotient space* of *V* by a subspace *W* is the set of equivalence classes s.t. all vectors from *V* are partitioned into and *v - v' ∈ W ⇒ v, v'* are equivalent mod *W* (i.e. same equivalence class).
 
 ##### Quotient Map
 The *quotient map π* maps every vector in *V* to its equivalence class in *V/W*. It is a linear map.
+*dim V/W = dim V - dim W*
 
 ##### Induced Map
 
 ##### Annihilator
 The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all *linear functions* which vanishes on *W ⊆ V*. *W<sup>⊥</sup>* is a subspace of *V<sup>*</sup>*.
+*dim W + dim W<sup>⊥</sup> = dim V*
+
 
 #### Matrices
 
