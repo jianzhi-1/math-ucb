@@ -84,6 +84,52 @@ The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all *linear functions
 
 #### Matrices
 
+**Linear functions** *a: V → 𝕂* are represented by *\[a<sub>1</sub> a<sub>2</sub> ... <sub>n</sub>]*, where *n* is the dimension of *V*.
+**Linear maps*** *A: V → W* are represented by a *m × n* matrix. The value of A<sub>ij</sub> is the value of the linear function *a<sub>i</sub>* on the *e<sub>j</sub>* basis vector. The *j*th column of *A* is the value of *A(e<sub>j</sub>)*. The *i*th row of *A* is the linear function that determines the *i*th value of the coordinate in *W*.
+**Linear transformations**: linear maps from a vector space *V* to itself.
+
+##### Composition
+If *C = AB*, then *C<sub>ij</sub>* is the value of the linear function *a<sub>i</sub>* on the vector *B(e<sub>j</sub>)*.
+*C<sub>ij</sub> = \[a<sub>i1</sub> a<sub>i2</sub> ... a<sub>in</sub>]\[b<sub>1j</sub> b<sub>2j</sub> ... b<sub>nj</sub>]<sup>T</sup> = Σa<sub>ik</sub>b<sub>kj</sub>*
+
+##### Change of Coordinates
+- Vectors
+A linear transformation represented by matrix *C* that associates *x* (old) a new vector *x'* (new) in the same coordinate system. This means that *x* and *x'* represents the same object actually, just in different basis.
+*x = Cx'*
+The *i*th column of *C* is the new coordinate *e'<sub>i</sub>* represented in old coordinates.
+- Linear functions
+A linear function *a: V → 𝕂* is transformed s.t. *a' = aC*. (derived from *a'x' = ax = aCx'*
+- Linear maps
+A linear map *A: V → W* is transformed s.t. *A' = D<sup>-1</sup>AC*.
+- Linear transformation
+A linear transformation *A: V → V* is transformed s.t. *A' = C<sup>-1</sup>AC*. (Similarity transformation)
+
+##### Transposition (Dual/Transposed/Adjoint)
+For a linear map *A: V → W*, the dual of *A* is defined to be *A<sup>T</sup>: W<sup>*</sup> → V<sup>*</sup>* s.t. *(A<sup>T</sup>a)(v) = a(Av)*.
+*A<sup>T</sup>* is linear.
+
+By the above definition, *(AB)<sup>T</sup> = B<sup>T</sup>A<sup>T</sup>*.
+
+##### Bilinear Forms
+Define *B: V × W → 𝕂* such that *B* is linear on *v* and *w*. Then *B* is a bilinear form, and is uniquely determined by the *m × n* matrix of coefficients *B(e<sub>i</sub>, f<sub>j</sub>)*.
+
+*B(x, y) = x<sup>T</sup>By*
+For change of coordinates (*x = Dx'*, *y = Cy'*), *B' = D<sup>T</sup>BC*.
+
+For the special case where *m = n* and *B = I*, *B(x, y) = <x, y> = x<sub>1</sub>y<sub>1</sub> + x<sub>2</sub>y<sub>2</sub> + ... + x<sub>n</sub>y<sub>n</sub>*
+
+For *B: V × W → 𝕂*, define the **transposed bilinear form** *B<sup>T</sup>: W × V → 𝕂*.
+
+TODO
+
+##### Quadratic Forms
+
+TODO
+
+##### Hermitian Forms
+
+TODO
+
 #### Determinants
 
 #### Rank
