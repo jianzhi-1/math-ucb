@@ -120,11 +120,20 @@ Define *B: V × W → 𝕂* such that *B* is linear on *v* and *w*. Then *B* is 
 
 A bilinear form is **positive-definite** if *B(v, v) > 0* for all *v*.
 A real *n × n* matrix is positive definite if *x<sup>T</sup>Ax > 0* for all *x ≠ 0*.
-TODO
+
+- Bilinear form of same vector space
+  - Symmetric: *B(u, v) = B(v, u)*
+  - Anti-symmetric: *B(u, v) = -B(v, u)*
+  - Every bilinear form can be uniquely written as the form of a symmetric and non-symmetric form.
+  - Under a change of coordinates, *B' = C<sup>T</sup>BC* remains symmetric/anti-symmetric if *B* is.
 
 ##### Quadratic Forms
 
 - A quadratic form in *n* variables is a function with the form *Q(x<sub>1</sub>, ..., x<sub>n</sub>) = Σa<sub>ij</sub>x<sub>i</sub>x<sub>j</sub>*. (i.e. it can be written as *Q(x) = x<sup>T</sup>Ax* for some symmetric matrix *A*)
+
+- A quadratic form can be constructed from bilinear form by *Q<sub>B</sub> = B(v, v) = (A + S)(v, v) = S(v, v)*
+- A symmetric bilinear form can be reconstructed from quadratic form *S(u, v) = (S(u + v, u + v) - S(u, u) - S(v, v))/2*
+- *Q(λv) =	λ<sup>2</sup>Q(v)*
 
 - Every quadratic form can be transformed under an orthogonal change of variables *x = By* such that:
   - *Q(x) = Σa<sub>ij</sub>x<sub>i</sub>x<sub>j</sub> = Σλ<sub>i</sub>y<sub>i</sub><sup>2</sup>* where *λ<sub>i</sub>* are the eigenvalues of *A*.
@@ -135,7 +144,13 @@ TODO
 
 ##### Hermitian Forms
 
-TODO
+𝕂 = ℂ
+A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the first argument and linear in the second.
+  - *T(λu + μv, w) = λ<sup>*</sup>T(u, w) + μ<sup>*</sup>T(v, w)*
+  - *T(w, λu + μv) = λT(w, u) + μT(w, v)*
+  - *T(v, w) = Σv<sup>*</sup><sub>i</sub>t<sub>ij/sub>w<sub>j</sub>*
+  - The Hermitian adjoint *T<sup>†</sup> = (T(v, u))<sup>*</sup>* is also sesquilinear.
+  - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>*</sup> = (t<sub>ji</sub>)<sup>*</sup>*
 
 #### Determinants
 
