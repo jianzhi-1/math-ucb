@@ -94,14 +94,18 @@ If *C = AB*, then *C<sub>ij</sub>* is the value of the linear function *a<sub>i<
 
 ##### Change of Coordinates
 - Vectors
+
 A linear transformation represented by matrix *C* that associates *x* (old) a new vector *x'* (new) in the same coordinate system. This means that *x* and *x'* represents the same object actually, just in different basis.
 *x = Cx'*
 The *i*th column of *C* is the new coordinate *e'<sub>i</sub>* represented in old coordinates.
 - Linear functions
+
 A linear function *a: V → 𝕂* is transformed s.t. *a' = aC*. (derived from *a'x' = ax = aCx'*
 - Linear maps
+
 A linear map *A: V → W* is transformed s.t. *A' = D<sup>-1</sup>AC*.
 - Linear transformation
+
 A linear transformation *A: V → V* is transformed s.t. *A' = C<sup>-1</sup>AC*. (Similarity transformation)
 
 ##### Transposition (Dual/Transposed/Adjoint)
