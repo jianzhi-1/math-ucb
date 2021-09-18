@@ -150,7 +150,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - *T(w, λu + μv) = λT(w, u) + μT(w, v)*
   - *T(v, w) = Σv<sup>*</sup><sub>i</sub>t<sub>ij/sub>w<sub>j</sub>*
   - The Hermitian adjoint *T<sup>†</sup> = (T(v, u))<sup>*</sup>* is also sesquilinear.
-  - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>*</sup> = (t<sub>ji</sub>)<sup>*</sup>*
+  - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>\*</sup> = (t<sub>ji</sub>)<sup>\*</sup>*
 
 #### Determinants
 
