@@ -111,8 +111,9 @@ For a linear map *A: V → W*, the dual of *A* is defined to be *A<sup>T</sup>: 
 ##### Bilinear Forms
 Define *B: V × W → 𝕂* such that *B* is linear on *v* and *w*. Then *B* is a bilinear form, and is uniquely determined by the *m × n* matrix of coefficients *B(e<sub>i</sub>, f<sub>j</sub>)*.
 
-*B(x, y) = x<sup>T</sup>By*
-For change of coordinates (*x = Dx'*, *y = Cy'*), *B' = D<sup>T</sup>BC*.
+- *B(x, y) = x<sup>T</sup>By*
+- *B<sub>ij</sub> = B(e<sub>i</sub>, f<sub>j</sub>)*
+- For change of coordinates (*x = Dx'*, *y = Cy'*), *B' = D<sup>T</sup>BC*.
 
 For the special case where *m = n* and *B = I*, *B(x, y) = <x, y> = x<sub>1</sub>y<sub>1</sub> + x<sub>2</sub>y<sub>2</sub> + ... + x<sub>n</sub>y<sub>n</sub>*
 
