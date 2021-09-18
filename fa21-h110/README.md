@@ -156,7 +156,7 @@ Hermitian-symmetric: *T<sup>†</sup> = T*
 Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
 Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
 
-Hermitian quadratic forms: *H(z) = ΣΣz<sup>\*<\sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
+Hermitian quadratic forms: *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
   
 #### Determinants
