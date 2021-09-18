@@ -114,16 +114,24 @@ Define *B: V × W → 𝕂* such that *B* is linear on *v* and *w*. Then *B* is 
 - *B(x, y) = x<sup>T</sup>By*
 - *B<sub>ij</sub> = B(e<sub>i</sub>, f<sub>j</sub>)*
 - For change of coordinates (*x = Dx'*, *y = Cy'*), *B' = D<sup>T</sup>BC*.
+- For the special case where *m = n* and *B = I*, *B(x, y) = <x, y> = x<sub>1</sub>y<sub>1</sub> + x<sub>2</sub>y<sub>2</sub> + ... + x<sub>n</sub>y<sub>n</sub>*
+- For *B: V × W → 𝕂*, define the **transposed bilinear form** *B<sup>T</sup>: W × V → 𝕂*. *B<sup>T</sup><sub>ij</sub> = B<sub>ji</sub>*
+- Each *B: V × W → 𝕂* can be associated to a linear map *B: W → V<sup>*</sup>*. The way I think of it is to suppose one argument of the bilinear form has been fixed (i.e. *B(v, w<sub>o</sub>)* is a linear function on *v* for fixed *w<sub>o</sub>*)
 
-For the special case where *m = n* and *B = I*, *B(x, y) = <x, y> = x<sub>1</sub>y<sub>1</sub> + x<sub>2</sub>y<sub>2</sub> + ... + x<sub>n</sub>y<sub>n</sub>*
-
-For *B: V × W → 𝕂*, define the **transposed bilinear form** *B<sup>T</sup>: W × V → 𝕂*.
-
+A bilinear form is **positive-definite** if *B(v, v) > 0* for all *v*.
+A real *n × n* matrix is positive definite if *x<sup>T</sup>Ax > 0* for all *x ≠ 0*.
 TODO
 
 ##### Quadratic Forms
 
-TODO
+- A quadratic form in *n* variables is a function with the form *Q(x<sub>1</sub>, ..., x<sub>n</sub>) = Σa<sub>ij</sub>x<sub>i</sub>x<sub>j</sub>*. (i.e. it can be written as *Q(x) = x<sup>T</sup>Ax* for some symmetric matrix *A*)
+
+- Every quadratic form can be transformed under an orthogonal change of variables *x = By* such that:
+  - *Q(x) = Σa<sub>ij</sub>x<sub>i</sub>x<sub>j</sub> = Σλ<sub>i</sub>y<sub>i</sub><sup>2</sup>* where *λ<sub>i</sub>* are the eigenvalues of *A*.
+
+- The signature of a quadratic form is defined as *(n<sub>+</sub>, n<sub>-</sub>)*, where *n<sub>+</sub>* is the number of positive eigenvalues and *n<sub>-</sub>* is the number of negative eigenvalues.
+
+- \[Sylvester's Law of Inertia] Two symmetric square matrices of the same size have the same signature iff they are congruent (i.e. *B = SAS<sup>T</sup>* for some non-singular *S*).
 
 ##### Hermitian Forms
 
@@ -138,13 +146,32 @@ TODO
 #### Inertia Theorem
 
 #### Minkowski-Hasse Theorem
+  
+#### Orthogonal and Orthonormal
+- Given a *<,>* symmetric bilinear form on a real vector space *V*, two vectors *u, v* are **orthogonal** if *<u, v> = 0*. A basis is **orthonormal** if *<v<sub>i</sub>, v<sub>j</sub>> = 0* for *i ≠ j* and *<v<sub>i</sub>, v<sub>i</sub>> = 1*.
+- Given an orthogonal basis, every vector *v ∈ V* can be expressed as *v = Σc<sub>i</sub>v<sub>i</sub>* where *c<sub>i</sub> = <v, v<sub>i</sub>>/<v<sub>i</sub>, v<sub>i</sub>>*. If orthonormal, *c<sub>i</sub> = <v, v<sub>i</sub>>*.
+
+##### Orthogonal Matrix
+- A real *n × n* matrix *A* is orthogonal if *A<sup>T</sup>A = I*.
+- *A* is orthogonal iff the columns of *A* forms an orthonormal basis.
+- If *A*, *B* orthogonal, *AB* is orthogonal. (*(AB)<sup>T</sup>AB = B<sup>T</sup>A<sup>T</sup>AB = I*)
+- Left multiplication by *A* preserves dot product. (*<Ax, Ay> = (Ax)<sup>T</sup>Ay = x<sup>T</sup>A<sup>T</sup>Ay = x<sup>T</sup>y = <x, y>*)
+
+##### Gram-Schmidt Process
+Given a basis *{v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>}*, we can always obtain a set of orthogonal (and thereafter an orthonormal) basis by:
+- *w<sub>1</sub> = v<sub>1</sub>*
+- *w<sub>2</sub> = v<sub>2</sub> - w<sub>1</sub>(<v<sub>2</sub>, w<sub>1</sub>>/<w<sub>1</sub>, w<sub>1</sub>>)*
+- so on
 
 #### Spectral Theorem
 
 - (Symmetric Matrices) Suppose *A* is a *n x n* real symmetric matrix. Then
+  - *A* is diagonializable
   - every eigenvalue λ of *A* is a real number and there exists a real eigenvalue *u* s.t. *Au = λu*
   - eigenvectors corresponding to unique eigenvalues are necessarily orthogonal i.e. *u<sub>i</sub> · u<sub>j</sub> = 0*
   - there exists a real diagonal matrix *D* and an orthogonal matrix *U* such that *A = UDU<sup>T</sup>*, where *D = diag(λ<sub>1</sub>, ..., λ<sub>n</sub>)* and *U = [u<sub>1</sub> ... u<sub>n</sub>]*
+
+- (Converse) If *B* is an orthogonal matrix and *B<sup>T</sup>AB* is diagonal, then *A* is symmetric.
 
 #### Euclidean Geometry
 
