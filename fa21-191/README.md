@@ -19,3 +19,6 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 #### Modular Arithmetics
 - Order
 - *v<sub>p</sub>(n)*
+
+### Chebyshev Polynomials
+*T<sub>n</sub>(cos x) = cos(nx)*
