@@ -6,7 +6,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 1: Completeness Axiom, *max*, *min*, *sup*, *inf* (lec2), Convergence, ε-N, "Smart" Estimates (lec3)
 - [x] Week 2: Oracles, Limit Theorems (lec4), Monotone Sequences (lec5)
 - [x] Week 3: *lim sup*, *lim inf*, Cauchy (lec6), Subsequences and Subsequential Limits (lec7)
-- [ ] Week 4: (lec8), Midterm 1
+- [ ] Week 4: Series; Cauchy Criterion; Comparison, Ratio, Root Test (lec8), Midterm 1 (lec9)
 - [ ] Week 5:
 
 ### Notes
