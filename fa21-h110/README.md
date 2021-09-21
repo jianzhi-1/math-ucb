@@ -105,7 +105,7 @@ If *C = AB*, then *C<sub>ij</sub>* is the value of the linear function *a<sub>i<
   - A linear transformation *A: V → V* is transformed s.t. *A' = C<sup>-1</sup>AC*. (Similarity transformation)
 
 ##### Transposition (Dual/Transposed/Adjoint)
-For a linear map *A: V → W*, the dual of *A* is defined to be *A<sup>T</sup>: W<sup>*</sup> → V<sup>*</sup>* s.t. *(A<sup>T</sup>a)(v) = a(Av)*.
+For a linear map *A: V → W*, the dual of *A* is defined to be *A<sup>T</sup>: W<sup>\*</sup> → V<sup>\*</sup>* s.t. *(A<sup>T</sup>a)(v) = a(Av)*.
 *A<sup>T</sup>* is linear. By this definition, *(AB)<sup>T</sup> = B<sup>T</sup>A<sup>T</sup>*.
 
 ##### Bilinear Forms
