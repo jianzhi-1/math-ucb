@@ -87,6 +87,7 @@ The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all *linear functions
 - **Linear functions** *a: V → 𝕂* are represented by *\[a<sub>1</sub> a<sub>2</sub> ... <sub>n</sub>]*, where *n* is the dimension of *V*.
 - **Linear maps*** *A: V → W* are represented by a *m × n* matrix. The value of A<sub>ij</sub> is the value of the linear function *a<sub>i</sub>* on the *e<sub>j</sub>* basis vector. The *j*th column of *A* is the value of *A(e<sub>j</sub>)*. The *i*th row of *A* is the linear function that determines the *i*th value of the coordinate in *W*.
 - **Linear transformations**: linear maps from a vector space *V* to itself.
+- If *dim V = n* and *dim W = m*, then *Hom(V, W)* has dimension *mn* (prove by isomorphism to *M<sup>m × n</sup>*).
 
 ##### Composition
 If *C = AB*, then *C<sub>ij</sub>* is the value of the linear function *a<sub>i</sub>* on the vector *B(e<sub>j</sub>)*.
