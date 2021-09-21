@@ -126,7 +126,5 @@ fundamental theorem of calculus
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-- [ ] 21 Practice 1
-- [ ] 21 Practice 2
-- [ ] 19 Fall
-- [ ] 19 Fall (Practice)
+- [x] 21 Practice 1
+- [x] 21 Practice 2
