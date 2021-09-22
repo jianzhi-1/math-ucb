@@ -21,7 +21,7 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - *v<sub>p</sub>(n)*
 
 ### Chebyshev Polynomials
-*T<sub>n</sub>(cos x) = cos(nx)*
-*T<sub>n+1</sub> = 2xT<sub>n</sub> - T<sub>n-1</sub>*
+- *T<sub>n</sub>(cos x) = cos(nx)*
+- *T<sub>n+1</sub> = 2xT<sub>n</sub> - T<sub>n-1</sub>*
 - *deg(T<sub>n</sub>) = n - 1*
 - Leading coefficient of *T<sub>n</sub> = 2<sup>n - 1</sup>*
