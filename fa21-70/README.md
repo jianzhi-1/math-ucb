@@ -58,6 +58,7 @@ Suppose *A* is bijected to *B*.
 - *E(x) = x<sup>e</sup> (mod N)*
 - *D(y) = y<sup>d</sup> (mod N)*
 - Only requires *d* to decode.
+- \[Prime Number Theorem] *π(n) ≥ n/ln(n)*
 
 #### Polynomials
 
