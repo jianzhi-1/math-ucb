@@ -6,7 +6,7 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 - [x] Week 1: Conic Sections, Quadratic Forms (lec2), Complex Numbers (lec3)
 - [x] Week 2: Classification of Linear Algebra Problems (lec4), Vector Spaces (lec5)
 - [x] Week 3: Bases, Dimension (lec6), Matrices (lec7)
-- [ ] Week 4: Transposition, Bilinear and Quadratic Forms (lec8), (lec9)
+- [x] Week 4: Transposition, Bilinear and Quadratic Forms (lec8), Hermitian Forms, Determinant and Permutation (lec9)
 - [ ] Week 5:
 - [ ] Week 6:
 - [ ] Week 7:
