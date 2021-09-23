@@ -50,6 +50,15 @@ Suppose *A* is bijected to *B*.
 - For a planar graph, *E ≤ 3V - 6* (double count face-edge pairs)
 - A graph is bipartite iff it does not contain an odd cycle (equivalently, iff it is two-colorable)
 
-#### RSA and Polynomials
+#### RSA
+- Key *(N, e, d)*. Only *d* is secret; *N* and *e* are public.
+- *N = pq* where *p, q* are primes.
+- *(e, (p - 1)(q - 1)) = 1*
+- *d = e<sup>-1</sup> (mod (p - 1)(q - 1))*
+- *E(x) = x<sup>e</sup> (mod N)*
+- *D(y) = y<sup>d</sup> (mod N)*
+- Only requires *d* to decode.
+
+#### Polynomials
 
 #### Error Correcting Codes
