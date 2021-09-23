@@ -63,3 +63,12 @@ Suppose *A* is bijected to *B*.
 #### Polynomials
 
 #### Error Correcting Codes
+
+### Exam Area
+
+#### Midterm 1 Prep 😤
+- [ ] Fall 20
+- [ ] Spring 19 Midterm 1
+- [ ] Spring 18 Midterm 1
+- [ ] Spring 19 Midterm 2
+- [ ] Spring 18 Midterm 2
