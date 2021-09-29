@@ -25,3 +25,11 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - *T<sub>n+1</sub> = 2xT<sub>n</sub> - T<sub>n-1</sub>*
 - *deg(T<sub>n</sub>) = n - 1*
 - Leading coefficient of *T<sub>n</sub> = 2<sup>n - 1</sup>*
+
+### Dirichlet Kernel
+
+### Circulent Matrix
+### Hankel Matrix
+
+### Fields
+A field is a set with several structures and two operations, denoted as +, *.
