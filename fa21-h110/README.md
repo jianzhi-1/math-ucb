@@ -166,6 +166,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 - *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 - *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
 - *h<sub>ji</sub> = h<sub>ij</sub><sup>*</sup>*
+- When *h* is the identity matrix, the corresponding quadratic form is equivalent to *|z<sub>1</sub>|<sup>2</sup> + |z<sub>2</sub>|<sup>2</sup> + ... + |z<sub>n</sub>|<sup>2</sup>*
   
 #### Determinants
 
