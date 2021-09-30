@@ -155,13 +155,17 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - *T<sup>††</sup> = T* (proven by definition)
   - Hermitian-symmetric: *T<sup>†</sup> = T*
     - Hermitian-symmetric matrices must have real diagonals, and diagonally opposite elements are conjugates
+    - Corresponding Hermitian quadratic form takes on purely *real* values
   - Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
     - Hermitian-anti-symmetric matrices must have imaginary diagonals, and diagonally opposite elements are negative conjugates
+    - Corresponding Hermitian quadratic form takes on purely *imaginary* values
   - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
   - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
 
-Hermitian quadratic forms: *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
-*T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
+##### Hermitian quadratic forms 
+- *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
+- *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
+- *h<sub>ji</sub> = h<sub>ij</sub><sup>*</sup>*
   
 #### Determinants
 
