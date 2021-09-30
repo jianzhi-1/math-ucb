@@ -154,7 +154,9 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>\*</sup> = (t<sub>ji</sub>)<sup>\*</sup>*
   - *T<sup>††</sup> = T* (proven by definition)
   - Hermitian-symmetric: *T<sup>†</sup> = T*
+    - Hermitian-symmetric matrices must have real diagonals, and diagonally opposite elements are conjugates
   - Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
+    - Hermitian-anti-symmetric matrices must have imaginary diagonals, and diagonally opposite elements are negative conjugates
   - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
   - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
 
