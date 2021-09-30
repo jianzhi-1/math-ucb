@@ -152,10 +152,10 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - *T(v, w) = Σv<sup>\*</sup><sub>i</sub>t<sub>ij</sub>w<sub>j</sub>*
   - The Hermitian adjoint *T<sup>†</sup> = (T(v, u))<sup>\*</sup>* is also sesquilinear
   - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>\*</sup> = (t<sub>ji</sub>)<sup>\*</sup>*
-
-Hermitian-symmetric: *T<sup>†</sup> = T*
-Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
-Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
+  - Hermitian-symmetric: *T<sup>†</sup> = T*
+  - Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
+  - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
+  - *T<sup>††</sup> = T* (proven by definition)
 
 Hermitian quadratic forms: *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
