@@ -11,6 +11,14 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [ ] Week 6:
 - [ ] Week 7:
 - [ ] Week 8:
+- [ ] Week 9: , Midterm 2
+- [ ] Week 10:
+- [ ] Week 11:
+- [ ] Week 12:
+- [ ] Week 13:
+- [ ] Week 14:
+- [ ] Week 15: RRR Week
+- [ ] Week 16: Final Exam
 
 ### Notes
 - Completeness Axiom for reals: Any **nonempty** subset of ℝ that is bounded above (i.e. admits at least 1 upper bound) admits suprenum (as a real).
