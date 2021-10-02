@@ -98,7 +98,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - Let *g* be a strictly increasing function on an interval *J* such that *g(J)* is an interval *I*, then *g* is continuous on *J*.
 - Let *f* be a one-to-one continuous function on an interval *I*, then *f* is either strictly increasing or strictly decreasing.
 
-### Uniform Continuity
+#### Uniform Continuity
 - Let *f* be a real-valued function defined on *S*, a subset of ℝ. *f* is **uniformly continuous** on *S* if for each *ε > 0*, exists *δ > 0* such that *x, y ∈ S* and *|x - y| < δ* implies *|f(x) - f(y)| < ε*.
 - If *f* is uniformly continuous on its domain, then it is continuous on its domain. (from definition)
 - If *f* is continuous on a **closed interval** *\[a, b]*, then *f* is uniformly continuous on *\[a, b]*. (prove by Bolzano-Weierstrass)
