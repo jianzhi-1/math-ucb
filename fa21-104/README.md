@@ -92,9 +92,13 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 
 ### Uniform Continuity
 - Let *f* be a real-valued function defined on *S*, a subset of ℝ. *f* is **uniformly continuous** on *S* if for each *ε > 0*, exists *δ > 0* such that *x, y ∈ S* and *|x - y| < δ* implies *|f(x) - f(y)| < ε*.
+- If *f* is uniformly continuous on its domain, then it is continuous on its domain. (from definition)
+- If *f* is continuous on a **closed interval** *\[a, b]*, then *f* is uniformly continuous on *\[a, b]*. (prove by Bolzano-Weierstrass)
+- If *f* is uniformly continuous on a set *S* and *(s<sub>n</sub>)* is a Cauchy sequence in *S*, then *(f(s<sub>n</sub>))* is a Cauchy sequence.
+- A real-valued function *f* on *(a, b)* is uniformly continuous on *(a, b)* iff it can be extended to a continuous function ᵮ on *\[a, b]*. (reverse by interweaving trick)
+- Let *f* be a continuous function on an interval *I* (may be bounded or unbounded). Let *I<sup>0</sup>* be the interval obtained by removing from *I* any endpoints that happen to be in *I*. If *f* is differentiable on *I<sup>0</sup>* and if *f'* is bounded on *I<sup>0</sup>*, then *f* is uniformly continuous on *I*.
 
-
-limits of functions
+### Limits of Functions
 
 #### Functions
 Power Series
