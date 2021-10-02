@@ -72,8 +72,28 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
   - The partial sums *s<sub>n</sub> = Σ(-1)<sup>n+1</sup>a<sub>n</sub>* satisfy *|s - s<sub>n</sub>| ≤ a<sub>n</sub>|* for all *n*.
 
 #### Continuity
-Continuous functions + properties
-unfiorm continuity
+- Sequence definition: *f* is continuous at *x<sub>0</sub>* if for every sequence *(x<sub>n</sub>* converging to *x<sub>0</sub>*, *lim f(x<sub>n</sub>) = f(x<sub>0</sub>)*. 
+- ε-δ definition: *f* is continuous at *x<sub>0</sub>* if for each *ε > 0*, exists *δ > 0* such that *x ∈ dom(f)* and *|x - x<sub>0</sub>| < δ* implies *|f(x) - f(x<sub>0</sub>)| < ε*
+- Let *f, g* be real valued functions continuous at *x<sub>0</sub>* (prove by sequence definition and limit theorems)
+  - *|f|* is continuous at *x<sub>0</sub>*
+  - *kf* is continuous at *x<sub>0</sub>*
+  - *f + g* is continuous at *x<sub>0</sub>*
+  - *fg* is continuous at *x<sub>0</sub>*
+  - *f/g* is continuous at *x<sub>0</sub>* if *g(x<sub>0</sub>) ≠ 0*
+  - *g∘f* is continuous at *x<sub>0</sub>*
+
+
+- If *f* is a continuous real-valued function on a closed interval *\[a, b]*, then *f* is a bounded function and assumes its maximum and minimum values on the closed interval *\[a, b]*.
+- \[Intermediate Value Theorem] If *f* is a continuous real-valued function on interval *I*, then if *a, b ∈ I, a < b* and *f(a) < y < f(b)*, then exists *x ∈ I* such that *f(x) = y*.
+- If *f* is a continuous real-valued function on interval *I*, the set *f(I) = \{f(x): x ∈ I}* is also an interval or a single point.
+- If *f* is a continuous strictly increasing function on interval *I*, then *f(I)* is an interval *J* and *f<sup>-1</sup>* with domain *J* is also a continuous strictly increasing function on *J*.
+- Let *g* be a strictly increasing function on an interval *J* such that *g(J)* is an interval *I*, then *g* is continuous on *J*.
+- Let *f* be a one-to-one continuous function on an interval *I*, then *f* is either strictly increasing or strictly decreasing.
+
+### Uniform Continuity
+
+
+
 limits of functions
 
 #### Functions
