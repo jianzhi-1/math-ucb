@@ -105,6 +105,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - If *f* is uniformly continuous on a set *S* and *(s<sub>n</sub>)* is a Cauchy sequence in *S*, then *(f(s<sub>n</sub>))* is a Cauchy sequence.
 - A real-valued function *f* on *(a, b)* is uniformly continuous on *(a, b)* iff it can be extended to a continuous function ᵮ on *\[a, b]*. (reverse by interweaving trick)
 - Let *f* be a continuous function on an interval *I* (may be bounded or unbounded). Let *I<sup>0</sup>* be the interval obtained by removing from *I* any endpoints that happen to be in *I*. If *f* is differentiable on *I<sup>0</sup>* and if *f'* is bounded on *I<sup>0</sup>*, then *f* is uniformly continuous on *I*.
+- If *f* is uniformly continuous on a bounded set *S*, then *f* is a bounded function on *S*. (prove by Bolzano-Weierstrass and Cauchy version of uniform continuity)
 
 ### Limits of Functions
 
@@ -115,8 +116,8 @@ differentiation and integration of power series
 
 #### Differentiation
 derivative
-mean value theorem
-l'hopital rule
+Mean Value Theorem
+L'Hôpital Rule
 
 #### Integration
 Riemann integral
