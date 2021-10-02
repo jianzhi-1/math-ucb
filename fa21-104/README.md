@@ -151,3 +151,9 @@ fundamental theorem of calculus
 #### Midterm 1 Prep 😤
 - [x] 21 Practice 1
 - [x] 21 Practice 2
+
+#### Midterm 2 Prep 😤
+- [ ] YY Fall/Spring/Summer
+
+#### Final Exam Prep 😤
+- [ ] YY Fall/Spring/Summer
