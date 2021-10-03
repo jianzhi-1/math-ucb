@@ -12,6 +12,13 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 - [ ] Week 7:
 - [ ] Week 8:
 - [ ] Week 9:
+- [ ] Week 10:
+- [ ] Week 11:
+- [ ] Week 12:
+- [ ] Week 13:
+- [ ] Week 14:
+- [ ] Week 15: RRR Week
+- [ ] Week 16: Final Exam
 
 ### Notes
 
@@ -162,13 +169,39 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
   - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
 
-##### Hermitian quadratic forms 
+##### Hermitian Quadratic Forms 
 - *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 - *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
 - *h<sub>ji</sub> = h<sub>ij</sub><sup>*</sup>*
 - When *h* is the identity matrix, the corresponding quadratic form is equivalent to *|z<sub>1</sub>|<sup>2</sup> + |z<sub>2</sub>|<sup>2</sup> + ... + |z<sub>n</sub>|<sup>2</sup>*
   
 #### Determinants
+- *det(A<sup>T</sup>) = det(A)*
+- Totally anti-symmetric: *det(\[... a<sub>i</sub> ... a<sub>j</sub> ...]) = -det(\[... a<sub>j</sub> ... a<sub>i</sub> ...])*
+- Additive w.r.t columns/rows: *det(\[... a<sub>i</sub>+a'<sub>i</sub> ...]) = det(\[... a<sub></sub> ...]) + det(\[... a'<sub>i</sub> ...])*
+- Multiplication of scalar: *det(\[... λa<sub>i</sub> ...]) = λdet(\[... a<sub>i</sub> ...])*
+- *det(I) = 1*
+- *det(AB) = det(A)det(B)*
+
+- Every totally anti-symmetric function of *n* coordinate vectors of size *n* and is linear in each of them must be proportional to the determinant function.
+- *det C* represents the factor of scaling when vectors *v<sub>i</sub>* are replaced by *Cv<sub>i</sub>*
+
+##### Cofactor Theorem
+- *M<sub>ij</sub>* denotes the determinant of the *(n - 1)* by *(n - 1)* matrix obtained after crossing out the *i*th row and the *j*th column.
+- *A<sub>ij</sub>* denotes the *(ij)*-cofactor, which is just *M<sub>ij</sub>* with a sign.
+- *det A = a<sub>11</sub>A<sub>11</sub> + a<sub>12</sub>A<sub>12</sub> + ... + a<sub>1n</sub>A<sub>1n</sub>*
+
+##### Adjugate Matrix
+- *\[adj(A)]<sub>ij</sub> = A<sub>ji</sub>*
+- *A adj(A) = (det A)I = adj(A) A*
+
+##### Cramer's Rule
+- For a system of linear equations *Ax = b*, *x<sub>i</sub> = det(\[a<sub>1</sub> ... a<sub>i-1</sub> b a<sub>i+1</sub> ... a<sub>1</sub>])/det(A)* provided that *A* is **invertible**.
+
+##### Extras
+- In a *2 × 2* block matrix assuming *D<sup>-1</sup>* exists, the determinant is *det(A - BD<sup>-1</sup>C)det(D)*.
+- Laplace's Formula
+- Binet-Cauchy Formula: the determinant of a *k × k* matrix *AB* is given by *det(AB) = Σ<sub>I</sub>(det A<sub>I</sub>)(det B<sub>I</sub>)*
 
 #### Rank
 
