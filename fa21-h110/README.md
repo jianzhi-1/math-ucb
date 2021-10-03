@@ -194,7 +194,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 - \[Forgery] Applying cofactor theorem to *i*th row and the cofactors of *j*th row: *a<sub>i1</sub>A<sub>j1</sub> + a<sub>i2</sub>A<sub>j2</sub> + ... + a<sub>in</sub>A<sub>jn</sub> = 0* for *i ≠ j*
 
 ##### Adjugate Matrix
-- *\[adj(A)]<sub>ij</sub> = A<sub>ji</sub>*
+- Adjugate matrix is the cofactor matrix transposed: *\[adj(A)]<sub>ij</sub> = A<sub>ji</sub>*
 - *A adj(A) = (det A)I = adj(A) A*
 
 ##### Cramer's Rule
