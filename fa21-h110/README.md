@@ -210,7 +210,20 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - Define *M<sub>IJ</sub> = (IJ)-minor* of *A* as the determinant of the *k × k* matrix formed by the intersection of *I* and *J*.
   - Then, the determinant of *A* is determined over the sum of all possible *J*:
   - *det(A) = Σ<sub>J:|J|=k</sub> (-1)<sup>i<sub>1</sub> + ... + i<sub>k</sub> + j<sub>1</sub> + ... + j<sub>k</sub></sup> M<sub>IJ</sub> M<sub>I'J'</sub>*
-- Binet-Cauchy Formula: the determinant of a *k × k* matrix *AB* is given by *det(AB) = Σ<sub>I</sub>(det A<sub>I</sub>)(det B<sub>I</sub>)*
+- Binet-Cauchy Formula
+  - Let *A* be a *k × n* matrix and *B* be a *n × k* matrix.
+  - The determinant of a *k × k* matrix *AB* is given by *det(AB) = Σ<sub>I:|I|=k</sub>(det A<sub>I</sub>)(det B<sub>I</sub>)*
+  - When *k = n*, Binet-Cauchy reduces to *det(AB) = det(A)·det(B)*
+  - If *k > n*, *det(AB) = 0*.
+  - *det(AA<sup>T</sup>) = Σ<sub>I</sub>(det(A<sub>I</sub>)<sup>2</sup>*
+
+#### Tensors
+Tensor Products
+Einstein's summation convention
+Tensor, symmetric, exterior algebras
+Exterior forms
+Exterior products
+Vector Calculus
 
 #### Rank
 
