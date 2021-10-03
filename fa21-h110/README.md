@@ -202,7 +202,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 - In other words, equivalent to a **forgery** by replacing the *i*th column of *A* with *b*. (prove by expanding out *x = A<sup>-1<\sup>b*)
 
 ##### Extras
-- In a *2 × 2* block matrix assuming *D<sup>-1</sup>* exists, the determinant is *det(A - BD<sup>-1</sup>C)det(D)*.
+- In a *2 × 2* block matrix assuming *D<sup>-1</sup>* exists, the determinant is *det(A - BD<sup>-1</sup>C)·det(D)*.
 - Laplace's Formula
 - Binet-Cauchy Formula: the determinant of a *k × k* matrix *AB* is given by *det(AB) = Σ<sub>I</sub>(det A<sub>I</sub>)(det B<sub>I</sub>)*
 
