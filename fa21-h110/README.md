@@ -199,11 +199,17 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 
 ##### Cramer's Rule
 - For a system of linear equations *Ax = b*, *x<sub>i</sub> = det(\[a<sub>1</sub> ... a<sub>i-1</sub> b a<sub>i+1</sub> ... a<sub>1</sub>])/det(A)* provided that *A* is **invertible**.
-- In other words, equivalent to a **forgery** by replacing the *i*th column of *A* with *b*. (prove by expanding out *x = A<sup>-1<\sup>b*)
+- In other words, equivalent to a **forgery** by replacing the *i*th column of *A* with *b*. (prove by expanding out *x = A<sup>-1</sup>b*)
 
 ##### Extras
 - In a *2 × 2* block matrix assuming *D<sup>-1</sup>* exists, the determinant is *det(A - BD<sup>-1</sup>C)·det(D)*.
-- Laplace's Formula
+- Laplace's Formula: 
+  - Say *I* is a multi-index of length *|I| = k* to mean an increasing sequence *i<sub>1</sub> < ... < i<sub>n</sub>*.
+  - Define *I'* to be the complement of *I*.
+  - Let *A* be a *n × n* matrix and *I, J* be two multi-index of same length.
+  - Define *M<sub>IJ</sub> = (IJ)-minor* of *A* as the determinant of the *k × k* matrix formed by the intersection of *I* and *J*.
+  - Then, the determinant of *A* is determined over the sum of all possible *J*:
+  - *det(A) = Σ<sub>J:|J|=k</sub> (-1)<sup>i<sub>1</sub> + ... + i<sub>k</sub> + j<sub>1</sub> + ... + j<sub>k</sub></sup> M<sub>IJ</sub> M<sub>I'J'</sub>*
 - Binet-Cauchy Formula: the determinant of a *k × k* matrix *AB* is given by *det(AB) = Σ<sub>I</sub>(det A<sub>I</sub>)(det B<sub>I</sub>)*
 
 #### Rank
