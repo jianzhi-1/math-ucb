@@ -199,6 +199,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 
 ##### Cramer's Rule
 - For a system of linear equations *Ax = b*, *x<sub>i</sub> = det(\[a<sub>1</sub> ... a<sub>i-1</sub> b a<sub>i+1</sub> ... a<sub>1</sub>])/det(A)* provided that *A* is **invertible**.
+- In other words, equivalent to a **forgery** by replacing the *i*th column of *A* with *b*. (prove by expanding out *x = A<sup>-1<\sup>b*)
 
 ##### Extras
 - In a *2 × 2* block matrix assuming *D<sup>-1</sup>* exists, the determinant is *det(A - BD<sup>-1</sup>C)det(D)*.
