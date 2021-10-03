@@ -189,7 +189,9 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 ##### Cofactor Theorem
 - *M<sub>ij</sub>* denotes the determinant of the *(n - 1)* by *(n - 1)* matrix obtained after crossing out the *i*th row and the *j*th column.
 - *A<sub>ij</sub>* denotes the *(ij)*-cofactor, which is just *M<sub>ij</sub>* with a sign.
-- *det A = a<sub>11</sub>A<sub>11</sub> + a<sub>12</sub>A<sub>12</sub> + ... + a<sub>1n</sub>A<sub>1n</sub>*
+- Cofactor expansion across *i*th row: *det A = a<sub>i1</sub>A<sub>i1</sub> + a<sub>i2</sub>A<sub>i2</sub> + ... + a<sub>in</sub>A<sub>in</sub>*
+- Cofactor expansion across *j*th column: *det A = a<sub>1j</sub>A<sub>1j</sub> + a<sub>2j</sub>A<sub>2j</sub> + ... + a<sub>nj</sub>A<sub>nj</sub>*
+- \[Forgery] *a<sub>i1</sub>A<sub>j1</sub> + a<sub>i2</sub>A<sub>j2</sub> + ... + a<sub>in</sub>A<sub>jn</sub> = 0* for *i ≠ j*
 
 ##### Adjugate Matrix
 - *\[adj(A)]<sub>ij</sub> = A<sub>ji</sub>*
