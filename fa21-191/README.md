@@ -37,3 +37,7 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 
 ### Fields
 A field is a set with several structures and two operations, denoted as +, *.
+
+### Multisection Formula
+
+### Primitive Roots
