@@ -4,8 +4,15 @@ UC Berkeley Fall 2021, taught by Prof Satish Rao
 
 ### Notes
 
+#### Propositional Logic
+- *P ⇒ Q*
+  - Contrapositive: *¬Q ⇒ ¬P*
+  - Converse: *Q ⇒ P*
+  - Equivalent to *¬P ∨ Q*
+
 #### Stable Matching
 Suppose *A* is bijected to *B*.
+
 ##### Definitions
 - Matching: a matching is a disjoint set of *n* *A-B* pairs.
 - Rogue couple: a rogue couple *(a, b)* for a matching *S* is when *a* and *b* prefers each other to their current partners.
@@ -23,6 +30,9 @@ Suppose *A* is bijected to *B*.
 - Propose-and-Reject always outputs a matching that is *A*-optimal.
 - A matching that is *A*-optimal is *B*-pessimal.
 
+##### Lines of Attack
+- Exploit monotonicity
+- Consider the first day/last day that ...
 
 #### Graphs
 
@@ -31,9 +41,9 @@ Suppose *A* is bijected to *B*.
 - *K<sub>n</sub>*: complete graph of *n* vertices
 - *K<sub>m,n</sub>*: complete, bipartite graph of *m* and *n* nodes
 - Hypercubes: *2<sup>n</sup>* vertices, each vertex having *n* edges, total edges *n2<sup>n-1</sup>*
-- A **path** between *v<sub>1</sub>* and *v<sub>n</sub>* is a sequence of edges *{(v<sub>1</sub>, v<sub>2</sub>), ..., (v<sub>n - 1</sub>, v<sub>n</sub>)}* where *v<sub>i</sub>* are distinct.
-- A **cycle** is a path with *v<sub>1</sub> = v<sub>n</sub>*
-- A **walk** is a path without the condition that *v<sub>i</sub>* are distinct
+- A **path** between *v<sub>1</sub>* and *v<sub>n</sub>* is a sequence of edges *{(v<sub>1</sub>, v<sub>2</sub>), ..., (v<sub>n - 1</sub>, v<sub>n</sub>)}* where *v<sub>i</sub>* are **distinct**.
+- A **cycle** is a path with *v<sub>1</sub> = v<sub>n</sub>* (**distinct** vertices).
+- A **walk** is a path without the condition that *v<sub>i</sub>* are distinct.
 - A **tour** is a walk that starts and ends at the same vertex.
 - An **Eulerian walk** is a walk that uses each edge in *G* exactly once.
 - An **Eulerian tour** is an Eulerian walk that is closed.
@@ -41,13 +51,22 @@ Suppose *A* is bijected to *B*.
 - A **connected component** is a *maximal* set of connected vertices
 - A **Hamiltonian tour** is a path that visits each vertex exactly once.
 - A **tournament** is a directed graph such that for distinct vertices *u*, *v*, exactly one of *(u, v)* and *(v, u)* is an edge.
+- An edge is a **bridge** if its removal disconnects the whole graph.
+- A dual graph *G<sup>\*</sup>* of a planar graph is the graph formed by transforming faces into vertices and adjacent faces into edges.
+  - *(G<sup>\*</sup>)<sup>\*</sup> = G*
+  - *G<sup>\*</sup>* is connected
+- A ***n*-dimensional hypercube** has *n* vertices, *n2<sup>n-1</sup>* edges
+  - Equivalent to two *(n - 1)*-dimensional hypercube with each corresponding vertices connected to each other.
+  - Equivalent to assigning each vertex a length *n* bit string, where an edge joins two vertices if their bit string differs by only *1* position.
 
 ##### Theorems and Lemmas
 - (Euler's Theorem) An undirected graph *G* has an Eulerian tour iff all vertices have even degrees.
 - (Euler's Formula) V + F = E + 2
 - (Kuratowski) A graph is non-planar iff it contains *K<sub>5</sub>* or *K<sub>3,3</sub>*
-- Every planar graph can be colored with 5 colors
-- For a planar graph, *E ≤ 3V - 6* (double count face-edge pairs)
+- \[Four-Color Theorem] Every planar graph can be colored with 4 colors
+  - Weaker version: Every planar graph can be colored with 5 colors. (Key idea: exists node of degree ≤ 5; color-switching 2-color components remains feasible)
+- For a planar graph with at least *2* edges, *E ≤ 3V - 6* (double count face-edge pairs; proves *K<sub>5</sub>*)
+- For a planar graph with at least *2* edges and no triangles, *E ≤ 2V - 4* (double count face-edge pairs; proves *K<sub>3,3</sub>*)
 - A graph is bipartite iff it does not contain an odd cycle (equivalently, iff it is two-colorable)
 
 #### RSA
