@@ -58,6 +58,7 @@ Suppose *A* is bijected to *B*.
 - A ***n*-dimensional hypercube** has *n* vertices, *n2<sup>n-1</sup>* edges
   - Equivalent to two *(n - 1)*-dimensional hypercube with each corresponding vertices connected to each other.
   - Equivalent to assigning each vertex a length *n* bit string, where an edge joins two vertices if their bit string differs by only *1* position.
+  - If *S* is a subset of *V* (a *n*-dimensional hypercube) such that *|S| ≤ |V - S|* and *E<sub>S</sub>* denote the edges connecting *S* to *V - S*, then *|E<sub>S</sub>| ≥ |S|*. (prove by induction on *n*)
 
 ##### Theorems and Lemmas
 - (Euler's Theorem) An undirected graph *G* has an Eulerian tour iff all vertices have even degrees.
