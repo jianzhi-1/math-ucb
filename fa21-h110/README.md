@@ -196,6 +196,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 ##### Adjugate Matrix
 - Adjugate matrix is the cofactor matrix transposed: *\[adj(A)]<sub>ij</sub> = A<sub>ji</sub>*
 - Adjugate matrix summarizes the cofactor theorem and forgery: *A adj(A) = (det A)I = adj(A) A*
+- Adjugate matrix of upper (lower) triangular matrix is upper (lower) triangular.
 
 ##### Cramer's Rule
 - For a system of linear equations *Ax = b*, *x<sub>i</sub> = det(\[a<sub>1</sub> ... a<sub>i-1</sub> b a<sub>i+1</sub> ... a<sub>1</sub>])/det(A)* provided that *A* is **invertible**.
