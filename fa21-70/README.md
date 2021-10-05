@@ -62,10 +62,10 @@ Suppose *A* is bijected to *B*.
 
 ##### Theorems and Lemmas
 - (Euler's Theorem) An undirected graph *G* has an Eulerian tour iff all vertices have even degrees.
-- (Euler's Formula) V + F = E + 2
+- (Euler's Formula) *V + F = E + 2*
 - (Kuratowski) A graph is non-planar iff it contains *K<sub>5</sub>* or *K<sub>3,3</sub>*
-- \[Four-Color Theorem] Every planar graph can be colored with 4 colors
-  - Weaker version: Every planar graph can be colored with 5 colors. (Key idea: exists node of degree ≤ 5; color-switching 2-color components remains feasible)
+- \[Four-Color Theorem] Every planar graph can be colored with *4* colors
+  - Weaker version: Every planar graph can be colored with *5* colors. (Key idea: exists node of degree *≤ 5*; color-switching *2*-color components remains feasible)
 - For a planar graph with at least *2* edges, *E ≤ 3V - 6* (double count face-edge pairs; proves *K<sub>5</sub>*)
 - For a planar graph with at least *2* edges and no triangles, *E ≤ 2V - 4* (double count face-edge pairs; proves *K<sub>3,3</sub>*)
 - A graph is bipartite iff it does not contain an odd cycle (equivalently, iff it is two-colorable)
