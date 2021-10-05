@@ -60,9 +60,20 @@ Suppose *A* is bijected to *B*.
 - Only requires *d* to decode.
 - \[Prime Number Theorem] *π(n) ≥ n/ln(n)*
 
-#### Polynomials
-
 #### Error Correcting Codes
+- Erasure Errors: given *k* errors, require *n + k* packets
+- General Errors: given *k* errors, require *n + 2k* packets
+- *Q(x) = P(x)E(x)*
+  - *Q(x)* has degree *n + k - 1* with *n - k* unknown coefficient
+  - *E(x)* has degree *k* with *k* unknown coefficient (since *E(x)* is monic)
+  - *E(x) = (x - e<sub>1</sub>)...(x - e<sub>k</sub>)
+  - For non-errors, *Q(x<sub>i</sub>) = r<sub>i</sub>E(x<sub>i</sub>)*
+  - For errors, *Q(x<sub>i</sub>) = 0* since *E(x<sub>i</sub>) = 0*
+
+#### Hamming Distance
+- The **Hamming distance** between two strings *s*, *r* is the number of positions in which they differ: *d(s, r) = Σ(r<sub>i</sub> ≠ s<sub>i</sub>)*
+- The **minimum distance** of a code is the minimum distance between two distinct codewords: *min<sub>m ≠ m'</sub>d(c(m), c(m'))*
+- Theorem: The Reed Solomon code that takes *n* message characters to a codeword of size *n + 2k* has minimum distance *2k + 1*
 
 ### Exam Area
 
