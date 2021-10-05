@@ -75,6 +75,43 @@ Suppose *A* is bijected to *B*.
 - The **minimum distance** of a code is the minimum distance between two distinct codewords: *min<sub>m ≠ m'</sub>d(c(m), c(m'))*
 - Theorem: The Reed Solomon code that takes *n* message characters to a codeword of size *n + 2k* has minimum distance *2k + 1*
 
+#### Countability and Computability
+- Surjective implies *|A| ≥ |B|*
+- Injectivity implies *|A| ≤ |B|*
+- Cantor's Diagonalization
+- Cantor Set
+- |P(ℕ)| > |ℕ|
+- Schröder–Bernstein Theorem: If there exists injective functions *f: A → B* and *g: B → A* between sets *A* and *B*, then there exists a bijective function *h: A → B*
+- Halting Problem
+- Godel's Incompleteness Theorem
+
+#### Probability
+
+##### Misc
+
+##### Random Variables and Functions
+
+##### Toolbox
+(Credits: the last three tools are from Evan Chen's [Expected Use of Probability](https://web.evanchen.cc/handouts/ProbabilisticMethod/ProbabilisticMethod.pdf))
+- Markov's Inequality
+- Chebyshev's Inequality
+- Law of Large Numbers
+- Alteration
+- Union Bound
+- Lovasz Local Lemma
+
+##### Distributions
+- Geometric Distribution
+- Poisson Distribution
+- Normal Distribution
+
+##### Applications
+- Hashing
+- Regression/Least Squares
+
+#### Markov Chains
+
+
 ### Exam Area
 
 #### Midterm 1 Prep 😤
