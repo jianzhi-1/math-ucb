@@ -7,7 +7,7 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - [x] Week 3: Modular Arithmetic
 - [x] Week 4: Rational and Irrational Numbers
 - [x] Week 5: Progressions
-- [ ] Week 6:
+- [ ] Week 6: Complex
 - [ ] Week 7:
 - [ ] Week 8:
 - [ ] Week 9:
@@ -17,6 +17,8 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 #### Catalan Numbers
 
 #### Generating Functions
+- Ordinary Generating Function
+- Exponential Generating Function
 
 #### Recurrence Relations
 
@@ -41,3 +43,5 @@ A field is a set with several structures and two operations, denoted as +, *.
 ### Multisection Formula
 
 ### Primitive Roots
+
+### Laurent Series
