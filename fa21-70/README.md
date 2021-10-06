@@ -71,7 +71,10 @@ Suppose *A* is bijected to *B*.
 - A graph is bipartite iff it does not contain an odd cycle (equivalently, iff it is two-colorable)
 
 #### RSA
-- Key *(N, e, d)*. Only *d* is secret; *(N, e)* is the public key and are public.
+- Key *(N, e, d)*. 
+  - Only *d* is secret; 
+  - *(N, e)* is the public key and are public. 
+  - *p, q* are not public
 - *N = pq* where *p, q* are primes (usually large, around 512 bits).
 - *(e, (p - 1)(q - 1)) = 1*
 - *d = e<sup>-1</sup> (mod (p - 1)(q - 1))*
