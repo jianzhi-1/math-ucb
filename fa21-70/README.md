@@ -84,9 +84,9 @@ Suppose *A* is bijected to *B*.
 - \[Prime Number Theorem] *π(n) ≥ n/ln(n)*
 
 #### Error Correcting Codes
-- Erasure Errors: given *k* errors, require *n + k* packets
-- General Errors: given *k* errors, require *n + 2k* packets
-- *Q(x) = P(x)E(x)*
+- Erasure Errors: given *k* errors, require *n + k* packets; *q > n + k*
+- General Errors: given *k* errors, require *n + 2k* packets; *q > n + 2k*
+- *Q(x) = P(x)E(x)*, where *E(x)* is the error-locator polynomial.
   - *Q(x)* has degree *n + k - 1* with *n - k* unknown coefficient
   - *E(x)* has degree *k* with *k* unknown coefficient (since *E(x)* is monic)
   - *E(x) = (x - e<sub>1</sub>)...(x - e<sub>k</sub>)
@@ -94,11 +94,21 @@ Suppose *A* is bijected to *B*.
   - For errors, *Q(x<sub>i</sub>) = 0* since *E(x<sub>i</sub>) = 0*
 
 #### Hamming Distance
-- The **Hamming distance** between two strings *s*, *r* is the number of positions in which they differ: *d(s, r) = Σ(r<sub>i</sub> ≠ s<sub>i</sub>)*
-- The **minimum distance** of a code is the minimum distance between two distinct codewords: *min<sub>m ≠ m'</sub>d(c(m), c(m'))*
-- Theorem: The Reed Solomon code that takes *n* message characters to a codeword of size *n + 2k* has minimum distance *2k + 1*
+- Represent a string of codewords as vector ***s*** of length *|**s**| = L*.
+  - For erasure errors, *L ≥ n + k*.
+  - For general errors, *L ≥ n + 2k*.
+- The **Hamming distance** between two strings ***s***, ***r*** is the number of positions in which they differ: *d(**s**, **r**) = Σ(r<sub>i</sub> ≠ s<sub>i</sub>)*
+- The **minimum distance** of a code is the minimum distance between two distinct codewords: *min<sub>**m** ≠ **m'**</sub>d(**m**, **m'**)*
+  - Corollary: If the minimum distance is 1, then there is no protection against errors and erasures.
+  - Corollary: If the minimum distance is *k + 1* or better, then the code can recover from *k* erasure errors.
+  - Corollary: If the minimum distance is *k* or less, then there is a codeword pair for which erasing *k* positions would make the pair ambiguous.
+  - Corollary: If the minimum distance is *2d*, then an attacker can corrupt *d* characters to make it ambiguous for the decoder.
+- Theorem: The Reed Solomon code that takes *n* message characters to a codeword of size *n + 2k* has minimum distance *2k + 1*. (prove by showing *2k + 1* ≥ minimum distance and *2k + 1* ≤ minimum distance)
 
 #### Countability and Computability
+
+- Derangement Theorem: For *n ≥ 3*, *D<sub>n</sub> = (n - 1)(D<sub>n-1</sub> + D<sub>n-2</sub>)*. (prove by recursion)
+  - *D<sub>n</sub> = n! Σ (-1)<sup>k</sup>/k!* (prove by PIE)
 - Surjective implies *|A| ≥ |B|*
 - Injectivity implies *|A| ≤ |B|*
 - Cantor's Diagonalization
