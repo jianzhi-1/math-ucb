@@ -43,5 +43,5 @@ A field is a set with several structures and two operations, denoted as +, *.
 ### Multisection Formula
 
 ### Primitive Roots
-
+Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* and *w<sup>k</sup> *
 ### Laurent Series
