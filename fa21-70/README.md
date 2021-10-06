@@ -72,7 +72,7 @@ Suppose *A* is bijected to *B*.
 
 #### RSA
 - Key *(N, e, d)*. Only *d* is secret; *N* and *e* are public.
-- *N = pq* where *p, q* are primes.
+- *N = pq* where *p, q* are primes (usually large, around 512 bits).
 - *(e, (p - 1)(q - 1)) = 1*
 - *d = e<sup>-1</sup> (mod (p - 1)(q - 1))*
 - *E(x) = x<sup>e</sup> (mod N)*
