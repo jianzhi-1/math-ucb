@@ -109,6 +109,7 @@ Suppose *A* is bijected to *B*.
 
 - Derangement Theorem: For *n ≥ 3*, *D<sub>n</sub> = (n - 1)(D<sub>n-1</sub> + D<sub>n-2</sub>)*. (prove by recursion)
   - *D<sub>n</sub> = n! Σ (-1)<sup>k</sup>/k!* (prove by PIE)
+  - *Q<sub>n</sub> := D<sub>n</sub> - n·D<sub>n-1</sub> ⇒ Q<sub>n</sub> = (-1)<sup>n</sup>*
 - Surjective implies *|A| ≥ |B|*
 - Injectivity implies *|A| ≤ |B|*
 - Cantor's Diagonalization
