@@ -8,7 +8,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 3: *lim sup*, *lim inf*, Cauchy (lec6), Subsequences and Subsequential Limits (lec7)
 - [x] Week 4: Series; Cauchy Criterion; Comparison, Ratio, Root Test (lec8), Midterm 1
 - [x] Week 5: Integration Test, Alternate Series Test (lec9), Continuity (lec10)
-- [ ] Week 6:
+- [ ] Week 6: Properties of Continuous Functions (lec11)
 - [ ] Week 7:
 - [ ] Week 8:
 - [ ] Week 9: , Midterm 2
@@ -107,11 +107,24 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - Let *f* be a continuous function on an interval *I* (may be bounded or unbounded). Let *I<sup>0</sup>* be the interval obtained by removing from *I* any endpoints that happen to be in *I*. If *f* is differentiable on *I<sup>0</sup>* and if *f'* is bounded on *I<sup>0</sup>*, then *f* is uniformly continuous on *I*.
 - If *f* is uniformly continuous on a bounded set *S*, then *f* is a bounded function on *S*. (prove by Bolzano-Weierstrass and Cauchy version of uniform continuity)
 
-### Limits of Functions
+#### Limits of Functions
+- *lim<sub>x → a<sup>S</sup></sub> f(x) = L* iff for each *ε > 0* there exists *δ > 0* such that *x ∈ S* and *|x - a| < δ* implies *|f(x) - L| < ε*.
+- If *f* is a function defined on *J \ {a}* for some open interval *J* containing *a*, then *lim<sub>x → a</sub> f(x)* exists iff the limits *lim<sub>x → a<sup>+</sup></sub> f(x)* and *lim<sub>x → a<sup>-</sup></sub> f(x)* both exist and are equal to each other.
 
-#### Functions
-Power Series
-Uniform Convergence
+#### Power Series
+- Let *β = lim sup |a<sub>n</sub>|<sup>1/n</sup>* and *R = 1/β* (radius of convergence):
+  - *|x| < R* implies power series converges
+  - *|x| > R* implies power series diverges
+- The power series converges for exactly one of the following:
+  - all *x ∈ ℝ*
+  - only *x = 0*
+  - a bounded interval centered at *0* (may be open, half-open or closed)
+
+#### Uniform Convergence
+- *(f<sub>n</sub>)* converges uniformly on *S* to a function *f* defined on *S* if for each *ε > 0* and all *x ∈ S*, ∃ N s.t. *n > N* implies *|f<sub>n</sub>(x) - f(x)| < ε|*
+- A sequence *(f<sub>n</sub>)* of functions on a set *S* converges uniformly to a function *f* on *S* iff *lim sup{|f(x) - f<sub>n</sub>(x)| : x ∈ S} = 0*.
+- (24.3) The uniform limit of continuous functions is continuous. (prove by *ε / 3*)
+
 differentiation and integration of power series
 
 #### Differentiation
@@ -150,12 +163,13 @@ fundamental theorem of calculus
 - (13.3) A sequence *(x<sup>(n)</sup>)* in *ℝ<sup>k</sup>* converges iff *(x<sub>j</sub><sup>(n)</sup>)* converges in *ℝ* for all *1 ≤ j ≤ k*.
 - A sequence *(x<sup>(n)</sup>)* in *ℝ<sup>k</sup>* is Cauchy iff *(x<sub>j</sub><sup>(n)</sup>)* converges in *ℝ* for all *1 ≤ j ≤ k*.
 - (13.4) Euclidean *k*-space *ℝ<sup>k</sup>* is complete
-- (Bolzano-Weierstrass) Every bounded sequence in *ℝ<sup>k</sup>* has a convergent subsequence.
+- \[Bolzano-Weierstrass] Every bounded sequence in *ℝ<sup>k</sup>* has a convergent subsequence.
 - Openness / Closedness
   - The union of any collection of open sets is open.
   - The intersection of finitely many open sets is open.
   - The intersection of any collection of closed sets is closed.
-- (Heine-Borel) A subset *E* of *ℝ<sup>k</sup>* is compact iff it is closed and bounded.
+- \[Heine-Borel] A subset *E* of *ℝ<sup>k</sup>* is compact iff it is closed and bounded.
+- \[Baire Category Theorem]
 
 #### Darboux Integral
 
