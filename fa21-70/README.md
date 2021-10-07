@@ -89,7 +89,7 @@ Suppose *A* is bijected to *B*.
 - *Q(x) = P(x)E(x)*, where *E(x)* is the error-locator polynomial.
   - *Q(x)* has degree *n + k - 1* with *n - k* unknown coefficient
   - *E(x)* has degree *k* with *k* unknown coefficient (since *E(x)* is monic)
-  - *E(x) = (x - e<sub>1</sub>)...(x - e<sub>k</sub>)
+  - *E(x) = (x - e<sub>1</sub>)...(x - e<sub>k</sub>)*
   - For non-errors, *Q(x<sub>i</sub>) = r<sub>i</sub>E(x<sub>i</sub>)*
   - For errors, *Q(x<sub>i</sub>) = 0* since *E(x<sub>i</sub>) = 0*
 
