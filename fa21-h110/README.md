@@ -63,12 +63,11 @@ Completing squares allow you to see the classification of quadratic forms.
 An *affine subspace* *v + W* is constructed by adding a fixed vector *v ∈ V* to all vectors of subspace *W ⊆ V*. It is parallel to *W*. When *v ∉ W*, the affine subspace is not linear.
 
 ##### Dual Space
-The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *𝕂*.
-*dim V<sup>*</sup> = dim V*
-
-For a given basis of *V*, say *{b<sub>1</sub>, ... , b<sub>n</sub>}*, the **dual basis** is defined to be *{f<sub>1</sub>, ... , f<sub>n</sub>}* where *f<sub>i</sub>(b<sub>j</sub>) = δ<sub>ij</sub>*.
-
-If *T* maps *V* to *W*, the dual map *T'* maps *W<sup>*</sup>* to *V<sup>*</sup>* such that for *g ∈ W<sup>*</sup>* and *v ∈ V*, *T'(g)(x) = g(T(x))*.
+- The dual space *V<sup>*</sup>* is the set of all *linear functions* from vector space *V* to scalars *𝕂*.
+- *dim V<sup>*</sup> = dim V*
+- If *dim V < ∞*, then *V* and *V\** are isomorphic.
+- For a given basis of *V*, say *{b<sub>1</sub>, ... , b<sub>n</sub>}*, the **dual basis** is defined to be *{f<sub>1</sub>, ... , f<sub>n</sub>}* where *f<sub>i</sub>(b<sub>j</sub>) = δ<sub>ij</sub>*.
+- If *T* maps *V* to *W*, the dual map *T'* maps *W<sup>*</sup>* to *V<sup>*</sup>* such that for *g ∈ W<sup>*</sup>* and *v ∈ V*, *T'(g)(x) = g(T(x))*.
 
 ##### Dual Dual Space
 The double dual is the set of all *linear functions* from *V<sup>*</sup>* to 𝕂. 
@@ -141,6 +140,7 @@ A real *n × n* matrix is positive definite if *x<sup>T</sup>Ax > 0* for all *x 
 
 - A quadratic form can be constructed from bilinear form by *Q<sub>B</sub> = B(v, v) = (A + S)(v, v) = S(v, v)*
 - A symmetric bilinear form can be reconstructed from quadratic form *S(u, v) = (S(u + v, u + v) - S(u, u) - S(v, v))/2*
+  - This implies a bijection between symmetric bilinear forms and quadratic forms.
 - *Q(λv) =	λ<sup>2</sup>Q(v)*
 
 - Every quadratic form can be transformed under an orthogonal change of variables *x = By* such that:
@@ -227,12 +227,55 @@ Exterior products
 Vector Calculus
 
 #### Rank
+- *rank(A) = dim A(V)* (rank of a linear map := dimension of its range)
+- \[Rank Theorem] A linear map *A : V → W* of rank *r* between *V* (of dimension *n*) and *W* (of dimension *m*) is given by the matrix *E<sub>r</sub>* in suitable bases of *V* and *W*. (prove by constructing a basis in *range(A)*, extend to *W*; take images of those bases, then extend with the basis of *null(A)*)
+- \[Corollary] For every *m × n* matrix *A* of rank *r* there exist invertible matrices *D* and *C* of sizes *m × m* and *n × n* respectively s.t. *D<sup>-1</sup>AC = E<sub>r</sub>*.
+  - *C*: change of coordinate matrix *x = Cx'*
+  - *D*: change of coordinate matrix *y = Dy'*
+  - *y = Ax ⇔ Dy' = ACx' ⇔ y' = D<sup>-1</sup>ACx'*
+- Linear maps between finite dimensional spaces are equivalent (*A' = D<sup>-1</sup>AC*) iff they have the same rank.
+- Matrices of adjoint maps with respect to the dual bases are transposed to each other.
+  - Adjoint linear maps have the same rank.
+  - Maximal number of linearly independent rows of a matrix is equal to the maximal number of linearly independent columns.
+  - Rank of a matrix is equal to the maximal *k* for which there is a *k × k* sub-matrix with nonzero determinant.
+- For a system of linear equations:
+  - The solution set to *Ax = 0* is a linear subspace of dimension *n - r*.
+  - The system *Ax = b* is consistent only when *b* lies in the *range(A)* (of dimension *r*)
+  - The solution set to *Ax = b* if it exists is an affine subspace in *V* of dimension *n - r* parallel to the kernel of *A*.
+  - When *det A ≠ 0*, a system of *n* unknowns and *n* linear equations have a unique solution. Otherwise, the solutions are not unique for some *b* and do not exist for the others.
+- If linear subspaces of dimension *k* and *l* together spans a space of dimension *n*, then the intersection is a linear subspace of dimension *k + l - n*.
 
 #### Gaussian Elimination
+- *\[A|I<sub>n</sub>] = \[I<sub>n</sub>|A<sup>-1</sup>]*
+- \[LPU Decomposition] Every **invertible** matrix *M* can be factored as the product *M = LPU* where *L* is a lower-triangular matrix, *P* is a permutation matrix (an identity matrix with some permutation of the columns) and *U* is an upper-triangular matrix. (prove by extracting out *L* via Gaussian Elimination)
+- A sequence of nested subspaces *V<sub>1</sub> ⊂ V<sub>2</sub> ⊂ ...  ⊂ V<sub>n</sub>* forms a **flag** in the space *V = V<sub>n</sub>*
+- A **complete flag** obtained when *dim V<sub>i</sub> = i*.
+- An invertible linear transformation preserves the standard coordinate flag iff its matrix is upper-triangular.
+- Every complete flag can be obtained from any other via an invertible linear transformation. (prove by mapping bases)
+- Every complete flag can be transformed into exactly one of the *n!* coordinate flags by invertible linear transformations preserving one of them.
+- **Bruhat cells**: set of equivalence classes determined by the intersections of spaces of the flags with the spaces of the fixed flag.
 
 #### Inertia Theorem
+- For a quadratic form *Q*, a basis is *Q*-orthogonal if *Q(e<sub>i</sub>, e<sub>j</sub>) = 0* for all *i ≠ j*.
+- Every quadratic form *Q* in a finite dimensional vector space has a *Q*-orthogonal basis. (prove by induction on *dim*)
+- Every *Q* can be transformed into exactly one **normal form** *Q = X<sub>1</sub><sup>2</sup> + ... +  X<sub>p</sub><sup>2</sup> - X<sub>p+1</sub><sup>2</sup> - ... -  X<sub>p+q</sub><sup>2</sup>*, *p + q ≤ n* by scaling.
+- Normal forms with different *(p, q)* pair are non-equivalent to each other.
+- \[Positive Inertia Index] *p* (the number of positive squares in the normal form) is equal to the maximal dimension of the subspace where the quadratic form *Q* is positive. (prove by intersecting subspace)
+- \[Negative Inertia Index] *q* (the number of negative squares in the normal form) is equal to the maximal dimension of the subspace where the quadratic form *Q* is negative.
+- *p, q* do not depend on the choice of coordinate system.
+- For every symmetric *n × n* matrix *Q*, exists an invertible *C* s.t. *C<sup>T</sup>QC* is diagonal. (corollary)
+  - In particular, each *Q* can be uniquely transformed into exactly one diagonal matrix of the form *\[I<sub>p</sub> 0 0]\[0 -I<sub>q</sub> 0]\[0 0 0]*.
+- Every quadratic form in *ℂ<sup>n</sup>* can be linearly transformed to exactly one of the forms *z<sub>1</sub><sup>2</sup> + ... + z<sub>1</sub><sup>r</sup>* where *0 ≤ r ≤ n*.
+  - In particular, each complex symmetric matrix *Q* can be transformed into exactly one of the form *\[I<sub>r</sub> 0]\[0 0]* by the transformation *C → C<sup>T</sup>QC* and *r = rank(Q)*.
+- Every Hermitian quadratic form *H* in *ℂ<sup>n</sup>* can be transformed by a linear change of coordinates to exactly one of the normal forms: *|z<sub>1</sub>|<sup>2</sup> + ... + |z<sub>p</sub>|<sup>2</sup> - |z<sub>p+1</sub>|<sup>2</sup> - ... |z<sub>p+q</sub>|<sup>2</sup>*, *0 ≤ p + q ≤ n*. (prove by intersecting subspace, same as for quadratic forms)
+- Every anti-Hermitian quadratic form *Q* in *ℂ<sup>n</sup>* can be transformed by a linear change of coordinates to exactly one of the normal forms *i|z<sub>1</sub>|<sup>2</sup> + ... + i|z<sub>p</sub>|<sup>2</sup> - i|z<sub>p+1</sub>|<sup>2</sup> - ... i|z<sub>p+q</sub>|<sup>2</sup>*, *0 ≤ p + q ≤ n*.
+- Any Hermitian (anti-Hermitian) matrix can be transformed into exactly one of the normal forms *\[I<sub>p</sub> 0 0]\[0 -I<sub>q</sub> 0]\[0 0 0]* (*\[iI<sub>p</sub> 0 0]\[0 -iI<sub>q</sub> 0]\[0 0 0]*) by transformation of the form *T → C<sup>†</sup>TC* where *C* is an invertible complex matrix.
+- \[Sylvester's Rule] Suppose that a Hermitian *n × n* matrix *H* has non-zero leading minors (i.e. *det H ≠ 0*, then the negative inertia index of the corresponding Hermitian form is equal to the number of sign changes in *Δ<sub>0</sub>, ... , Δ<sub>n</sub>*.
+  - Any positive definite Hermitian form in *ℂ<sup>n</sup>* can be transformed into *|z<sub>1</sub>|<sup>2</sup> + ... + |z<sub>n</sub>|<sup>2</sup>* by a linear change of coordinates preserving a given complete flag.
+  - A Hermitian form in *ℂ<sup>n</sup>* is positive definite iff all its leading minors are positive.
+  - Every positive definite Hermitian form in *Cn* has an orthonormal basis *{f<sub>1</sub>, ..., f<sub>n</sub>}* s.t. *f<sub>i</sub> ∈ Span(e<sub>1</sub>, ..., e<sub>k</sub>)*
 
-#### Minkowski-Hasse Theorem
+#### Minkowski-Hasse Theorem (*𝕂 = ℚ* or *𝕂 = ℤ<sub>p</sub>*)
   
 #### Orthogonal and Orthonormal
 - Given a *<,>* symmetric bilinear form on a real vector space *V*, two vectors *u, v* are **orthogonal** if *<u, v> = 0*. A basis is **orthonormal** if *<v<sub>i</sub>, v<sub>j</sub>> = 0* for *i ≠ j* and *<v<sub>i</sub>, v<sub>i</sub>> = 1*.
@@ -274,7 +317,7 @@ Given a basis *{v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>}*, we can alway
 
 #### Jordan Canonical Form
 
-#### Nilpotence
+#### Nilpotence / Unipotence
 
 #### Cornerstones of Linear Algebra
 
