@@ -152,5 +152,5 @@ Suppose *A* is bijected to *B*.
 - [x] Fall 20 Midterm
 - [x] Spring 19 Midterm 1
 - [ ] Spring 19 Midterm 2
-- [ ] Spring 18 Midterm 1
+- [x] Spring 18 Midterm 1
 - [ ] Spring 18 Midterm 2
