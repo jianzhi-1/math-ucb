@@ -150,9 +150,7 @@ A real *n × n* matrix is positive definite if *x<sup>T</sup>Ax > 0* for all *x 
 
 - \[Sylvester's Law of Inertia] Two symmetric square matrices of the same size have the same signature iff they are congruent (i.e. *B = SAS<sup>T</sup>* for some non-singular *S*).
 
-##### Hermitian Forms
-
-𝕂 = ℂ
+##### Sesquilinear Forms (*𝕂 = ℂ*)
 A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the first argument and linear in the second.
   - *T(λu + μv, w) = λ<sup>\*</sup>T(u, w) + μ<sup>\*</sup>T(v, w)*
   - *T(w, λu + μv) = λT(w, u) + μT(w, v)*
@@ -170,7 +168,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
   - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
   - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
 
-##### Hermitian Quadratic Forms 
+##### Hermitian Forms 
 - *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 - *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
 - *h<sub>ji</sub> = h<sub>ij</sub><sup>*</sup>*
