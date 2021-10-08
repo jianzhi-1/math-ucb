@@ -257,6 +257,7 @@ Vector Calculus
   - The solution set to *Ax = b* if it exists is an affine subspace in *V* of dimension *n - r* parallel to the kernel of *A*.
   - When *det A ≠ 0*, a system of *n* unknowns and *n* linear equations have a unique solution. Otherwise, the solutions are not unique for some *b* and do not exist for the others.
 - If linear subspaces of dimension *k* and *l* together spans a space of dimension *n*, then the intersection is a linear subspace of dimension *k + l - n*.
+- *rank(A + B) ≤ rank(A) + rank(B)* (prove by basis)
 
 #### Gaussian Elimination
 - *\[A|I<sub>n</sub>] = \[I<sub>n</sub>|A<sup>-1</sup>]*
