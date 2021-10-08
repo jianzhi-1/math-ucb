@@ -152,24 +152,28 @@ A real *n × n* matrix is positive definite if *x<sup>T</sup>Ax > 0* for all *x 
 
 ##### Sesquilinear Forms (*𝕂 = ℂ*)
 A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the first argument and linear in the second.
-  - *T(λu + μv, w) = λ<sup>\*</sup>T(u, w) + μ<sup>\*</sup>T(v, w)*
-  - *T(w, λu + μv) = λT(w, u) + μT(w, v)*
-  - *T(v, w) = Σv<sup>\*</sup><sub>i</sub>t<sub>ij</sub>w<sub>j</sub>*
-  - \[Hermitian Adjoint] *T<sup>†</sup> = (T(v, u))<sup>\*</sup>* 
-    - *T<sup>†</sup>* is also sesquilinear
-  - *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>\*</sup> = (t<sub>ji</sub>)<sup>\*</sup>*
-  - *T<sup>††</sup> = T* (proven by definition)
-  - Hermitian-symmetric: *T<sup>†</sup> = T*
-    - Hermitian-symmetric matrices must have real diagonals, and diagonally opposite elements are conjugates
-    - Corresponding Hermitian quadratic form takes on purely *real* values
-  - Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
-    - Hermitian-anti-symmetric matrices must have imaginary diagonals, and diagonally opposite elements are negative conjugates
-    - Corresponding Hermitian quadratic form takes on purely *imaginary* values
-  - Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
-  - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
-    - *(iT)(u, v) = iT(u, v) = i(T(v, u))<sup>\*</sup> = -(iT(v, u))<sup>\*</sup> = -(iT<sup>†</sup>)(v, u)*
+- *T(λu + μv, w) = λ<sup>\*</sup>T(u, w) + μ<sup>\*</sup>T(v, w)*
+- *T(w, λu + μv) = λT(w, u) + μT(w, v)*
+- *T(v, w) = Σv<sup>\*</sup><sub>i</sub>t<sub>ij</sub>w<sub>j</sub>*
+- \[Hermitian Adjoint] *T<sup>†</sup> = (T(v, u))<sup>\*</sup>* 
+  - *T<sup>†</sup>* is also sesquilinear
+- *t<sub>ij</sub><sup>†</sup> = T<sup>†</sup>(e<sub>i</sub>, e<sub>j</sub>) = (T(e<sub>i</sub>, e<sub>j</sub>))<sup>\*</sup> = (t<sub>ji</sub>)<sup>\*</sup>*
+- *T<sup>††</sup> = T* (proven by definition)
+- Hermitian-symmetric: *T<sup>†</sup> = T*
+  - Hermitian-symmetric matrices must have real diagonals, and diagonally opposite elements are conjugates
+- Hermitian-anti-symmetric: *T<sup>†</sup> = -T*
+  - Hermitian-anti-symmetric matrices must have imaginary diagonals, and diagonally opposite elements are negative conjugates
+- Every sesquilinear form can be uniquely written as the sum of Hermitian-symmetric and Hermitian-anti-symmetric ones.
+- *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
+  - *(iT)(u, v) = iT(u, v) = i(T(v, u))<sup>\*</sup> = -(iT(v, u))<sup>\*</sup> = -(iT<sup>†</sup>)(v, u)*
 
-##### Hermitian Forms 
+##### Hermitian Forms
+- **IMPORTANT**: equivalent to Hermitian quadratic form; 
+  - **ALL** Hermitian forms are Hermitian symmetric.
+  - All Hermitian quadratic forms take on purely *real* value
+- Similarly, **anti-Hermitian form** is equivalent to anti-Hermitian quadratic form.
+  - **ALL** anti-Hermitian forms are anti-Hermitian symmetric.
+  - All anti-Hermitian quadratic forms take on purely *imaginary* value
 - *H(z) = ΣΣz<sup>\*</sup><sub>i</sub>h<sub>ij</sub>z<sub>j</sub>*
 - *T(λv, λv) = |λ|<sup>2</sup>T(v, v)*
 - *h<sub>ji</sub> = h<sub>ij</sub><sup>*</sup>*
