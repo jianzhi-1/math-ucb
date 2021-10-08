@@ -88,6 +88,10 @@ The *annihilator* of *W*, *W<sup>⊥</sup>*, is the set of all *linear functions
 *dim W + dim W<sup>⊥</sup> = dim V*
 
 
+#### Linear Maps
+##### Properties of Linear Maps
+- Any linear map on any linear space *V* is uniquely and completely determined by its action on **any basis** of *V*. (prove by contradiction)
+
 #### Matrices
 
 - **Linear functions** *a: V → 𝕂* are represented by *\[a<sub>1</sub> a<sub>2</sub> ... <sub>n</sub>]*, where *n* is the dimension of *V*.
