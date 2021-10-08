@@ -167,7 +167,7 @@ A sesquilinear form is a function *T: V × V → ℂ* that is half-linear in the
 - *T* is Hermitian symmetric iff *iT* is Hermitian anti-symmetric (prove by definition)
   - *(iT)(u, v) = iT(u, v) = i(T(v, u))<sup>\*</sup> = -(iT(v, u))<sup>\*</sup> = -(iT<sup>†</sup>)(v, u)*
 - For matrix form of *T*:
-  - *(AB)<sup>†</sup> = B<sup>†</sup>A<sup>†</sup>*
+  - *(AB)<sup>†</sup> = B<sup>†</sup>A<sup>†</sup>* (prove by algebra)
 
 ##### Hermitian Forms
 - **IMPORTANT**: equivalent to Hermitian quadratic form; 
