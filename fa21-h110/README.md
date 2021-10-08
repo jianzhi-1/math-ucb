@@ -237,6 +237,7 @@ Vector Calculus
 #### Rank
 - *rank(A) = dim A(V)* (rank of a linear map := dimension of its range)
 - \[Rank Theorem] A linear map *A : V → W* of rank *r* between *V* (of dimension *n*) and *W* (of dimension *m*) is given by the matrix *E<sub>r</sub>* in suitable bases of *V* and *W*. (prove by constructing a basis in *range(A)*, extend to *W*; take images of those bases, then extend with the basis of *null(A)*)
+- \[Rank-Nullity Theorem] *rank(A) + dim null(A) = dim V*
 - \[Corollary] For every *m × n* matrix *A* of rank *r* there exist invertible matrices *D* and *C* of sizes *m × m* and *n × n* respectively s.t. *D<sup>-1</sup>AC = E<sub>r</sub>*.
   - *C*: change of coordinate matrix *x = Cx'*
   - *D*: change of coordinate matrix *y = Dy'*
