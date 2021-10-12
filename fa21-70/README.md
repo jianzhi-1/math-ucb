@@ -119,6 +119,7 @@ Suppose *A* is bijected to *B*.
 - Halting Problem
 - Godel's Incompleteness Theorem: Any set of axioms is either inconsistent or incomplete.
 - Generalized Continuum Hypothesis: If an infinite set's cardinality lies between that of an infinite set *S* and its power set, then it has the same cardinality as either *S* or the power set of *S*.
+- Kolmogorov Complexity: minimum program that prints string *s*.
 
 #### Probability
 
