@@ -1,6 +1,6 @@
 # COMPSCI 70
 ### Discrete Mathematics and Probability Theory
-UC Berkeley Fall 2021, taught by Prof Satish Rao
+UC Berkeley Fall 2021, taught by Prof Satish Rao and Prof Babak Ayazifar
 
 ### Notes
 
