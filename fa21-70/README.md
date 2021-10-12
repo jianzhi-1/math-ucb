@@ -118,6 +118,7 @@ Suppose *A* is bijected to *B*.
 - Schröder–Bernstein Theorem: If there exists injective functions *f: A → B* and *g: B → A* between sets *A* and *B*, then there exists a bijective function *h: A → B*
 - Halting Problem
 - Godel's Incompleteness Theorem
+- Generalized Continuum Hypothesis: If an infinite set's cardinality lies between that of an infinite set *S* and its power set, then it has the same cardinality as either *S* or the power set of *S*.
 
 #### Probability
 
