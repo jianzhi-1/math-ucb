@@ -151,9 +151,7 @@ Suppose *A* is bijected to *B*.
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-- [ ] Spring 21 Midterm
+- [x] Spring 21 Midterm
 - [x] Fall 20 Midterm
 - [x] Spring 19 Midterm 1
-- [ ] Spring 19 Midterm 2
 - [x] Spring 18 Midterm 1
-- [ ] Spring 18 Midterm 2
