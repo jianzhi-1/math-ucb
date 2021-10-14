@@ -8,8 +8,8 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 3: *lim sup*, *lim inf*, Cauchy (lec6), Subsequences and Subsequential Limits (lec7)
 - [x] Week 4: Series; Cauchy Criterion; Comparison, Ratio, Root Test (lec8), Midterm 1
 - [x] Week 5: Integration Test, Alternate Series Test (lec9), Continuity (lec10)
-- [ ] Week 6: Properties of Continuous Functions (lec11)
-- [ ] Week 7:
+- [x] Week 6: Properties of Continuous Functions (lec11), Uniform Continuity (lec12)
+- [x] Week 7: Limits of Functions (lec13), Power Series (lec14)
 - [ ] Week 8:
 - [ ] Week 9: , Midterm 2
 - [ ] Week 10:
