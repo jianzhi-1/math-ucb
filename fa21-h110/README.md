@@ -315,6 +315,7 @@ Given a basis *{v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>}*, we can alway
   - eigenvectors corresponding to unique eigenvalues are necessarily orthogonal i.e. *u<sub>i</sub> · u<sub>j</sub> = 0*
   - there exists a real diagonal matrix *D* and an orthogonal matrix *U* such that *A = UDU<sup>T</sup>*, where *D = diag(λ<sub>1</sub>, ..., λ<sub>n</sub>)* and *U = [u<sub>1</sub> ... u<sub>n</sub>]*
 - Let *A* be a Hermitian matrix. Then *A* is unitarily diagonalizable. (https://mkilme01.pages.tufts.edu/MATH150_02/Chapt5_all.pdf)
+- For every matrix *A*, *AA<sup>T</sup>* and *A<sup>T</sup>A* are symmetric and hence, the eigenvectors are all orthogonal.
 
 - (Converse) If *B* is an orthogonal matrix and *B<sup>T</sup>AB* is diagonal, then *A* is symmetric.
 
