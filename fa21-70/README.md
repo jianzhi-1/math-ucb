@@ -151,6 +151,7 @@ Suppose *A* is bijected to *B*.
 ### Exam Area
 
 #### Midterm 1 Prep 😤
+See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/mid-term1sheet.pdf)
 - [x] Spring 21 Midterm
 - [x] Fall 20 Midterm
 - [x] Spring 19 Midterm 1
