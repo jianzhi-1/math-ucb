@@ -268,6 +268,7 @@ Vector Calculus
 - Every complete flag can be obtained from any other via an invertible linear transformation. (prove by mapping bases)
 - Every complete flag can be transformed into exactly one of the *n!* coordinate flags by invertible linear transformations preserving one of them.
 - **Bruhat cells**: set of equivalence classes determined by the intersections of spaces of the flags with the spaces of the fixed flag.
+- **LPU Decomposition**: mark out pivot columns first, split elementary row operations which linearly adds one row to a multiple of others to form *L*, then apply *P* to transpose the matrix into the form *U*. Obtain *LPU* as a result.
 
 #### Inertia Theorem
 - For a quadratic form *Q*, a basis is *Q*-orthogonal if *Q(e<sub>i</sub>, e<sub>j</sub>) = 0* for all *i ≠ j*.
@@ -288,6 +289,11 @@ Vector Calculus
   - Any positive definite Hermitian form in *ℂ<sup>n</sup>* can be transformed into *|z<sub>1</sub>|<sup>2</sup> + ... + |z<sub>n</sub>|<sup>2</sup>* by a linear change of coordinates preserving a given complete flag.
   - A Hermitian form in *ℂ<sup>n</sup>* is positive definite iff all its leading minors are positive.
   - Every positive definite Hermitian form in *Cn* has an orthonormal basis *{f<sub>1</sub>, ..., f<sub>n</sub>}* s.t. *f<sub>i</sub> ∈ Span(e<sub>1</sub>, ..., e<sub>k</sub>)*
+
+#### Eigenvalues and Eigenvectors
+- \[Cayley Hamilton] Let *A* be a matrix with characteristic polynomial *P*. Then *P(A) = 0*.
+- The minimal polynomial shares the same roots as the characteristic polynomial.
+  - \[Corollary] The minimal polynomial divides the characteristic polynomial (since *P(A) = 0* for characteristic polynomial)
 
 #### Minkowski-Hasse Theorem (*𝕂 = ℚ* or *𝕂 = ℤ<sub>p</sub>*)
   
@@ -328,8 +334,6 @@ Given a basis *{v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>}*, we can alway
 #### Quivers
 
 ##### Gabriel's Theorem
-
-#### LPU Decomposition
 
 #### Jordan Canonical Form
 
