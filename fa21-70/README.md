@@ -121,7 +121,38 @@ Suppose *A* is bijected to *B*.
 - Generalized Continuum Hypothesis: If an infinite set's cardinality lies between that of an infinite set *S* and its power set, then it has the same cardinality as either *S* or the power set of *S*.
 - Kolmogorov Complexity: minimum program that prints string *s*.
 
-#### Probability
+#### Probability (10/19)
+- Definitions
+  - Sample Space *Ω*
+    - Collection of sample points
+    - Mutually exclusive (disjoint)
+    - Finest-grain (can't make it more granular)
+    - Collectively exhaustive (all outcome lies in *Ω*)
+    - Set of all possible outcomes in a random experiment
+  - Event: a collection of sample points (i.e. a subset of *Ω*)
+  - Event Space *Σ*
+    - If *Ω* is finite, the *Σ* is the power set of *Ω*.
+    - Set of all possible events
+
+Example: I flip a coin until H is obtained.
+*Ω = \{H, TH, TTH, ... }* (countably infinite sample space)
+An event can be: \{H, TH}
+*Σ = \{ \{H}, \{TH}, \{H, TH}, \{TTH}, \{TTH, H}, \{TTH, TH}, \{TTH, TH, H} ... }*
+
+- *P: Σ → ℝ*
+
+Axioms of Probability:
+- I. Nonnegativity: for any event *A*, *P(A) ≥ 0*
+- II. Normalization: *P(Ω) = 1*
+- III. (Finite) Additivity: If *A<sub>1</sub> ∩ A<sub>2</sub> = Φ*, then *P(A<sub>1</sub> ∪ A<sub>2</sub>) = P(A<sub>1</sub>) + P(A<sub>2</sub>)* (valid for finite sample space)
+
+Consequences of the Axioms:
+- *P(A) + P(A<sup>C</sup>) = P(Ω) = 1* (by III, then II)
+- *0 ≤ P(A) = 1 - P(A<sup>C</sup>) ≤ 1*
+- If *A ⊆ B*, *P(A) ≤ P(B)* \[Monotonicity]
+  - Since *A ∩ (B - A) = Φ*, *P(B) = P(A) + P(B - A)*. Hence *P(A) = P(B) - P(B - A) ≤ P(B)*.
+- *P(B) = Σ<sub>i</sub>P(B ∩ A<sub>i</sub>)* for disjoint *A<sub>i</sub>* s.t. *Σ<sub>i</sub>P(A<sub>i</sub>) = 1*
+
 
 ##### Misc
 
