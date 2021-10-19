@@ -296,6 +296,9 @@ Vector Calculus
 - The minimal polynomial shares the same roots as the characteristic polynomial.
   - \[Corollary] The minimal polynomial divides the characteristic polynomial (since *P(A) = 0* for characteristic polynomial)
 
+#### Jordan Canonical Form
+- The algebraic multiplicity of each eigenvalues give the size of the corresponding Jordan block.
+
 #### Minkowski-Hasse Theorem (*𝕂 = ℚ* or *𝕂 = ℤ<sub>p</sub>*)
   
 #### Orthogonal and Orthonormal
@@ -335,8 +338,6 @@ Given a basis *{v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>}*, we can alway
 #### Quivers
 
 ##### Gabriel's Theorem
-
-#### Jordan Canonical Form
 
 #### Nilpotence / Unipotence
 
