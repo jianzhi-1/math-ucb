@@ -292,6 +292,7 @@ Vector Calculus
 
 #### Eigenvalues and Eigenvectors
 - \[Cayley Hamilton] Let *A* be a matrix with characteristic polynomial *P*. Then *P(A) = 0*.
+  - *A<sup>n</sup>* where *n > rank(A)* can be expressed in smaller powers of *A*.
 - The minimal polynomial shares the same roots as the characteristic polynomial.
   - \[Corollary] The minimal polynomial divides the characteristic polynomial (since *P(A) = 0* for characteristic polynomial)
 
