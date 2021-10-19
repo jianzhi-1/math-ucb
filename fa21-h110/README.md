@@ -297,7 +297,8 @@ Vector Calculus
   - \[Corollary] The minimal polynomial divides the characteristic polynomial (since *P(A) = 0* for characteristic polynomial)
 
 #### Jordan Canonical Form
-- The algebraic multiplicity of each eigenvalues give the size of the corresponding Jordan block.
+- The algebraic multiplicity of each eigenvalues give the size of the corresponding Jordan block. 
+- The Jordan blocks are independent of each other.
 
 #### Minkowski-Hasse Theorem (*𝕂 = ℚ* or *𝕂 = ℤ<sub>p</sub>*)
   
