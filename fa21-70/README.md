@@ -130,6 +130,7 @@ Suppose *A* is bijected to *B*.
     - Collectively exhaustive (all outcome lies in *Ω*)
     - Set of all possible outcomes in a random experiment
   - Event: a collection of sample points (i.e. a subset of *Ω*)
+    - Complement of the event is the complement of the event set in *Ω* (disc 8A)
   - Event Space *Σ*
     - If *Ω* is finite, the *Σ* is the power set of *Ω*.
     - Set of all possible events
