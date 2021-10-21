@@ -160,6 +160,7 @@ Finite Uniform Probability Law
   - Example: *P(R) = |{R<sub>1</sub>, R<sub>2</sub>}|/|Ω|*
 *P(A|B) = P(A ∩ B)/P(B)*
 Independence: *A* and *B* are independent events implies *P(A|B) = P(A)*
+Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 
 ##### Misc
 
