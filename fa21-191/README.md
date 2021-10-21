@@ -7,8 +7,8 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - [x] Week 3: Modular Arithmetic
 - [x] Week 4: Rational and Irrational Numbers
 - [x] Week 5: Progressions
-- [ ] Week 6: Complex
-- [ ] Week 7:
+- [x] Week 6: Complex
+- [x] Week 7: Polynomials
 - [ ] Week 8:
 - [ ] Week 9:
 
