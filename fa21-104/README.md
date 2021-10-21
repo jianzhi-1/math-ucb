@@ -10,7 +10,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 5: Integration Test, Alternate Series Test (lec9), Continuity (lec10)
 - [x] Week 6: Properties of Continuous Functions (lec11), Uniform Continuity (lec12)
 - [x] Week 7: Limits of Functions (lec13), Power Series (lec14)
-- [x] Week 8: Uniform Convergence (lec15), (lec16)
+- [x] Week 8: Uniform Convergence (lec15), Metric Spaces (lec16)
 - [ ] Week 9: (lec17), Midterm 2
 - [ ] Week 10:
 - [ ] Week 11:
