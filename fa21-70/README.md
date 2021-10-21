@@ -154,6 +154,12 @@ Consequences of the Axioms:
   - Since *A ∩ (B - A) = Φ*, *P(B) = P(A) + P(B - A)*. Hence *P(A) = P(B) - P(B - A) ≤ P(B)*.
 - *P(B) = Σ<sub>i</sub>P(B ∩ A<sub>i</sub>)* for disjoint *A<sub>i</sub>* s.t. *Σ<sub>i</sub>P(A<sub>i</sub>) = 1*
 
+### (10/21)
+Finite Uniform Probability Law
+- The probability of an event *E* = *|E|/|Ω|*
+  - Example: *P(R) = |{R<sub>1</sub>, R<sub>2</sub>}|/|Ω|*
+*P(A|B) = P(A ∩ B)/P(B)*
+Independence: *A* and *B* are independent events implies *P(A|B) = P(A)*
 
 ##### Misc
 
