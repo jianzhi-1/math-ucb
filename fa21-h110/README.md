@@ -10,7 +10,7 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 - [x] Week 5: Determinant (lec10), Cofactor Theorem, Adjugate Matrix (lec11)
 - [x] Week 6: Determinant Formulae (lec12), Determinant Exercises (lec13)
 - [x] Week 7: Rank Theorem (lec14), Dimension Counting (lec15)
-- [x] Week 8: Gaussian Elimination (lec16)
+- [x] Week 8: Gaussian Elimination (lec16), LPU Decomposition and Flags (lec17)
 - [ ] Week 9:
 - [ ] Week 10:
 - [ ] Week 11:
