@@ -11,7 +11,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 6: Properties of Continuous Functions (lec11), Uniform Continuity (lec12)
 - [x] Week 7: Limits of Functions (lec13), Power Series (lec14)
 - [x] Week 8: Uniform Convergence (lec15), Metric Spaces (lec16)
-- [ ] Week 9: (lec17), Midterm 2
+- [ ] Week 9: Open and Closed Sets (lec17), Midterm 2
 - [ ] Week 10:
 - [ ] Week 11:
 - [ ] Week 12:
@@ -180,9 +180,8 @@ fundamental theorem of calculus
 - [x] 21 Practice 2
 
 #### Midterm 2 Prep 😤
-- [ ] 21 Practice 1
-- [ ] 21 Practice 2
-- [ ] 21 Extra Problems
+- [x] 21 Practice 1
+- [x] 21 Practice 2
 
 #### Final Exam Prep 😤
 - [ ] YY Fall/Spring/Summer
