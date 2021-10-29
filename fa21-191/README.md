@@ -9,7 +9,7 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - [x] Week 5: Progressions
 - [x] Week 6: Complex
 - [x] Week 7: Polynomials
-- [ ] Week 8:
+- [x] Week 8: Polynomial Equations and Symmetric Functions
 - [ ] Week 9:
 
 ### Notes
@@ -44,6 +44,11 @@ A field is a set with several structures and two operations, denoted as +, *.
 
 ### Primitive Roots
 Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* and *w<sup>k</sup> *
+
 ### Laurent Series
 
 ### Group Character Theory
+
+### Companion Matrix
+
+### Controllable Canonical Form
