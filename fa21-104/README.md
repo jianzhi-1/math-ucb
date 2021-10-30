@@ -11,7 +11,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 6: Properties of Continuous Functions (lec11), Uniform Continuity (lec12)
 - [x] Week 7: Limits of Functions (lec13), Power Series (lec14)
 - [x] Week 8: Uniform Convergence (lec15), Metric Spaces (lec16)
-- [ ] Week 9: Open and Closed Sets (lec17), Midterm 2
+- [x] Week 9: Open and Closed Sets (lec17), Midterm 2
 - [ ] Week 10:
 - [ ] Week 11:
 - [ ] Week 12:
@@ -128,15 +128,22 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 differentiation and integration of power series
 
 #### Differentiation
-derivative
-Mean Value Theorem
+- (28.2) If *f* is differentiable at *a*, then *f* is continuous at *a*.
+- (29.1) If *f* is defined on an open interval containing *x<sub>0</sub>* and assumes its maximum or minimum at *x<sub>0</sub>*, then *f'(x<sub>0</sub>) = 0*.
+- (Rolle's) Let *f* be a continuous function on *\[a, b]* that is differentiable on *(a, b)* and satisfies *f(a) = f(b)*. Then exists *x* in *(a, b)* s.t. *f'(x) = 0*.
+- (Mean Value) Let *f* be a continuous function on *\[a, b]* that is differentiable on *(a, b)*. Then exists *x* in *(a, b)* s.t. *f'(x) = (f(b) - f(a))/(b - a)*.
+  - If *f* is a differentiable function on *(a, b)* s.t. *f'(x) = 0* for all *x* in *(a, b)*, then *f(x) = c* for *x* in *(a, b)*.
+  - If *f, g* are differentiable functions on *(a, b)* s.t. *f'(x) = g'(x)* for all *x* in *(a, b)*, then exists *c* s.t. *f(x) = g(x) + c* for *x* in *(a, b)*.
+- (Intermediate Value for Derivatives) Let *f* be a differentiable function on *(a, b)*. If *a < x<sub>1</sub> < x<sub>2</sub> < b* and if *c* lies between *f'(x<sub>1</sub>)* and *f'(x<sub>2</sub>)*, then exists *x* in *(x<sub>1</sub>, x<sub>2</sub>)* s.t. *f'(x) = c*.
+
 L'Hôpital Rule
 
 #### Integration
 Riemann integral
+Darboux Integral
 fundamental theorem of calculus
 
-#### Taylor Series
+#### Power Series and Taylor Series
 
 #### Metric Space
 
@@ -170,8 +177,6 @@ fundamental theorem of calculus
   - The intersection of any collection of closed sets is closed.
 - \[Heine-Borel] A subset *E* of *ℝ<sup>k</sup>* is compact iff it is closed and bounded.
 - \[Baire Category Theorem]
-
-#### Darboux Integral
 
 ### Exam Area
 
