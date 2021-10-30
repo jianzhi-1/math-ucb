@@ -361,3 +361,9 @@ Every quadratic form in *n* variables can be transformed by a suitable linear ch
 ##### Orthogonal Diagonalization Theorem
 
 ##### Jordan Canonical Form Theorem
+
+### Exam Area
+
+#### Final Exam Prep 😤
+- [ ] YY Fall/Spring/Summer
+- [ ] YY Fall/Spring/Summer
