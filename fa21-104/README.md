@@ -12,7 +12,7 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 7: Limits of Functions (lec13), Power Series (lec14)
 - [x] Week 8: Uniform Convergence (lec15), Metric Spaces (lec16)
 - [x] Week 9: Open and Closed Sets (lec17), Midterm 2
-- [ ] Week 10:
+- [ ] Week 10: Derivatives (lec18), 
 - [ ] Week 11:
 - [ ] Week 12:
 - [ ] Week 13:
