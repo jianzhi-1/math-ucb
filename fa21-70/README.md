@@ -4,7 +4,7 @@ UC Berkeley Fall 2021, taught by Prof Satish Rao and Prof Babak Ayazifar
 
 - [x] Week 8: 
 - [x] Week 9: 
-- [ ] Week 10: Random Variables (lec19), 
+- [x] Week 10: Random Variables (lec19), Expectation (lec20)
 - [ ] Week 11:
 - [ ] Week 12:
 - [ ] Week 13:
