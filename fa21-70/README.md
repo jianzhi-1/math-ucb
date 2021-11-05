@@ -223,7 +223,7 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
 - Tail Sum Formula: For *X* taking on values *0, 1, 2, ...*, *𝐄\[X] = Σ<sub>i</sub><sup>∞</sup>𝐏\[X ≥ i]*
-- 
+- *𝐄\[X(X - 1)]*: equivalent to differentiation actually
 
 ##### Applications
 - Hashing
