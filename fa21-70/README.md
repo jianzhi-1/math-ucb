@@ -226,7 +226,7 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 6. Hypergeometric Distribution
 - Equivalent to the distribution of the number of red balls from choosing *n < N* balls from *N* balls of which *B* are red and the rest are yellow.
 - *X ~ Hypergeometric(N, B, n)*
-- *𝐏\[X = k] = <sup>B</sup>C<sub>k</sub><sup>N - B</sup>C<sub>n - k</sub>/<sup>N</sup>C<sub>n</sub>
+- *𝐏\[X = k] = <sup>B</sup>C<sub>k</sub><sup>N - B</sup>C<sub>n - k</sub>/<sup>N</sup>C<sub>n</sub>*
 
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
