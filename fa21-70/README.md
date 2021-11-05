@@ -223,6 +223,11 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 5. Normal Distribution
 - *X ~ N(μ, σ<sup>2</sup>)*
 
+6. Hypergeometric Distribution
+- Equivalent to the distribution of the number of red balls from choosing *n < N* balls from *N* balls of which *B* are red and the rest are yellow.
+- *X ~ Hypergeometric(N, B, n)*
+- *𝐏\[X = k] = <sup>B</sup>C<sub>k</sub><sup>N - B</sup>C<sub>n - k</sub>/<sup>N</sup>C<sub>n</sub>
+
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
 - Tail Sum Formula: For *X* taking on values *0, 1, 2, ...*, *𝐄\[X] = Σ<sub>i</sub><sup>∞</sup>𝐏\[X ≥ i]*
