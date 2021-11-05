@@ -228,6 +228,10 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - *X ~ Hypergeometric(N, B, n)*
 - *𝐏\[X = k] = <sup>B</sup>C<sub>k</sub><sup>N - B</sup>C<sub>n - k</sub>/<sup>N</sup>C<sub>n</sub>*
 
+7. Uniform Distribution
+- *X ~ Uniform(S)* where *S* is a set of values
+- Honestly, I just put this in for fun.
+
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
 - Tail Sum Formula: For *X* taking on values *0, 1, 2, ...*, *𝐄\[X] = Σ<sub>i</sub><sup>∞</sup>𝐏\[X ≥ i]*
