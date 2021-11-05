@@ -186,15 +186,52 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - Lovasz Local Lemma
 
 ##### Distributions
-- Geometric Distribution
-- Poisson Distribution
-- Normal Distribution
+1. Bernoulli Distribution
+- Special case of binomial distribution in which a single trial is conducted (i.e. *n = 1*).
+- *X ~ Bernoulli(p)*
+- *𝐏\[X = 0] = (1 - p)*
+- *𝐏\[X = 1] = p*
+- *𝐄\[X] = p*
+- *Var\[X] = p(1 - p)*
+
+2. Binomial Distribution
+- Equivalent to a random variable that counts the number of heads that a single coin with bias *p* and flipped *n* times will yield.
+- *X ~ Binom(n, p)*
+- *𝐏\[X = i] = <sup>n</sup>C<sub>i</sub>p<sup>i</sup>(1 - p)<sup>n - i</sup>* for *i = 0, 1, ..., n*
+- *𝐄\[X] = np*
+- *Var\[X] = np(1 - p)*
+- Prove by reduction to Binomial experiments + linearity of expectations OR algebra.
+
+3. Geometric Distribution
+- Equivalent to a random variable that counts the number of heads that a single coin with bias *p* takes to return a head (including the final toss).
+- *X ~ Geometric(p)*
+- *𝐏\[X = i] = (1 - p)<sup>i - 1</sup>p* for *i = 1, 2, ...*
+- *𝐄\[X] = 1/p*
+- *Var\[X] = (1 - p)/p<sup>2</sup>*
+- *f(x) = px/(1 - (1 - p)x)*
+- Prove by Tail Sum Formula OR state analysis OR conditional expectation OR algebra.
+
+4. Poisson Distribution
+- Used for experiments for the number of occurrences in a region of unit size.
+- *X ~ Poisson(λ)*
+- *𝐏\[X = i] = (λ<sup>i</sup>/i!)e<sup>-λ</sup>* for *i = 0, 1, 2, ...*
+- *𝐄\[X] = λ*
+- *Var\[X] = λ*
+
+5. Normal Distribution
+
+##### Tricks (up my sleeves)
+- Algebra / Calculus / Probability Generating Function (see below)
+- Tail Sum Formula: For *X* taking on values *0, 1, 2, ...*, *𝐄\[X] = Σ<sub>i</sub><sup>∞</sup>𝐏\[X ≥ i]*
+- 
 
 ##### Applications
 - Hashing
 - Regression/Least Squares
 
 #### Markov Chains
+
+#### Probability Generating Functions
 
 
 ### Exam Area
