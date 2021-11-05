@@ -217,8 +217,11 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - *𝐏\[X = i] = (λ<sup>i</sup>/i!)e<sup>-λ</sup>* for *i = 0, 1, 2, ...*
 - *𝐄\[X] = λ*
 - *Var\[X] = λ*
+- If *X ~ Poisson(λ)* and *Y ~ Poisson(μ)*, then *X + Y ~ Poisson(λ + μ)* (which can be generalized to *n* Poisson distributions).
+- \[Approximation to Binomial] If *X ~ Binom(n, λ/n)*, then *𝐏\[X = i] → (λ<sup>i</sup>/i!)e<sup>-λ</sup>* as *n → ∞*
 
 5. Normal Distribution
+- *X ~ N(μ, σ<sup>2</sup>)*
 
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
