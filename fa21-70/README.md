@@ -178,6 +178,13 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 
 ##### Toolbox
 (Credits: the last three tools are from Evan Chen's [Expected Use of Probability](https://web.evanchen.cc/handouts/ProbabilisticMethod/ProbabilisticMethod.pdf))
+###### Common
+1. *𝐄\[X + Y] = 𝐄\[X] + 𝐄\[Y]*
+2. *Var\[cX] = c<sup>2</sup>Var\[X]*
+3. For **independent** random variables *X, Y*, *𝐄\[XY] = 𝐄\[X]𝐄\[Y]*
+4. For **independent** random variables *X, Y*, *Var\[X + Y] = Var\[X] + Var\[Y]*
+5. *Var\[X + Y] = Var\[X] + Var\[Y] + 2 Cov\[X, Y]*
+
 - Markov's Inequality
 - Chebyshev's Inequality
 - Law of Large Numbers
@@ -231,6 +238,13 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 7. Uniform Distribution
 - *X ~ Uniform(S)* where *S* is a set of values
 - Honestly, I just put this in for fun.
+
+##### Covariance
+- *Cov\[X, Y] = 𝐄\[(X - μ<sub>X</sub>)(Y - μ<sub>Y</sub>)] = 𝐄\[XY] - 𝐄\[X]𝐄\[Y]*
+- *Cov\[X, X] = Var\[X]*
+- For independent *X, Y*, *Cov\[X, Y] = 0*.
+- *Cov\[X, Y]* is bilinear, i.e *Cov\[aX<sub>1</sub> + bX<sub>2</sub>, cY<sub>1</sub> + dY<sub>2</sub>] = ac·Cov\[X<sub>1</sub>, Y<sub>1</sub>] + ad·Cov\[X<sub>1</sub>, Y<sub>2</sub>] + bc·Cov\[X<sub>2</sub>, Y<sub>1</sub>] + bd·Cov\[X<sub>2</sub>, Y<sub>2</sub>]*. (I love Linear Algebra!)
+- *Corr\[X, Y] = Cov\[X, Y]/σ<sub>X</sub>σ<sub>Y</sub>*
 
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
