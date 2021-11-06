@@ -242,9 +242,20 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 ##### Covariance
 - *Cov\[X, Y] = 𝐄\[(X - μ<sub>X</sub>)(Y - μ<sub>Y</sub>)] = 𝐄\[XY] - 𝐄\[X]𝐄\[Y]*
 - *Cov\[X, X] = Var\[X]*
-- For independent *X, Y*, *Cov\[X, Y] = 0*.
+- *Var\[X + Y] = Var\[X] + Var\[Y] + 2 Cov\[X, Y]*
+- For independent *X, Y*, *Cov\[X, Y] = 0* (converse not true).
 - *Cov\[X, Y]* is bilinear, i.e *Cov\[aX<sub>1</sub> + bX<sub>2</sub>, cY<sub>1</sub> + dY<sub>2</sub>] = ac·Cov\[X<sub>1</sub>, Y<sub>1</sub>] + ad·Cov\[X<sub>1</sub>, Y<sub>2</sub>] + bc·Cov\[X<sub>2</sub>, Y<sub>1</sub>] + bd·Cov\[X<sub>2</sub>, Y<sub>2</sub>]*. (I love Linear Algebra!)
 - *Corr\[X, Y] = Cov\[X, Y]/σ<sub>X</sub>σ<sub>Y</sub>*
+- *-1 ≤ Corr\[X, Y] = Cov\[X', Y'] ≤ 1* (prove by setting *X' = (X - μ<sub>X</sub>)/σ<sub>X</sub>* and *Y' = (Y - μ<sub>Y</sub>)/σ<sub>Y</sub>*
+- *Corr\[X, Y] = 1* ⇒ *Y = AX + B* for *A > 0* (*Y' = X')
+- *Corr\[X, Y] = -1* ⇒ *Y = AX + B* for *A < 0* (*Y' = -X')
+
+##### Probabilistic Bounding
+- (Markov's Inequality) For a nonnegative random variable *X*, *𝐏\[X ≥ c] ≤ 𝐄\[X]/c*.
+- (Generalized Markov's Inequality) For random variable *Y* with finite mean and positive constants *c* and *r*, *𝐏\[|Y| ≥ c] ≤ 𝐄\[|Y|<sup>r</sup>]/c<sup>r</sup>*.
+- (Chebyshev's Inequality) For a random variable *X* with finite expectation *μ* and any positive constant *c*, *𝐏\[|X - μ| ≥ c] ≤ Var\[X]/c<sup>2</sup>*. (prove by generalized Markov's when *r = 2*)
+- (Corollary) *𝐏\[|X - μ| ≥ kσ] ≤ 1/k<sup>2</sup>*
+- (Law of Large Numbers) Let *X<sub>1</sub>*, *X<sub>2</sub>*, ... be a sequence of random variables and denote *(S<sub>i</sub>)* as its partial sum sequence. Then *𝐏\[|S<sub>n</sub>/n - μ| < ε] → 0* as *n → ∞* for all *ε > 0*. (prove by generalized Markov's)
 
 ##### Tricks (up my sleeves)
 - Algebra / Calculus / Probability Generating Function (see below)
