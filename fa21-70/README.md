@@ -267,6 +267,11 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - Regression/Least Squares
 
 #### Markov Chains
+- Transition Probability Matrix: *P<sub>ij</sub> = 𝐏\[X<sub>n+1</sub> = j | X<sub>n</sub> = i]* (due to *amnesic* nature). Equivalently, *P<sub>ij</sub>* denotes the probability that the system transits from state *i* to state *j*.
+- ***μ<sup>(k)</sup>*** is a row vector denoting the distribution at step *k*.
+- *𝐏\[X<sub>0</sub> = i] = **μ**<sup>(0)</sup><sub>i</sub>*, i.e. ***μ<sup>(k)</sup><sub>j</sub>*** is the probability of being in state enumerated *j* at step *k*; sum over all *j* = 1.
+- ***μ**<sup>(n)</sup> = μ<sup>(0)</sup>·P<sup>n</sup>* (incrementing step)
+- *𝐏\[X<sub>n</sub> = i] = \[**μ**<sup>(n)</sup>]<sub>i</sub> = \[**μ**<sup>(0)</sup>·P<sup>n</sup>]<sub>i</sub>*
 
 #### Probability Generating Functions
 
