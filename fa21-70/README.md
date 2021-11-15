@@ -254,6 +254,7 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - (Markov's Inequality) For a nonnegative random variable *X*, *𝐏\[X ≥ c] ≤ 𝐄\[X]/c*.
 - (Generalized Markov's Inequality) For random variable *Y* with finite mean and positive constants *c* and *r*, *𝐏\[|Y| ≥ c] ≤ 𝐄\[|Y|<sup>r</sup>]/c<sup>r</sup>*.
 - (Extended Markov's Inequality) For a random variable *X* not necessarily nonnegative, let *Φ(X)* be a non-negative function which is monotonically increasing for *x > 0* and *α* be a positive constant. Then *𝐏\[X ≥ α] ≤ 𝐄\[Φ(X)]/Φ(α)*.
+- (Cantelli's Inequality) *𝐏\[X ≥ α] ≤ σ<sup>2</sup>/(α<sup>2</sup> + σ<sup>2</sup>)*
 - (Chebyshev's Inequality) For a random variable *X* with finite expectation *μ* and any positive constant *c*, *𝐏\[|X - μ| ≥ c] ≤ Var\[X]/c<sup>2</sup>*. (prove by generalized Markov's when *r = 2*)
 - (Corollary) *𝐏\[|X - μ| ≥ kσ] ≤ 1/k<sup>2</sup>*
 - (Law of Large Numbers) Let *X<sub>1</sub>*, *X<sub>2</sub>*, ... be a sequence of random variables and denote *(S<sub>i</sub>)* as its partial sum sequence. Then *𝐏\[|S<sub>n</sub>/n - μ| < ε] → 0* as *n → ∞* for all *ε > 0*. (prove by generalized Markov's)
