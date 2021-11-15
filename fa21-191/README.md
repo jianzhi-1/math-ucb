@@ -52,3 +52,5 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 ### Companion Matrix
 
 ### Controllable Canonical Form
+
+### Meromorphic Function
