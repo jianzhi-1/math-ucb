@@ -247,8 +247,8 @@ Baye's Rule: *P(A|B) = P(B|A) (P(A)/P(B))*
 - *Cov\[X, Y]* is bilinear, i.e *Cov\[aX<sub>1</sub> + bX<sub>2</sub>, cY<sub>1</sub> + dY<sub>2</sub>] = ac·Cov\[X<sub>1</sub>, Y<sub>1</sub>] + ad·Cov\[X<sub>1</sub>, Y<sub>2</sub>] + bc·Cov\[X<sub>2</sub>, Y<sub>1</sub>] + bd·Cov\[X<sub>2</sub>, Y<sub>2</sub>]*. (I love Linear Algebra!)
 - *Corr\[X, Y] = Cov\[X, Y]/σ<sub>X</sub>σ<sub>Y</sub>*
 - *-1 ≤ Corr\[X, Y] = Cov\[X', Y'] ≤ 1* (prove by setting *X' = (X - μ<sub>X</sub>)/σ<sub>X</sub>* and *Y' = (Y - μ<sub>Y</sub>)/σ<sub>Y</sub>*
-- *Corr\[X, Y] = 1* ⇒ *Y = AX + B* for *A > 0* (*Y' = X')
-- *Corr\[X, Y] = -1* ⇒ *Y = AX + B* for *A < 0* (*Y' = -X')
+- *Corr\[X, Y] = 1* ⇒ *Y = AX + B* for *A > 0* (*Y' = X'*)
+- *Corr\[X, Y] = -1* ⇒ *Y = AX + B* for *A < 0* (*Y' = -X'*)
 
 ##### Probabilistic Bounding
 - (Markov's Inequality) For a nonnegative random variable *X*, *𝐏\[X ≥ c] ≤ 𝐄\[X]/c*.
