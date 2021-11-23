@@ -54,3 +54,11 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 ### Controllable Canonical Form
 
 ### Meromorphic Function
+
+### Exam Area
+
+#### Putnam Prep 😤
+- Week 1
+  - [ ] Day 1: Putnam 2017
+  - [ ] Day 2: 
+- Week 2
