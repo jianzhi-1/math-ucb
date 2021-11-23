@@ -60,16 +60,16 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 
 ### Putnam Prep 😤
 - Week 1
-  - [x] Day 1: Putnam 2017 - A1, A2, A3
-  - [ ] Day 2: Putnam 2017 - A4, A5, A6
-  - [ ] Day 3: Putnam 2017 - B1, B2, B3, B4, B5, B6
-  - [ ] Day 4: Putnam 2018 - A1, A2, A3, A4, A5, A6
-  - [ ] Day 5: Putnam 2018 - B1, B2, B3, B4, B5, B6
-  - [ ] Day 6: Putnam 2019 - A1, A2, A3, A4, A5, A6
-  - [ ] Day 7: Putnam 2019 - B1, B2, B3, B4, B5, B6
+  - [x] Day 1: Putnam 2017 - A1, A2, A3, A4, A5, A6
+  - [x] Day 2: Putnam 2017 - B1, B2, B3, B4, B5, (B6)
+  - [ ] Day 3: Putnam 2018 - A1, A2, A3, A4, A5, A6
+  - [ ] Day 4: Putnam 2018 - B1, B2, B3, B4, B5, B6
+  - [ ] Day 5: Putnam 2019 - A1, A2, A3, A4, A5, A6
+  - [ ] Day 6: Putnam 2019 - B1, B2, B3, B4, B5, B6
+  - [ ] Day 7: Putnam 2020 - A1, A2, A3, A4, A5, A6
 - Week 2
-  - [ ] Day 1: Putnam 2020 - A1, A2, A3, A4, A5, A6
-  - [ ] Day 2: Putnam 2020 - B1, B2, B3, B4, B5, B6
-  - [ ] Day 3: Putnam 2021 - A1, A2, A3, A4, A5, A6
-  - [ ] Day 4: Putnam 2021 - B1, B2, B3, B4, B5, B6
+  - [ ] Day 1: Putnam 2020 - B1, B2, B3, B4, B5, B6
+  - [ ] Day 2: Putnam 2021 - A1, A2, A3, A4, A5, A6
+  - [ ] Day 3: Putnam 2021 - B1, B2, B3, B4, B5, B6
+  - [ ] Day 4: Cool Down
   - [ ] Day 5: Cool Down
