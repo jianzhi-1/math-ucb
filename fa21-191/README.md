@@ -58,9 +58,7 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 
 ### Meromorphic Function
 
-### Exam Area
-
-#### Putnam Prep 😤
+### Putnam Prep 😤
 - Week 1
   - [x] Day 1: Putnam 2017 - A1, A2, A3
   - [ ] Day 2: Putnam 2017 - A4, A5, A6
