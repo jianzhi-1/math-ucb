@@ -10,7 +10,10 @@ UC Berkeley Fall 2021, taught by Prof Olga Holtz
 - [x] Week 6: Complex
 - [x] Week 7: Polynomials
 - [x] Week 8: Polynomial Equations and Symmetric Functions
-- [ ] Week 9:
+- [x] Week 9: Generating Functions
+- [x] Week 10: Complex Analysis
+- [x] Week 11: Linear Algebra
+- [x] Week 12: Cool Down
 
 ### Notes
 
