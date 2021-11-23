@@ -59,6 +59,7 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 
 #### Putnam Prep 😤
 - Week 1
-  - [ ] Day 1: Putnam 2017
-  - [ ] Day 2: 
+  - [x] Day 1: Putnam 2017 - A1, A2, A3
+  - [ ] Day 2: Putnam 2017 - A4, A5, A6
+  - [ ] Day 3: 
 - Week 2
