@@ -54,6 +54,8 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 
 ### Companion Matrix
 
+Every polynomial is the characteristic equation of a *n × n* matrix. For the companion matrix, the polynomial is its characteristic as well as minimal polynomial.
+
 ### Controllable Canonical Form
 
 ### Meromorphic Function
