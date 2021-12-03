@@ -73,6 +73,6 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 - Week 2
   - [x] Day 1: Break
   - [x] Day 2: Putnam 2020 - A4, (A5), (A6)
-  - [ ] Day 3: Putnam 2020 - B1, B2, B3, B4, B5, B6
-  - [ ] Day 4: Cool Down
-  - [ ] Day 5: Cool Down
+  - [x] Day 3: Putnam 2020 - B1, B2, B3, B4, B5, B6
+  - [x] Day 4: Cool Down
+  - [x] Day 5: Cool Down
