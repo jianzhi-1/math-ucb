@@ -59,6 +59,8 @@ Primitive *m*th root of unity is any number *w* satisfying *w<sup>m</sup> = 1* a
 ### Complex Analysis
 ##### Meromorphic Function
 
+### Schur's Complement
+
 ### Putnam Prep 😤
 - Week 1
   - [x] Day 1: Putnam 2017 - A1, A2, A3, A4, A5, A6
