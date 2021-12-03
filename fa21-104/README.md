@@ -14,9 +14,9 @@ UC Berkeley Fall 2021, taught by Prof Koji Shimizu
 - [x] Week 9: Open and Closed Sets (lec17), Midterm 2
 - [x] Week 10: Derivatives (lec18), Mean Value Theorem (lec19)
 - [x] Week 11: L'Hospital's Rule (lec20), Veteran's Day
-- [ ] Week 12:
-- [ ] Week 13:
-- [ ] Week 14:
+- [x] Week 12: Taylor's Theorem (lec21), The Darboux Integral (lec22)
+- [x] Week 13: Properties of Darboux Integral (lec23), Thanksgiving
+- [x] Week 14: Fundamental Theorem of Calculus (lec24), Differentiation and Integration of Power Series (lec25)
 - [ ] Week 15: RRR Week
 - [ ] Week 16: Final Exam
 
