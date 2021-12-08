@@ -189,4 +189,5 @@ fundamental theorem of calculus
 - [x] 21 Practice 2
 
 #### Final Exam Prep 😤
-- [ ] YY Fall/Spring/Summer
+- [x] 21 Practice 1
+- [x] 21 Practice 2
