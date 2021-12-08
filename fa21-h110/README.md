@@ -365,5 +365,4 @@ Every quadratic form in *n* variables can be transformed by a suitable linear ch
 ### Exam Area
 
 #### Final Exam Prep 😤
-- [ ] YY Fall/Spring/Summer
-- [ ] YY Fall/Spring/Summer
+- [x] 15 Finals
