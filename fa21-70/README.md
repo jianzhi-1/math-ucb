@@ -7,10 +7,8 @@ UC Berkeley Fall 2021, taught by Prof Satish Rao and Prof Babak Ayazifar
 - [x] Week 10: Random Variables (lec19), Expectation (lec20)
 - [x] Week 11: Variance (lec21)
 - [x] Week 12: , Markov's Inequality (lec24)
-- [ ] Week 13:
+- [x] Week 13:
 - [x] Week 14: , Estimation (lecXX)
-- [ ] Week 15: RRR Week
-- [ ] Week 16: Final Exam
 
 ### Notes
 
@@ -290,4 +288,5 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/m
 #### Finals Prep 😤
 See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/mid-term1sheet.pdf)
 - [x] Fall 20
+- [x] Spring 20
 - [ ] Spring/Fall/Summer YY Finals
