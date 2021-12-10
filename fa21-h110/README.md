@@ -12,13 +12,11 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 - [x] Week 7: Rank Theorem (lec14), Dimension Counting (lec15)
 - [x] Week 8: Gaussian Elimination (lec16), LPU Decomposition and Flags (lec17)
 - [x] Week 9: Inertia Theorem (lec18), Sylvester's Rule (lec19)
-- [ ] Week 10:
-- [ ] Week 11:
-- [ ] Week 12:
-- [ ] Week 13:
-- [ ] Week 14:
-- [ ] Week 15: RRR Week
-- [ ] Week 16: Final Exam
+- [x] Week 10:
+- [x] Week 11:
+- [x] Week 12:
+- [x] Week 13:
+- [x] Week 14:
 
 ### Notes
 
@@ -365,5 +363,5 @@ Every quadratic form in *n* variables can be transformed by a suitable linear ch
 ### Exam Area
 
 #### Final Exam Prep 😤
-See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet.pdf)
+See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-h110/MathH110FinalsSheet.pdf)
 - [x] 15 Finals
