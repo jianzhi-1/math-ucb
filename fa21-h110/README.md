@@ -365,4 +365,5 @@ Every quadratic form in *n* variables can be transformed by a suitable linear ch
 ### Exam Area
 
 #### Final Exam Prep 😤
+See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet.pdf)
 - [x] 15 Finals
