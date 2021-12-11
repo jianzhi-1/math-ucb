@@ -12,11 +12,11 @@ UC Berkeley Fall 2021, taught by Prof Alexander Givental
 - [x] Week 7: Rank Theorem (lec14), Dimension Counting (lec15)
 - [x] Week 8: Gaussian Elimination (lec16), LPU Decomposition and Flags (lec17)
 - [x] Week 9: Inertia Theorem (lec18), Sylvester's Rule (lec19)
-- [x] Week 10:
-- [x] Week 11:
-- [x] Week 12:
-- [x] Week 13:
-- [x] Week 14:
+- [x] Week 10: Inner Product (lec20), Spectral Theorem (lec21)
+- [x] Week 11: Spectral Theorem - Real (lec22), Veteran's Day
+- [x] Week 12: Orthogonal Diagonalization (lec23), Nilpotence (lec24)
+- [x] Week 13: Jordan Canonical Form (lec25), Thanksgiving
+- [x] Week 14: Jordan Canonical Form - Real (lec26), Applications (lec27)
 
 ### Notes
 
