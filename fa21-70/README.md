@@ -2,13 +2,11 @@
 ### Discrete Mathematics and Probability Theory
 UC Berkeley Fall 2021, taught by Prof Satish Rao and Prof Babak Ayazifar
 
-- [x] Week 8: 
-- [x] Week 9: 
 - [x] Week 10: Random Variables (lec19), Expectation (lec20)
-- [x] Week 11: Variance (lec21)
-- [x] Week 12: , Markov's Inequality (lec24)
-- [x] Week 13:
-- [x] Week 14: , Estimation (lecXX)
+- [x] Week 11: Variance (lec21), Veteran's Day
+- [x] Week 12: Joint and Conditional PMF (lec22), Concentration Bounds (lec23)
+- [x] Week 13: Continuous Distribution (lec24), Thanksgiving
+- [x] Week 14: Normal Distribution (lec25), Estimation (lec26)
 
 ### Notes
 
