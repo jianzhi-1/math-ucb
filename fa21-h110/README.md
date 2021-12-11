@@ -367,3 +367,4 @@ See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-h110/
 - [x] 10 Finals
 - [x] 14 Finals
 - [x] 15 Finals (H)
+- [x] 19 Finals
