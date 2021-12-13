@@ -285,6 +285,7 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/m
 
 #### Finals Prep 😤
 See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/mid-term1sheet.pdf)
+- [x] Spring 19
 - [x] Fall 20
 - [x] Spring 20
 - [ ] Spring/Fall/Summer YY Finals
