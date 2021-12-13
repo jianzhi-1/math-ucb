@@ -284,7 +284,7 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/m
 - [x] Spring 18 Midterm 1
 
 #### Finals Prep 😤
-See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/mid-term1sheet.pdf)
+See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/FinalsSheet.pdf)
 - [x] Spring 19
 - [x] Fall 20
 - [x] Spring 20
