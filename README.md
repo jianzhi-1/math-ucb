@@ -7,6 +7,7 @@
 - 191: Experimental Courses in Mathematics (Putnam Seminar)
 
 ### Spring 2022
+- 105: Second Course in Analysis
 - 126: (EECS) Probability and Random Processes
 - 127: (EECS) Optimization Models in Engineering
 - 137A: (PHYSICS) Quantum Mechanics
