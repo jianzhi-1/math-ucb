@@ -2,6 +2,13 @@
 ### Second Course in Analysis
 UC Berkeley Spring 2022, taught by Prof Peng Zhou
 
+- [x] Week 1: Outer Measure (lec1); Properties of Outer Measure (lec2)
+- [ ] Week 2: 
+- [ ] Week 3:
+- [ ] Week 4:
+- [ ] Week 5:
+
+
 ### Symbols
 ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →
 
