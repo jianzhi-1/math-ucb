@@ -6,6 +6,29 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [ ] Week 2:
 - [ ] Week 3:
 
+
+### Lab Hacks
+
+##### Random
+```python3
+from numpy import random
+print(random.rand())
+print(random.rand(5))
+print(random.rand(3, 3))
+```
+
+##### Plotting
+
+##### Commonplace
+- Bernoulli
+```python3
+x = round(random.rand())
+```
+- Binomial(n, p)
+```python3
+# TODO
+```
+
 ### Probability
 
 ##### Convergence
