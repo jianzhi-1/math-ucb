@@ -9,6 +9,13 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 
 ### Lab Hacks
 
+##### Numpy Functions
+```python3
+np.sum(x, axis=1) # sum over rows
+np.random.rand(x, y) # generate a random matrix of dimensions x x y in the range [0, 1]
+np.count_nonzero(x, axis=1) # count the number of nonzero elements over rows
+```
+
 ##### Random
 ```python3
 from numpy import random
@@ -18,6 +25,10 @@ print(random.rand(3, 3))
 ```
 
 ##### Plotting
+```python3
+plt.figure() # new figure to plot on
+plt.hist(x, range=[xminrange, xmaxrange], bins=np.arange(xminrange, xmaxrange, 1)) # histogram with fixed x range and bin interval
+```
 
 ##### Commonplace
 - Bernoulli
