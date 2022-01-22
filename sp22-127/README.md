@@ -18,7 +18,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - *‖x‖<sub>∞</sub> = max<sub>i</sub>|x<sub>i</sub>|*
 
 ###### Dual Norm
-- For a given norm *‖·‖*, define the **dual norm** *‖·‖<sub>*</sub>* s.t. *‖y‖<sub>*</sub> = max<sub>x</sub> x<sup>T</sup>y* with *‖x‖ ≤ 1*.
+- For a given norm *‖·‖*, define the **dual norm** *‖·‖<sub>\*</sub>* s.t. *‖y‖<sub>\*</sub> = max<sub>x</sub> x<sup>T</sup>y* with *‖x‖ ≤ 1*.
   - Intuitively, the dual norm of a vector is the maximum value achieved after applying a linear function with norm *1* to it.
   - On Wikipedia, dual norm is the measure of size for a continuous linear function defined on vector space.
 - *x<sup>T</sup>y ≤ ‖x‖‖y‖<sub>\*</sub>*
