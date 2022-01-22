@@ -108,10 +108,11 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 ###### Largest Singular Value (LSV) Norm
 - *‖A‖<sub>LSV</sub> = max<sub>v | ‖v‖<sub>2</sub> &lt; 1</sub> ‖Av‖<sub>2</sub>*
 - Intuitively, captures the *worst case effect of noise*.
-  
+
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩
 ###### Variant of LSV Norm
-- *‖A‖<sub>LSV</sub> = max<sub>v | ‖v‖<sub>2</sub> < 1</sub> ‖Av‖<sub>2</sub>*
-- Intuitively, captures the *worst case effect of noise*.
+- *‖A‖<sub>∞, 1</sub> = max<sub>v | ‖v‖<sub>∞</sub> &lt; 1</sub> ‖Av‖<sub>1</sub>*
+- Intuitively, captures the *worst case effect of noise*, but considers all vectors *v* with largest component less than *1*.
 
 ##### Projection
 - Line *x<sub>0</sub> + tu*, *u* not necessarily normalized; point *x*.
