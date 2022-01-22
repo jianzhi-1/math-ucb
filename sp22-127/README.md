@@ -7,13 +7,14 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [ ] Week 3:
 
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂
 
 ### Multivariable Calculus
 - Gradient of *f:ℝ<sup>n</sup> → ℝ* at *x<sub>0</sub>* is a *n*-vector given by: *∇f = \[∂f/∂x<sub>i</sub>]
 - *g(x) = f(Ax + b) ⇒ ∇g = A<sup>T</sup>∇f(Ax + b)* 
 - Gradient is perpendicular to level sets, and points in the direction of steepest increase.
 - First order approximation of *f(x)*: *f(x<sub>0</sub>) + ∇f(x<sub>0</sub>)<sup>T</sup>(x - x<sub>0</sub>)*
+- First order approximation of *f(x)*: *f(x) = f(x<sub>0</sub>) + J(x - x<sub>0</sub>)* where *J* is the **Jacobian matrix** of *f* at *x<sub>0</sub>*. (so *J<sub>ij</sub> = ∂f<sub>i</sub>/∂x<sub>j</sub>*.
 
 ### Linear Algebra
 
@@ -98,6 +99,20 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - *‖A‖<sub>op</sub> := inf\{c ≥ 0 | ‖Av‖ ≤ c‖v‖ ∀v ∈ V}*
 - TODO: there are multiple other equivalent definitions
 
+###### Frobenius Norm
+- *‖A‖<sub>F</sub> = sqrt(Tr(A<sup>T</sup>A))*
+- Equivalent to the Euclidean norm of treating *A* as a vector of length *nm*
+- Invariant under orthonormal transformation of basis
+- Intuitively, captures the *average effect of noise*.
+
+###### Largest Singular Value (LSV) Norm
+- *‖A‖<sub>LSV</sub> = max<sub>v | ‖v‖<sub>2</sub> &lt; 1</sub> ‖Av‖<sub>2</sub>*
+- Intuitively, captures the *worst case effect of noise*.
+  
+###### Variant of LSV Norm
+- *‖A‖<sub>LSV</sub> = max<sub>v | ‖v‖<sub>2</sub> < 1</sub> ‖Av‖<sub>2</sub>*
+- Intuitively, captures the *worst case effect of noise*.
+
 ##### Projection
 - Line *x<sub>0</sub> + tu*, *u* not necessarily normalized; point *x*.
 - Optimal *t*: *t<sup>\*</sup> = (u<sup>T</sup>(x - x<sub>0</sub>)/(u<sup>T</sup>u)*
@@ -133,7 +148,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 ### Applications
 
 ### Bag of Tricks
-- Inequalities (AM-GM, CS, Holder, Muirhead, Jensen's, Power)
+- Inequalities (AM-GM, CS, Holder, Muirhead, Jensen, Power)
 - Geometric interpretation
 - Smoothing
 
@@ -151,6 +166,11 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 ```Matlab
 >> Ainv = inv(A); % produces the inverse of a square, invertible matrix
+```
+
+```Matlab
+>> frob_norm = norm(A,'fro');
+>> lsv_norm = norm(A);
 ```
 
 
