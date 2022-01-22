@@ -14,6 +14,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 ##### First Principles
 
 ##### Norms
+###### *l<sub>p</sub>* Norm
 - *‖x‖<sub>p</sub> = (Σ<sub>i</sub>x<sub>i</sub><sup>p</sup>)<sup>1/p</sup>*, *p ∈ ℝ*
 - *‖x‖<sub>∞</sub> = max<sub>i</sub>|x<sub>i</sub>|*
 
@@ -22,6 +23,8 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
   - Intuitively, the dual norm of a vector is the maximum value achieved after applying a linear function with norm *1* to it.
   - On Wikipedia, dual norm is the measure of size for a continuous linear function defined on vector space.
 - *x<sup>T</sup>y ≤ ‖x‖‖y‖<sub>\*</sub>*
+- Norm dual to the Euclidean norm is itself.
+- Norm dual to the *l<sub>∞</sub>* norm is the *l<sub>1</sub>* norm
 
 ###### Operator Norm
 - Given two normed vector spaces *V, W*, a linear map *A:V → W* is **continuous** iff *∃c* s.t. *‖Av‖ ≤ c‖v‖ ∀v ∈ V*
