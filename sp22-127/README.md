@@ -7,7 +7,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [ ] Week 3:
 
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂, ⟂
 
 ### Multivariable Calculus
 - Gradient of *f:ℝ<sup>n</sup> → ℝ* at *x<sub>0</sub>* is a *n*-vector given by: *∇f = \[∂f/∂x<sub>i</sub>]
@@ -26,6 +26,8 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - Halfspace *H = {x | a<sup>T</sup>x ≥ b}*
 - For any two matrices *A ∈ ℝ<sup>m × n</sup>, B ∈ ℝ<sup>n × m</sup>*, *tr(AB) = tr(BA)*
 - The scalar product of two same type matrices is symmetric and is the sum of product of respective components: *⟨A, B⟩ = tr(A<sup>T</sup>B)*
+- \[Rank-Nullity Theorem] For *A ∈ ℝ<sup>m × n</sup>*, *rank(A) + dim null(A) = n*
+- \[Fundamental Theorem of Linear Algebra] *rank(A)<sup>⟂</sup> = null(A<sup>T</sup>)*
 
 ##### Properties of Special Matrices
 
@@ -45,6 +47,8 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - *A = \[R<sub>1</sub><sup>T</sup> 0]Q<sup>T</sup>*
 - *B = A<sup>T</sup>(AA<sup>T</sup>)<sup>-1</sup>*
 - In general, right inverses are not unique.
+- Full row rank matrices define a linear map that is onto.
+- Full row rank if and only if *AA<sup>T</sup>* is invertible.
 
 
 ###### Symmetric Matrices
@@ -78,6 +82,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
   - *Q ∈ ℝ<sup>m × m</sup>* is always orthogonal (since we can always find *m* independent vectors)
   - *R ∈ ℝ<sup>m × (n+m)</sup> = \[\[R<sub>1</sub> R<sub>2</sub>] \[0 0]]* where *R<sub>1</sub>* is invertible and gives *rank(A)*.
   - *P* is a permutation (therefore orthogonal) matrix
+- Solving linear equations with QR decomposition: see formulas (TODO)
 
 ##### Norms
 ###### *l<sub>p</sub>* Norm
@@ -109,7 +114,6 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - *‖A‖<sub>LSV</sub> = max<sub>v | ‖v‖<sub>2</sub> &lt; 1</sub> ‖Av‖<sub>2</sub>*
 - Intuitively, captures the *worst case effect of noise*.
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩
 ###### Variant of LSV Norm
 - *‖A‖<sub>∞, 1</sub> = max<sub>v | ‖v‖<sub>∞</sub> &lt; 1</sub> ‖Av‖<sub>1</sub>*
 - Intuitively, captures the *worst case effect of noise*, but considers all vectors *v* with largest component less than *1*.
@@ -138,7 +142,47 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 ##### Convex Duality
 
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂, ⟂, ð
+
 ### Optimization
+
+##### Least Squares
+Solve *min<sub>x</sub> ‖Ax-y‖<sub>2</sub><sup>2</sup>*
+- Definitions
+  - *y*: output vector
+  - *A*: design matrix
+  - *r = Ax - y*: residual vector
+- At optimal, *r = Ax - y ⟂ range(A)*
+- Optimal solution (supposing *A* is full column rank): *x<sup>\*</sup> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>y*
+- Need to understand this: https://inst.eecs.berkeley.edu/~ee127/sp21/livebook/thm_set_solns_ls.html (TODO)
+
+###### Equivalence
+- Projection to range: Equivalent to projecting *y* onto *range(A)*.
+- Minimum distance to feasibility: Find the smallest *ðy* s.t. *Ax = y + ðy* becomes feasible.
+- Regression: Fit each component of *y* with a corresponding fixed linear input *a<sub>i</sub>* with *x* being the linear combination that governs all inputs: *min<sub>x</sub> Σ(y<sub>i</sub> - a<sub>i</sub><sup>T</sup> x)<sup>2</sup>*
+  - Can think of it as: *(a<sub>i</sub>, y<sub>i</sub>)* is a data point
+  - Want to fit a linear function *x* to minimise the total error.
+
+##### Linearly Constrained Least Squares
+Solve *min<sub>x</sub> ‖Ax-y‖<sub>2</sub><sup>2</sup>*, given *Cx = d*
+- Key idea: make sure *x* is in the solution set by augmenting the design matrix
+- Reduces to LS problem *min<sub>x</sub> ‖A'x-y'‖<sub>2</sub><sup>2</sup>* where *A' = AN* and *y' = y - Ax<sub>0</sub>* where *x<sub>0</sub>* is a particular solution.
+
+##### Minimum Norm
+Solve *min<sub>x</sub> ‖x‖<sub>2</sub><sup>2</sup>*, given *Ax = y*
+
+##### Regularized Least Squares
+Solve *min<sub>x</sub> ‖Ax-y‖<sub>2</sub><sup>2</sup> + λ‖x‖<sub>2</sub><sup>2</sup>* where *λ > 0* is usually a small parameter.
+
+
+##### Weighted Regularized Least Squares
+Solve *min<sub>x</sub> ‖Ax-y‖<sub>2</sub><sup>2</sup> + x<sup>T</sup>Wx* where *W* is positive definite.
+- Solution: unique, given by *x<sup>*</sup> = (A<sup>T</sup>A + W)<sup>-1</sup>A<sup>T</sup>y
+
+##### Kernel Least Squares
+???
+
+
 
 ##### Conic Optimization
 
@@ -175,6 +219,16 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 ```Matlab
 >> frob_norm = norm(A,'fro');
 >> lsv_norm = norm(A);
+```
+
+```Matlab
+>> U = orth(A); % an orthogonal matrix whose columns span range(A)
+>> r = rank(A);
+>> U = null(A); % an orthogonal matrix whose columns span null(A)
+```
+
+```Matlab
+>> x = A\y; % finds unique least square solution, given A is full column rank
 ```
 
 
