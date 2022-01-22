@@ -7,7 +7,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [ ] Week 3:
 
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩
 
 ### Multivariable Calculus
 - Gradient of *f:ℝ<sup>n</sup> → ℝ* at *x<sub>0</sub>* is a *n*-vector given by: *∇f = \[∂f/∂x<sub>i</sub>]
@@ -23,6 +23,41 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - Projection of *0* to the hyperplane: point *ba* (assuming *a* normalized)
 - Geometrically, *|b|* is the length of closest point *x* on the hyperplane from the origin.
 - Halfspace *H = {x | a<sup>T</sup>x ≥ b}*
+- For any two matrices *A ∈ ℝ<sup>m × n</sup>, B ∈ ℝ<sup>n × m</sup>*, *tr(AB) = tr(BA)*
+- The scalar product of two same type matrices is symmetric and is the sum of product of respective components: *⟨A, B⟩ = tr(A<sup>T</sup>B)*
+
+##### Properties of Special Matrices
+###### Symmetric Matrices
+
+###### Orthogonal Matrices
+- *U<sup>T</sup>U = UU<sup>T</sup> = I<sub>n</sub>*
+- Preserves length and angles: *⟨Ux, Uy⟩ = ⟨x, y⟩*
+
+###### Dyads
+- *A = uv<sup>T</sup>* for some *u, v*
+- *Ax = uv<sup>T</sup>x = (v<sup>T</sup>x)u ∈ Span(u) ∀x*
+
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩
+
+##### QR Decomposition
+- Factorizes a matrix *A = QR* where *Q* is orthogonal (i.e. *Q<sup>T</sup>Q = I*) and *R* is upper-triangular.
+- *A ∈ ℝ<sup>m × n</sup>* is full rank (*rank(A) = n =* number of columns of *A*)
+  - *Q = \[q<sub>1</sub> ... q<sub>n</sub>]* where *q<sub>i</sub>* are the vectors from Gram-Schmidt process on *a<sub>i</sub>*
+  - *R ∈ ℝ<sup>n × n</sup>* is equal to the coefficients obtained during Gram-Schmidt (either a projection or a scaling factor)
+  - *R* is invertible implies *A* is full rank.
+- *A ∈ ℝ<sup>m × n</sup>* is **not** full rank
+  - Key idea is to permutate the matrix *A* such that all the linearly independent column vectors come first.
+  - *AP = Q\[R<sub>1</sub> R<sub>2</sub>]*
+  - *Q ∈ ℝ<sup>m × r</sup> = \[q<sub>1</sub> ... q<sub>r</sub>]* where *q<sub>i</sub>* are the vectors from Gram-Schmidt process
+  - *R<sub>1</sub> ∈ ℝ<sup>r × r</sup>* is a square, invertible, upper-triangular matrix and equal to the coefficients obtained during Gram-Schmidt
+  - *R<sub>2</sub> ∈ ℝ<sup>r × (n-r)</sup>* is the equal to the coefficients obtained during Gram-Schmidt of the dependent column vectors of *A*
+  - *P* is a permutation (therefore orthogonal) matrix that moves all independent column vectors to the left
+- Full QR Decomposition
+  - Key idea: append *I<sub>m</sub>* to the matrix *A*
+  - *AP = QR*
+  - *Q ∈ ℝ<sup>m × m</sup>* is always orthogonal (since we can always find *m* independent vectors)
+  - *R ∈ ℝ<sup>m × (n+m)</sup> = \[\[R<sub>1</sub> R<sub>2</sub>] \[0 0]]* where *R<sub>1</sub>* is invertible and gives *rank(A)*.
+  - *P* is a permutation (therefore orthogonal) matrix
 
 ##### Norms
 ###### *l<sub>p</sub>* Norm
@@ -76,6 +111,10 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 >> r2 = norm(x,2); % l2-norm
 >> r1 = norm(x,1); % l1 norm
 >> rinf = norm(x,inf); % l-infty norm
+```
+
+```Matlab
+>> [Q,R] = qr(A,0); % A is a mxn matrix, Q is mxn orthogonal, R is nxn upper triangular
 ```
 
 
