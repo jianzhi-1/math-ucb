@@ -27,6 +27,25 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - The scalar product of two same type matrices is symmetric and is the sum of product of respective components: *⟨A, B⟩ = tr(A<sup>T</sup>B)*
 
 ##### Properties of Special Matrices
+
+###### Full Column Rank Matrices
+- A matrix *A ∈ ℝ<sup>m × n</sup>* has full column rank if all columns are linearly independent. (implies *m ≥ n*)
+- A matrix *A* has full column rank if and only if *∃B ∈ ℝ<sup>n × m</sup>* s.t. *BA = I<sub>n</sub>*
+- *A = Q\[R<sub>1</sub> 0]<sup>T</sup>*
+- *B = \[R<sub>1</sub><sup>-1</sup> 0]Q<sup>T</sup>*
+- *B = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>*
+- In general, left inverses are not unique.
+
+
+###### Full Row Rank Matrices
+- A matrix *A ∈ ℝ<sup>m × n</sup>* has full row rank if all rows are linearly independent. (implies *n ≥ m*)
+- A matrix *A* has full row rank if and only if *∃B ∈ ℝ<sup>n × m</sup>* s.t. *AB = I<sub>m</sub>*
+- *A<sup>T</sup> = Q\[R<sub>1</sub><sup>T</sup> 0]<sup>T</sup>*
+- *A = \[R<sub>1</sub><sup>T</sup> 0]Q<sup>T</sup>*
+- *B = A<sup>T</sup>(AA<sup>T</sup>)<sup>-1</sup>*
+- In general, right inverses are not unique.
+
+
 ###### Symmetric Matrices
 
 ###### Orthogonal Matrices
@@ -115,6 +134,10 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 ```Matlab
 >> [Q,R] = qr(A,0); % A is a mxn matrix, Q is mxn orthogonal, R is nxn upper triangular
+```
+
+```Matlab
+>> Ainv = inv(A); % produces the inverse of a square, invertible matrix
 ```
 
 
