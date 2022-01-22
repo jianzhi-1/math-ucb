@@ -7,11 +7,22 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [ ] Week 3:
 
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒
+
+### Multivariable Calculus
+- Gradient of *f:ℝ<sup>n</sup> → ℝ* at *x<sub>0</sub>* is a *n*-vector given by: *∇f = \[∂f/∂x<sub>i</sub>]
+- *g(x) = f(Ax + b) ⇒ ∇g = A<sup>T</sup>∇f(Ax + b)* 
+- Gradient is perpendicular to level sets, and points in the direction of steepest increase.
+- First order approximation of *f(x)*: *f(x<sub>0</sub>) + ∇f(x<sub>0</sub>)<sup>T</sup>(x - x<sub>0</sub>)*
 
 ### Linear Algebra
 
 ##### First Principles
+- Hyperplane *H = {x | a<sup>T</sup>x = b}*
+- Equivalently, if *x<sub>0</sub> ∈ H*, then a hyperplane is the set of vectors *x* s.t. *x - x<sub>0</sub>* is orthogonal to *a*.
+- Projection of *0* to the hyperplane: point *ba* (assuming *a* normalized)
+- Geometrically, *|b|* is the length of closest point *x* on the hyperplane from the origin.
+- Halfspace *H = {x | a<sup>T</sup>x ≥ b}*
 
 ##### Norms
 ###### *l<sub>p</sub>* Norm
@@ -34,6 +45,9 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - TODO: there are multiple other equivalent definitions
 
 ##### Projection
+- Line *x<sub>0</sub> + tu*, *u* not necessarily normalized; point *x*.
+- Optimal *t*: *t<sup>\*</sup> = (u<sup>T</sup>(x - x<sub>0</sub>)/(u<sup>T</sup>u)*
+- Projected vector: *z<sup>\*</sup> = x<sub>0</sub> + (u<sup>T</sup>(x - x<sub>0</sub>))/(u<sup>T</sup>u) u*
 
 ##### Singular Value Decomposition
 
