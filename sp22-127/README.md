@@ -148,6 +148,9 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 ### Applications
 
+##### Dynamical Systems
+- See MATH H110 notes
+
 ### Bag of Tricks
 - Inequalities (AM-GM, CS, Holder, Muirhead, Jensen, Power)
 - Geometric interpretation
