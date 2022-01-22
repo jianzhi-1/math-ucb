@@ -112,17 +112,30 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
   - There exists *x ∈ ℝ<sup>n</sup>* such that *Ax = b* and *x ≥ 0*.
   - There exists *y ∈ ℝ<sup>m</sup>* such that *A<sup>T</sup>y ≥ 0* and *b<sup>T</sup>y < 0*.
 
-##### Duality
+### Duality
+
+###### Conjugate (Fenchel) Duality
 
 ###### Weak Duality
 
 ###### Strong Duality Theorem
 
-### Convex Optimization
-
 ##### Convex Duality
 
+### Optimization
+
+##### Conic Optimization
+
+##### Convex Optimization
+
+
+
 ### Applications
+
+### Bag of Tricks
+- Inequalities (AM-GM, CS, Holder, Muirhead, Jensen's, Power)
+- Geometric interpretation
+- Smoothing
 
 ### Matlab
 ```Matlab
