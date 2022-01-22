@@ -21,7 +21,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - For a given norm *‖·‖*, define the **dual norm** *‖·‖<sub>*</sub>* s.t. *‖y‖<sub>*</sub> = max<sub>x</sub> x<sup>T</sup>y* with *‖x‖ ≤ 1*.
   - Intuitively, the dual norm of a vector is the maximum value achieved after applying a linear function with norm *1* to it.
   - On Wikipedia, dual norm is the measure of size for a continuous linear function defined on vector space.
-- *x<sup>T</sup>y ≤ ‖x‖‖y‖<sub>*</sub>*
+- *x<sup>T</sup>y ≤ ‖x‖‖y‖<sub>\*</sub>*
 
 ###### Operator Norm
 - Given two normed vector spaces *V, W*, a linear map *A:V → W* is **continuous** iff *∃c* s.t. *‖Av‖ ≤ c‖v‖ ∀v ∈ V*
