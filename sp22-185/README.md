@@ -27,6 +27,9 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - Every compact metric space is complete (i.e. every Cauchy sequence has to converge).
 
 ### Branches
+- Let *Ω ⊂ ℂ* be open, *f: Ω → ℂ* be multivalued. Then *z<sub>0</sub> ∈ ℂ* is a **branch point** of *f* if *f* is continuous around a small circle about *z<sub>0</sub>* but *f(z)* does not return to its original value.
+- A **branch** of *f* is a choice of range s.t. the function *f* becomes well-defined (i.e. *f* is restricted to become single-valued*)
+- A **branch cut** of *f* are points removed from *f*'s domain to ensure the function is continuous and well-defined on a particular branch.
 
 ### Polynomial, Differentiation, Power Series
 
