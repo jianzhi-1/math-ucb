@@ -31,7 +31,16 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - A **branch** of *f* is a choice of range s.t. the function *f* becomes well-defined (i.e. *f* is restricted to become single-valued*)
 - A **branch cut** of *f* are points removed from *f*'s domain to ensure the function is continuous and well-defined on a particular branch.
 
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄
+
 ### Polynomial, Differentiation, Power Series
+- A polynomial *P(x, y)* is **analytic** if it is a polynomial in *P(x + iy)*
+- A function *f* is **complex differentiable** if *lim<sub>h → 0</sub>(f(z+h) - f(z))/h* exists
+- \[Cauchy Riemann Equations]
+  - A polynomial is analytic if and only if *iP<sub>x</sub> = P<sub>y</sub>*
+  - If a function *f* is differentiable at *z<sub>0</sub>*, then it must satisfy *if<sub>x</sub> = f<sub>y</sub>* (i.e. *u<sub>x</sub> = v<sub>y</sub>* and *u<sub>y</sub> = -v<sub>x</sub>* at *z<sub>0</sub>*
+- A function *f* is differentiable at *a* if and only if *∃φ(z)* continuous at *a* and satisfies *f(z) - f(a) = φ(z)(z - a)* for *z ∈ Ω*. Say *f'(a) = φ(a)*.
+- A complex differentiable function is geometrically equivalent to the scaling, rotation and translation of a small ball about every single point.
 
 ### Holomorphic and Entire Functions
 
