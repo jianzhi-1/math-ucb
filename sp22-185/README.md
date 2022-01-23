@@ -31,7 +31,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - A **branch** of *f* is a choice of range s.t. the function *f* becomes well-defined (i.e. *f* is restricted to become single-valued*)
 - A **branch cut** of *f* are points removed from *f*'s domain to ensure the function is continuous and well-defined on a particular branch.
 
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄, Σ
 
 ### Polynomial, Differentiation, Power Series
 - A polynomial *P(x, y)* is **analytic** if it is a polynomial in *P(x + iy)*
@@ -41,6 +41,26 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
   - If a function *f* is differentiable at *z<sub>0</sub>*, then it must satisfy *if<sub>x</sub> = f<sub>y</sub>* (i.e. *u<sub>x</sub> = v<sub>y</sub>* and *u<sub>y</sub> = -v<sub>x</sub>* at *z<sub>0</sub>*
 - A function *f* is differentiable at *a* if and only if *∃φ(z)* continuous at *a* and satisfies *f(z) - f(a) = φ(z)(z - a)* for *z ∈ Ω*. Say *f'(a) = φ(a)*.
 - A complex differentiable function is geometrically equivalent to the scaling, rotation and translation of a small ball about every single point.
+- \[Uniform Convergence] *(f<sub>n</sub>) → f)* **uniformly** if *∃N* s.t. *n > N* implies *|f<sub>n</sub>(z) - f(z)| < ε ∀z*
+- \[Weierstrass M-Test] Let *(M<sub>k</sub>)* be a sequence with *M<sub>k</sub> ≥ 0* s.t. *ΣM<sub>k</sub> < ∞*. If *|f<sub>k</sub>(z)| < M<sub>k</sub> ∀k*, then *|Σf<sub>k</sub>(z)|* converges **uniformly and absolutely** on *Ω*.
+- A **power series** centered at *z<sub>0</sub>* is of the form *S(z) = Σa<sub>n</sub>(z - z<sub>0</sub>)<sup>n</sup>* where *(a<sub>n</sub>)* is a sequence.
+- \[Radius of Convergence] Let *β = lim sup |a<sub>n</sub>|<sup>1/n</sup>*. Then the **radius of convergence** is *R = 1/β*.
+  - The power series converges absolutely on the open disk *|z - z<sub>0</sub>| < R*
+  - The power series converges uniformly on a smaller closed disk *|z - z<sub>0</sub>| ≤ r < R*
+  - The power series diverges for *|z - z<sub>0</sub>| > R*
+  - The power series is **continuous** on *|z - z<sub>0</sub>| < R* (proof by *ε/3* trick)
+- Power series is infinitely differentiable in the complex plane.
+
+##### Series Tests
+Absolute convergence implies convergence (proof by triangle inequality).
+###### Comparison Test (Basic/Limit) ???
+###### Ratio Test
+###### Root Test
+###### Divergence Test ???
+###### Dirichlet Test ???
+###### Cauchy Condensation Test ???
+
+
 
 ### Holomorphic and Entire Functions
 
