@@ -64,6 +64,8 @@ Absolute convergence implies convergence (proof by triangle inequality).
 
 
 ### Holomorphic and Entire Functions
+- \[Complex Differentiable] Let *Ω ⊂ ℂ* be open and *f: Ω → ℂ*. Say *f* is **complex differentiable** if *lim<sub>h → 0</sub>(f(z+h) - f(z))/h* exists.
+- \[Holomorphic] Let *Ω ⊂ ℂ* be a region and *f: Ω → ℂ*. Say *f* is **holomorphic** if *f* is complex differentiable in a neighbourhood of *z<sub>0</sub> ∈ Ω*
 
 ### Line Integrals in ℂ, Path Independence
 
