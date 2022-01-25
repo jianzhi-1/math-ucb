@@ -49,7 +49,8 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
   - The power series converges uniformly on a smaller closed disk *|z - z<sub>0</sub>| ≤ r < R*
   - The power series diverges for *|z - z<sub>0</sub>| > R*
   - The power series is **continuous** on *|z - z<sub>0</sub>| < R* (proof by *ε/3* trick)
-- Power series is infinitely differentiable in the complex plane.
+- Power series is infinitely differentiable in the complex plane within its radius of convergence. After differentiation, the radius of convergence stays the same.
+- 
 
 ##### Series Tests
 Absolute convergence implies convergence (proof by triangle inequality).
