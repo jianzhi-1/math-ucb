@@ -50,7 +50,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
   - The power series diverges for *|z - z<sub>0</sub>| > R*
   - The power series is **continuous** on *|z - z<sub>0</sub>| < R* (proof by *ε/3* trick)
 - Power series is infinitely differentiable in the complex plane within its radius of convergence. After differentiation, the radius of convergence stays the same.
-- \[Theorem (Uniqueness)] Let *f* be be a power series centered at *z<sub>0</sub>* with radius of convergence *R*. Suppose *∃(z<sub>n</sub>) ∈ B<sub>R</sub>(z<sub>0</sub>) \ \{z<sub>0</sub>}* where *(z<sub>n</sub>) → z<sub>0</sub>* and *f(z<sub>n</sub>) = 0 ∀n*. Then *f(z) = 0 ∀z ∈ B<sub>R</sub>*.
+- \[Theorem (Uniqueness)] Let *f* be be a power series centered at *z<sub>0</sub>* with radius of convergence *R*. Suppose *∃(z<sub>n</sub>) ∈ B<sub>R</sub>(z<sub>0</sub>) \ \{z<sub>0</sub>}* where *(z<sub>n</sub>) → z<sub>0</sub>* (i.e. *(z<sub>n</sub>)* approaches the center of the power series) and *f(z<sub>n</sub>) = 0 ∀n*. Then *f(z) = 0 ∀z ∈ B<sub>R</sub>*.
 
 ##### Series Tests
 Absolute convergence implies convergence (proof by triangle inequality).
