@@ -2,9 +2,6 @@
 ### Introduction to Complex Analysis
 UC Berkeley Spring 2022, taught by Prof Ryan Hass
 
-### Symbols
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄
-
 ### Topology in ℂ
 - \[Open disk] The open disk of radius *r > 0* about *z<sub>0</sub>* is given by *B<sub>r</sub>(z<sub>0</sub>) = {z ∈ ℂ | |z - z<sub>0</sub>| < r}*
 - \[Open] Say *Ω ⊂ ℂ* is **open** if for every *z ∈ Ω*, *∃r > 0* s.t. *B<sub>r</sub>(z) ⊂ Ω*.
@@ -30,8 +27,6 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - Let *Ω ⊂ ℂ* be open, *f: Ω → ℂ* be multivalued. Then *z<sub>0</sub> ∈ ℂ* is a **branch point** of *f* if *f* is continuous around a small circle about *z<sub>0</sub>* but *f(z)* does not return to its original value.
 - A **branch** of *f* is a choice of range s.t. the function *f* becomes well-defined (i.e. *f* is restricted to become single-valued)
 - A **branch cut** of *f* are points removed from *f*'s domain to ensure the function is continuous and well-defined on a particular branch.
-
-ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄, Σ
 
 ### Polynomial, Differentiation, Power Series
 - A polynomial *P(x, y)* is **analytic** if it is a polynomial in *P(x + iy)*
@@ -61,13 +56,25 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ###### Dirichlet Test ???
 ###### Cauchy Condensation Test ???
 
-
+ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄, Σ, ·
 
 ### Holomorphic and Entire Functions
 - \[Complex Differentiable] Let *Ω ⊂ ℂ* be open and *f: Ω → ℂ*. Say *f* is **complex differentiable** if *lim<sub>h → 0</sub>(f(z+h) - f(z))/h* exists.
-- \[Holomorphic] Let *Ω ⊂ ℂ* be a region and *f: Ω → ℂ*. Say *f* is **holomorphic** if *f* is complex differentiable in a neighbourhood of *z<sub>0</sub> ∈ Ω*
+- \[Holomorphic] Let *Ω ⊂ ℂ* be a region and *f: Ω → ℂ*. Say *f* is **holomorphic** at *z<sub>0</sub>* if *f* is complex differentiable in a neighbourhood of *z<sub>0</sub> ∈ Ω*
+- \[Holomorphic] If *f* is complex differentiable on *Ω*, say *f* is **holomorphic** on *Ω*.
+- Define *H(Ω)* to be the set of all holomorphic functions on *Ω*.
+- \[Entire] Say *f:ℂ → ℂ* is **entire** if *f* is complex differentiable everywhere on *ℂ*.
+- \[Theorem (Cauchy Riemann + Continuity)] Suppose *f<sub>x</sub>* and *f<sub>y</sub>* exist and are continuous in a neighborhood of *z<sub>0</sub>* and *if<sub>x</sub> = f<sub>y</sub>*, then *f* is differentiable at *z<sub>0</sub>*
+- \[Theorem (*f' = 0*)] Let *Ω ⊂ ℂ* be a region and *f ∈ H(Ω)*. If *f' = 0* everywhere in *Ω* then *f* is constant on *Ω*.
+
+⚠️ Possible to have function that is ℂ-differentiable at infinitely many points, but nowhere holomorphic
+⚠️ Possible to have function that is continuous everywhere, but ℂ-differentiable only at a point
 
 ### Line Integrals in ℂ, Path Independence
+- \[Lemma (Triangle Inequality)] Let *g:\[a, b] → ℂ* be piecewise continuous, then *|∫g(x) dx| ≤ ∫|g(x)|dx* over *\[a, b]*
+- \[Smooth] Let *\[a, b] ⊂ ℝ* and *γ:\[a, b] → ℂ* define a piecewise differentiable curve *C*. Say *C* is **smooth** if *γ(t) ≠ 0* for all but finite points *t ∈ \[a, b]*. (intuitively, cannot halt for a prolonged period of time while travelling the curve)
+- \[Complex Differential] Define the **complex differential** as *dz = dx + i·dy*
+- \[Line Integral] Define the **line integral** of *f* over *C* as *∫<sub>C</sub> f(x) dz = ∫<sub>C</sub>f(x + iy)(dx + i·dy) = ∫γ(t) γ'(t) dt*
 
 ### Cauchy Integral Formula
 
