@@ -68,6 +68,7 @@ Absolute convergence implies convergence (proof by triangle inequality).
 - \[Theorem (*f' = 0*)] Let *Ω ⊂ ℂ* be a region and *f ∈ H(Ω)*. If *f' = 0* everywhere in *Ω* then *f* is constant on *Ω*.
 
 ⚠️ Possible to have function that is ℂ-differentiable at infinitely many points, but nowhere holomorphic
+
 ⚠️ Possible to have function that is continuous everywhere, but ℂ-differentiable only at a point
 
 ### Line Integrals in ℂ, Path Independence
