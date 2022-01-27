@@ -76,6 +76,20 @@ Absolute convergence implies convergence (proof by triangle inequality).
 - \[Smooth] Let *\[a, b] ⊂ ℝ* and *γ:\[a, b] → ℂ* define a piecewise differentiable curve *C*. Say *C* is **smooth** if *γ(t) ≠ 0* for all but finite points *t ∈ \[a, b]*. (intuitively, cannot halt for a prolonged period of time while travelling the curve)
 - \[Complex Differential] Define the **complex differential** as *dz = dx + i·dy*
 - \[Line Integral] Define the **line integral** of *f* over *C* as *∫<sub>C</sub> f(x) dz = ∫<sub>C</sub>f(x + iy)(dx + i·dy) = ∫γ(t) γ'(t) dt*
+- \[Smoothly Equivalent] If ∃ one-to-one function *λ:\[c,d] → \[a,b]* s.t. *λ(c) = a*, *λ(d) = b* (i.e. maps endpoints to endpoints) and *λ'(t) > 0* (i.e. progresses in the same way) with *γ<sub>2</sub> = γ<sub>1</sub> ∘ λ*, then say *γ<sub>2</sub>* and *γ<sub>1</sub> ∘ λ* are **smoothly equivalent**. (intuitively, the curves begin and ends in the same position, and traces the same curve, visits points in the same number of times and in the same order)
+- For two smoothly equivalent curves, their line integrals are the same: *∫<sub>C1</sub>f = ∫<sub>C2</sub>f*
+- \[Reversed Orientation] Define *-C*  as the **reversal** of *C* (i.e. *C* with reversed direction). Then *∫<sub>-C</sub>f = -∫<sub>C</sub>f*
+- \[ML Estimate] Let *Ω ⊂ ℂ* be open and *f: Ω → ℂ* and *C* be a smooth curve in *Ω* with length *L = |C|*. If *|f(z)| ≤ M ∀z ∈ ℂ*, then *|∫<sub>C</sub> f(z) dz| ≤ M|C| = ML*
+- \[Fundamental Theorem of Complex Line Integral] Let *Ω ⊂ ℂ* be open and *f ∈ H(Ω)*, then for any smooth curve *C ∈ Ω*, *∫<sub>C</sub> f'(z) dz = f(z<sub>1</sub>) - f(z<sub>0</sub>)*, hence can just consider the value at endpoints (NOTE: *f* must be holomorphic on *Ω*)
+- \[Path Independence] Let *Ω ⊂ ℂ* be open and *f : Ω → ℂ*. If for all curves *C1, C2 ∈ Ω* that begins at *z<sub>0</sub>* and end at *z<sub>1</sub>*, *∫<sub>C1</sub> f = ∫<sub>C2</sub> f*, then say the line integral of *f* is **path independent**.
+- \[Theorem (Path Independence)] Let *Ω ⊂ ℂ* be open and *f : Ω → ℂ*. If *f* has an anti-derivative in *Ω*, then the line integral *∫<sub>C</sub> f* is path independent for all smooth curves *C ∈ Ω*. 
+  - \[Corollary] Lack path independence ⇒ No anti-derivative inside *C*
+- \[Closed Curve] Say *C* is a **closed** curve if *C* is given by *γ:\[a, b] → ℂ* and *γ(a) = γ(b)*.
+- \[Simple Curve] Say *C* is a **simple** curve if *C* is given by *γ:\[a, b] → ℂ* and *γ(t<sub>1</sub>) ≠ γ(t<sub>2</sub>)* for distinct *t<sub>1</sub>, t<sub>2</sub> ∈ \[a, b]*.
+- \[Jordan Closed Curve Theorem] Let *C* be a simple closed curve in *ℂ*. Then *C* partitions *ℂ* into two regions, one of them bounded and defined as the **interior** of the curve.
+- \[Theorem (Path Independence II)] Let *Ω ⊂ ℂ* be open and *f : Ω → ℂ*. The line integral of *f* is path in dependent in *Ω* if and only if *∮<sub>C</sub> f(z) dz = 0* for all closed curve *C ∈ Ω*
+- \[Singularity] ???
+- \[Theorem (Integral of Closed Rectangles)] Suppose *f:ℂ → ℂ* is entire and *R* be a rectangle in *C*, then *∮<sub>∂R</sub> f(z) dz = 0*
 
 ### Cauchy Integral Formula
 
@@ -98,6 +112,9 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ### Conformal Mapping
 
 ### Bilinear Transformations
+
+### Haunts: Multivariable Calculus
+- \[Green's Theorem] can use with Cauchy Riemann to prove the rectangle theorem
 
 ### Exam Area
 
