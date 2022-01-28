@@ -20,6 +20,13 @@ np.count_nonzero(x, axis=1) # count the number of nonzero elements over rows
 np.add(x, y)
 np.square(x)
 np.less_equal(x, 1)
+np.random.rand() # generates a random number from 0 to 1
+np.random.randint(x) # generates a random integer from [0, x) (note x is exclusive)
+np.random.randint(x, size=(3, 5))
+np.unique(x)
+
+def contains_duplicates(X):
+  return len(np.unique(X)) != len(X)
 ```
 
 ##### Random
@@ -44,6 +51,15 @@ x = round(random.rand())
 - Binomial(n, p)
 ```python3
 binomial = random.binomial(n, p, num_trials)
+```
+##### Itertools
+Python library that provides generator for permutations and combinations
+```python3
+import itertools
+itertools.product(RANKS, SUITS)
+
+a = [3, 1, 4, 5]
+itertools.combination(a, n) # returns generator of all possible combinations of n-tuple of a
 ```
 
 ### Probability
