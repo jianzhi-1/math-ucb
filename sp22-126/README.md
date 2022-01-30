@@ -93,6 +93,7 @@ itertools.combination(a, n) # returns generator of all possible combinations of 
 ### Exam Area
 
 #### Midterm 1 Prep 😤
+- [x] 14 Fall
 - [ ] YY Spring/Fall
 
 #### Midterm 2 Prep 😤
