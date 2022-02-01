@@ -108,6 +108,11 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ### Uniform Convergence and Extensions
 
 ### Singularities
+- *f* has an **isolated singularity** at *z<sub>0</sub>* if *f* is analytic in a deleted neighbourhood of *z<sub>0</sub>* but not at *z<sub>0</sub>* i.e. *f* must be discontinuous at the isolated singularity
+- Say *f* has a **removable singularity** at *z<sub>0</sub>* if exists *g* analytic at *z<sub>0</sub>* s.t. *f(z) = g(z)* for all *z* in some neighborhood of *z<sub>0</sub>*.
+- If, for *z ≠ z<sub>0</sub>*, *f* can be written in the form *f(z) = A(z)/B(z)* where *A, B* are analytic at *z<sub>0</sub>*, *A(z<sub>0</sub>) ≠ 0*, *B(z<sub>0</sub>) = 0*, then say *f* has a **pole** at *z<sub>0</sub>*. The order of the pole is the same as the order of zero that *B* has at *z<sub>0</sub>*.
+- If *f* has neither a removable singularity or pole at *z<sub>0</sub>*, then *f* has an **essential singularity** at *z<sub>0</sub>*.
+- \[Riemann's Principle of Removable Singularity] If *f* has an isolated singularity at *z<sub>0</sub>* and if *lim<sub>z → z<sub>0</sub></sub> (z - z<sub>0</sub>)f(z) = 0*, then the singularity is removable.
 
 ### Laurent Series
 
