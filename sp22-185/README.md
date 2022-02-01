@@ -120,6 +120,7 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ### Exam Area
 
 #### Midterm 1 Prep 😤
+- [x] 16 Fall
 
 #### Midterm 2 Prep 😤
 
