@@ -96,6 +96,7 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ### Cauchy Integral Formula
 - Let *f(z)* be an analytic function inside and on a simple, closed curve *C* that is positively oriented, with *z<sub>0</sub>* inside *C*.
 - *f(z<sub>0</sub>) = (1/2πi) ∫<sub>C</sub> f(z)/(z-z<sub>0</sub>) dz*
+- If *z<sub>0</sub>* is not in *C*, then *∫<sub>C</sub> f(z)/(z-z<sub>0</sub>) dz = 0* since the function *f(z)/(z-z<sub>0</sub>)* will be analytic everywhere in *C*.
 - \[Extended] *f<sup>n</sup>(z<sub>0</sub>) = (n!/2πi) ∫<sub>C</sub> f(z)/(z-z<sub>0</sub>)<sup>n+1</sup> dz*
 - \[Cauchy–Kovalevskaya] ???
 
