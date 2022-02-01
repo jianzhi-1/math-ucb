@@ -66,6 +66,7 @@ Absolute convergence implies convergence (proof by triangle inequality).
 - \[Entire] Say *f:ℂ → ℂ* is **entire** if *f* is complex differentiable everywhere on *ℂ*.
 - \[Theorem (Cauchy Riemann + Continuity)] Suppose *f<sub>x</sub>* and *f<sub>y</sub>* exist and are continuous in a neighborhood of *z<sub>0</sub>* and *if<sub>x</sub> = f<sub>y</sub>*, then *f* is differentiable at *z<sub>0</sub>*
 - \[Theorem (*f' = 0*)] Let *Ω ⊂ ℂ* be a region and *f ∈ H(Ω)*. If *f' = 0* everywhere in *Ω* then *f* is constant on *Ω*.
+- \[Theorem] If *f:Ω → ℂ* is continuous and *g<sup>N</sup>* is holomorphic for some positive integer *N*, then *g* itself is holomorphic.
 
 ⚠️ Possible to have function that is ℂ-differentiable at infinitely many points, but nowhere holomorphic
 
