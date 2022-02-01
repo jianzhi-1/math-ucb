@@ -34,6 +34,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - \[Cauchy Riemann Equations]
   - A polynomial is analytic if and only if *iP<sub>x</sub> = P<sub>y</sub>*
   - If a function *f* is differentiable at *z<sub>0</sub>*, then it must satisfy *if<sub>x</sub> = f<sub>y</sub>* (i.e. *u<sub>x</sub> = v<sub>y</sub>* and *u<sub>y</sub> = -v<sub>x</sub>* at *z<sub>0</sub>*
+  - Equivalent definition *∂/∂z* and *∂/∂z̄* (???)
 - A function *f* is differentiable at *a* if and only if *∃φ(z)* continuous at *a* and satisfies *f(z) - f(a) = φ(z)(z - a)* for *z ∈ Ω*. Say *f'(a) = φ(a)*.
 - A complex differentiable function is geometrically equivalent to the scaling, rotation and translation of a small ball about every single point.
 - \[Uniform Convergence] *(f<sub>n</sub>) → f)* **uniformly** if *∃N* s.t. *n > N* implies *|f<sub>n</sub>(z) - f(z)| < ε ∀z*
