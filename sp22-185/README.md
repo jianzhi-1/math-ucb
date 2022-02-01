@@ -94,6 +94,7 @@ Absolute convergence implies convergence (proof by triangle inequality).
 - \[Theorem (Integral of Closed Rectangles)] Suppose *f:ℂ → ℂ* is entire and *R* be a rectangle in *C*, then *∮<sub>∂R</sub> f(z) dz = 0*
 
 ### Cauchy Integral Formula
+- If *f(z)* is analytic in and on a curve *C*, then *∫<sub>C</sub> f(z) dz = 0*.
 - Let *f(z)* be an analytic function inside and on a simple, closed curve *C* that is positively oriented, with *z<sub>0</sub>* inside *C*.
 - *f(z<sub>0</sub>) = (1/2πi) ∫<sub>C</sub> f(z)/(z-z<sub>0</sub>) dz*
 - If *z<sub>0</sub>* is not in *C*, then *∫<sub>C</sub> f(z)/(z-z<sub>0</sub>) dz = 0* since the function *f(z)/(z-z<sub>0</sub>)* will be analytic everywhere in *C*.
