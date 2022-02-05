@@ -27,6 +27,10 @@ np.unique(x)
 
 def contains_duplicates(X):
   return len(np.unique(X)) != len(X)
+
+### Matrix multiplication
+return S@A
+
 ```
 
 ##### Random
