@@ -72,22 +72,32 @@ itertools.combination(a, n) # returns generator of all possible combinations of 
 
 ##### Law of Large Numbers
 
-##### Discrete-Time Markov Chains
-
-### Random Processes
-
 ##### Transforms
 
 ##### Central Limit Theorem
 
+### Random Processes
+
+##### Discrete-Time Markov Chains
+
 ##### Information Theory
+###### Entropy
+Discrete *H()*
 
-##### MLE, MAP
+### MLE, MAP
+##### Maximum Likelihood Estimation
+*Θ<sub>MLE</sub> = argmax<sub>Θ</sub> ℙ\[X|Θ]*
 
+##### Maximum A Posteriori
+*Θ<sub>MAP</sub> = argmax<sub>Θ</sub> ℙ\[X|Θ]ℙ\[Θ]*
 
-### Estimation
+##### Estimation
 
 ### Applications
+
+##### Binary Symmetric/Erasure Channel
+*p* is the probability of error. *1 - p* is the probability of no error.
+pg 119 Walrand
 
 ##### LLSE, MMSE
 
