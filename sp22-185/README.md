@@ -2,6 +2,13 @@
 ### Introduction to Complex Analysis
 UC Berkeley Spring 2022, taught by Prof Ryan Hass
 
+- [x] Week 1: 
+- [x] Week 2: 
+- [x] Week 3:
+- [ ] Week 4: Holomorphic, Entire (lec10), 
+- [ ] Week 5:
+- [ ] Week 6:
+
 ### Topology in ℂ
 - \[Open disk] The open disk of radius *r > 0* about *z<sub>0</sub>* is given by *B<sub>r</sub>(z<sub>0</sub>) = {z ∈ ℂ | |z - z<sub>0</sub>| < r}*
 - \[Open] Say *Ω ⊂ ℂ* is **open** if for every *z ∈ Ω*, *∃r > 0* s.t. *B<sub>r</sub>(z) ⊂ Ω*.
