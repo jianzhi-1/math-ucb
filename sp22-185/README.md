@@ -60,8 +60,16 @@ Absolute convergence implies convergence (proof by triangle inequality).
 ###### Comparison Test (Basic/Limit) ???
 ###### Ratio Test
 ###### Root Test
-###### Divergence Test ???
-###### Dirichlet Test ???
+###### Divergence Test
+
+###### Dirichlet Test
+If *(a<sub>n</sub>)<sub>n</sub>* is a sequence of real numbers and *(b<sub>n</sub>)<sub>n</sub>* is a sequence of complex numbers satisfying:
+- *(a<sub>n</sub>)<sub>n</sub>* is monotonic
+- *lim<sub>n → ∞</sub> a<sub>n</sub> = 0*
+- The absolute value of all partial sums of *(b<sub>n</sub>)<sub>n</sub>* is less than *M ∈ ℝ*. 
+
+Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
+
 ###### Cauchy Condensation Test ???
 
 ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ∃, ε, ∩, ≠, ∪, ⊄, Σ, ·
