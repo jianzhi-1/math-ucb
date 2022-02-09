@@ -288,4 +288,3 @@ See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa21-70/Fi
 - [x] Spring 19
 - [x] Fall 20
 - [x] Spring 20
-- [ ] Spring/Fall/Summer YY Finals
