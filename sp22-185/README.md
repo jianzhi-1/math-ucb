@@ -5,7 +5,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 1: 
 - [x] Week 2: 
 - [x] Week 3:
-- [ ] Week 4: Holomorphic, Entire (lec10), 
+- [ ] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11)
 - [ ] Week 5:
 - [ ] Week 6:
 
