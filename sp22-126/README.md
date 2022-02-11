@@ -4,8 +4,8 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 
 - [x] Week 1: Introduction (lec1); Probability review (lec2)
 - [x] Week 2: Distributions (lec3, lec4)
-- [ ] Week 3:
-- [ ] Week 4:
+- [x] Week 3:
+- [x] Week 4: ; Moment Generating Functions (lec 8)
 - [ ] Week 5:
 - [ ] Week 6:
 
@@ -39,6 +39,8 @@ from numpy import random
 print(random.rand())
 print(random.rand(5))
 print(random.rand(3, 3))
+
+random.sample(range(self.num_chunks), n_of_chunks)
 ```
 
 ##### Plotting
