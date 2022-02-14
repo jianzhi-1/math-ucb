@@ -109,11 +109,10 @@ pg 119 Walrand
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-- [x] 14 Fall
-- [x] 17 Fall
-- [x] 18 Spring
 - [x] 21 Fall
-- [ ] YY Spring/Fall
+- [x] 18 Spring
+- [x] 17 Fall
+- [x] 14 Fall
 
 #### Midterm 2 Prep 😤
 - [ ] YY Spring/Fall
