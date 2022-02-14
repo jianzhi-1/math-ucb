@@ -70,7 +70,14 @@ itertools.combination(a, n) # returns generator of all possible combinations of 
 
 ### Probability
 
-##### Convergence
+##### Convergence and Borel Cantelli Lemmas
+- \[Convergence in probability] Let *(Y<sub>n</sub>)<sub>n</sub>* be a sequence of random variables (not necessarily independent) and *a ∈ ℝ*. Say *(Y<sub>n</sub>)<sub>n</sub>* converges to *a* in probability if *∀ε > 0*, *lim<sub>n → ∞</sub> ℙ\[|Y<sub>n</sub> - a| ≥ ε] = 0*.
+- \[Convergence with probability 1] Let *(Y<sub>n</sub>)<sub>n</sub>* be a sequence of random variables (not necesarily independent) and *c ∈ ℝ*. Say *(Y<sub>n</sub>)<sub>n</sub>* converges to *c* in probability 1 (or **almost surely**) if *ℙ\[lim<sub>n → ∞</sub>Y<sub>n</sub> = c] = 1*.
+- Convergence with probability 1 implies convergence in probability.
+
+- \[Borel Cantelli Lemma 1] Let *(A<sub>n</sub>)<sub>n</sub>* be a sequence of events such that *Σℙ\[Y<sub>n</sub>] < ∞*. Then *ℙ\[\{A<sub>n</sub> infinitely often}] = 0*. i.e. the set of outcomes where *A<sub>n</sub>* happens infinitely often has measure *0*.
+- \[Borel Cantelli Lemma 2]
+- \[Continuity of Probability]
 
 ##### Law of Large Numbers
 
