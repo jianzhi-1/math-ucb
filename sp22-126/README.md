@@ -5,7 +5,7 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 1: Introduction (lec1); Probability review (lec2)
 - [x] Week 2: Distributions (lec3, lec4)
 - [x] Week 3:
-- [x] Week 4: ; Moment Generating Functions (lec 8)
+- [x] Week 4: ; Moment Generating Functions (lec8)
 - [ ] Week 5:
 - [ ] Week 6:
 
@@ -112,6 +112,7 @@ pg 119 Walrand
 - [x] 14 Fall
 - [x] 17 Fall
 - [x] 18 Spring
+- [x] 21 Fall
 - [ ] YY Spring/Fall
 
 #### Midterm 2 Prep 😤
