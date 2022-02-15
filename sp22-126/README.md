@@ -70,6 +70,10 @@ itertools.combination(a, n) # returns generator of all possible combinations of 
 
 ### Probability
 
+##### Basics
+- *𝔼\[Y] = 𝔼\[𝔼\[Y|X]]*
+- *Var\[Y]= Var\[𝔼\[Y|X]] + 𝔼\[Var\[Y|X]]*
+
 ##### Convergence and Borel Cantelli Lemmas
 - \[Convergence in probability] Let *(Y<sub>n</sub>)<sub>n</sub>* be a sequence of random variables (not necessarily independent) and *a ∈ ℝ*. Say *(Y<sub>n</sub>)<sub>n</sub>* converges to *a* in probability if *∀ε > 0*, *lim<sub>n → ∞</sub> ℙ\[|Y<sub>n</sub> - a| ≥ ε] = 0*.
 - \[Convergence with probability 1] Let *(Y<sub>n</sub>)<sub>n</sub>* be a sequence of random variables (not necesarily independent) and *c ∈ ℝ*. Say *(Y<sub>n</sub>)<sub>n</sub>* converges to *c* in probability 1 (or **almost surely**) if *ℙ\[lim<sub>n → ∞</sub>Y<sub>n</sub> = c] = 1*.
