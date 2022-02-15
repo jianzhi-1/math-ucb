@@ -126,6 +126,7 @@ pg 119 Walrand
 #### Midterm 1 Prep 😤
 - [x] 21 Fall
 - [x] 21 Spring
+- [x] 20 Fall
 - [x] 18 Spring
 - [x] 17 Fall
 - [x] 14 Fall
