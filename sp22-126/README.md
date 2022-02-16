@@ -127,6 +127,7 @@ pg 119 Walrand
 - [x] 21 Fall
 - [x] 21 Spring
 - [x] 20 Fall
+- [x] 20 Spring
 - [x] 18 Spring
 - [x] 17 Fall
 - [x] 14 Fall
