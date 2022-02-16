@@ -6,7 +6,7 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 2: Distributions (lec3, lec4)
 - [x] Week 3:
 - [x] Week 4: ; Moment Generating Functions (lec8)
-- [ ] Week 5:
+- [ ] Week 5: Convergence (lec9);
 - [ ] Week 6:
 
 
