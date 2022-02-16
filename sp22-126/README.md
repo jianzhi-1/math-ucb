@@ -99,7 +99,8 @@ itertools.combination(a, n) # returns generator of all possible combinations of 
 
 ##### Information Theory
 ###### Entropy
-Discrete *H()*
+Discrete 
+*H(X) = -Σ<sub>i</sub> ℙ\[X = x<sub>i</sub>] log ℙ\[X = x<sub>i</sub>]*
 
 ### MLE, MAP
 ##### Maximum Likelihood Estimation
