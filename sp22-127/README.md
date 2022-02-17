@@ -3,9 +3,35 @@
 UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 - [x] Week 1: Introduction (lec1); Linear algebra review (lec2)
-- [ ] Week 2:
-- [ ] Week 3:
+- [x] Week 2:
+- [x] Week 3:
+- [x] Week 4: ; Least squares and variants (lec8)
+- [ ] Week 5: Review of Linear Algebra (lec9); 
+- [ ] Week 6:
+- [ ] Week 7:
 
+### Implementation
+##### Headers
+```python3
+%matplotlib inline
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from numpy import genfromtxt
+```
+
+##### Data Manipulation
+```python3
+data.drop(data.tail(1).index,inplace=True)
+arr = data.to_numpy().astype(int)
+data = pd.read_csv('senate_data_with_parties.csv', header=None) 
+```
+
+##### PCA
+```python3
+U, s, V = np.linalg.svd(arr, full_matrices=False)
+```
 
 ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂, ⟂
 
