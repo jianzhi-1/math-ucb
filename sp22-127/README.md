@@ -30,7 +30,7 @@ data = pd.read_csv('senate_data_with_parties.csv', header=None)
 
 ##### PCA
 ```python3
-U, s, V = np.linalg.svd(arr, full_matrices=False)
+U, s, Vt = np.linalg.svd(arr, full_matrices=False) # Vt is given in the transposed form
 ```
 
 ℂ, ℝ, Ω, ∞, ∀, ≥, ≤, ∈, ∉, ⊆, ⊂, Ø, →, ×, ‖, Σ, ·, ∀, ∇, ⇒, ⟨, ⟩, ∂, ⟂
