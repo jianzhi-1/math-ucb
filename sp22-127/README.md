@@ -21,7 +21,14 @@ import seaborn as sns
 from numpy import genfromtxt
 ```
 
-##### Data Manipulation
+### Numpy
+```python3
+a = np.array([[1, 2], [3, 4]])
+# hstack
+# vstack
+```
+
+##### Pandas
 ```python3
 data.drop(data.tail(1).index,inplace=True)
 arr = data.to_numpy().astype(int)
