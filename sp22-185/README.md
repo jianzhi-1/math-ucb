@@ -5,8 +5,8 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 1: 
 - [x] Week 2: 
 - [x] Week 3:
-- [ ] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11)
-- [ ] Week 5:
+- [x] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11); Line integral (lec12)
+- [ ] Week 5: Line integral (lec13); Path independence (lec14); 
 - [ ] Week 6:
 
 ### Topology in ℂ
@@ -147,6 +147,7 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 ### Exam Area
 
 #### Midterm 1 Prep 😤
+- [x] 21 Practice 1A
 - [x] 16 Fall
 
 #### Midterm 2 Prep 😤
