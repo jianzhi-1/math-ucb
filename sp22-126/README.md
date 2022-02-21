@@ -6,8 +6,17 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 2: Distributions (lec3, lec4)
 - [x] Week 3:
 - [x] Week 4: ; Moment Generating Functions (lec8)
-- [ ] Week 5: Convergence (lec9);
+- [x] Week 5: Convergence (lec9);
 - [ ] Week 6:
+- [ ] Week 7:
+- [ ] Week 8:
+- [ ] Week 9:
+- [ ] Week 10:
+- [ ] Week 11:
+- [ ] Week 12:
+- [ ] Week 13:
+- [ ] Week 14:
+- [ ] Week 15:
 
 
 ### Lab Hacks
@@ -132,7 +141,7 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sh
 - [x] 20 Spring
 - [x] 19 Fall
 - [x] 19 Spring
-- [ ] 18 Fall
+- [x] 18 Fall
 - [x] 18 Spring
 - [x] 17 Fall
 - [x] 14 Fall
