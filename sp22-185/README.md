@@ -115,8 +115,13 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 - If *z<sub>0</sub>* is not in *C*, then *∫<sub>C</sub> f(z)/(z-z<sub>0</sub>) dz = 0* since the function *f(z)/(z-z<sub>0</sub>)* will be analytic everywhere in *C*.
 - \[Extended] *f<sup>n</sup>(z<sub>0</sub>) = (n!/2πi) ∫<sub>C</sub> f(z)/(z-z<sub>0</sub>)<sup>n+1</sup> dz*
 - \[Cauchy–Kovalevskaya] ???
+- Let *f* be entire. Then *f(z) = Σf<sup>(k)</sup>(0)/k! z<sup>k</sup>* for all *z ∈ ℂ*, i.e. *f* is equal to its Taylor series centered at *0* for all *z*. In fact, *f* is equal to its Taylor series expansion centered at *a ∈ ℂ* for all *z*.
 
 ### Properties of Holomorphic Functions
+- Let *f* be entire. Then *f* is infinitely differentiable in *ℂ* and analytic (i.e. *f* can be represented by a power series that converges everywhere in the complex plane).
+- Anti-derivative of Caratheodory function exists. In fact, Caratheodory function is also infinitely differentiable.
+- Let *f* be entire, and *g* be *f*'s Caratheodory function centered at *a ∈ ℂ*, then *g* is entire and in particular, *g* is infinitely differentiable.
+- Let *f* be entire with roots *a<sub>1</sub>, ..., a<sub>k</sub>*. Then *g(x) = f(x)/(x - a<sub>1</sub>)...(x - a<sub>k</sub>)* for *x ≠ a<sub>i</sub>* and *g(a<sub>i</sub>) = lim<sub>z → a<sub>i</sub></sub> g(z)* is entire. (prove by induction)
 
 ### Open Mapping Theorem
 
