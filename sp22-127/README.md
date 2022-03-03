@@ -286,6 +286,8 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/
 - [ ] 18 Fall Midterm 2
 - [ ] 18 Fall Midterm 1
 - [ ] 18 Spring
+- [ ] 16 Spring Midterm 2
+- [x] 16 Spring Midterm 1
 
 #### Final Exam Prep 😤
 - [ ] YY Spring/Fall
