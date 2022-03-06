@@ -24,9 +24,11 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 %matplotlib inline
 import numpy as np
 import pandas as pd
+import cvxpy as cp
 import matplotlib.pyplot as plt
 import seaborn as sns
 from numpy import genfromtxt
+from scipy.optimize import linprog
 ```
 
 ### Numpy
