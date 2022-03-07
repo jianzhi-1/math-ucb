@@ -18,7 +18,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - \[Closure] Define the **closure** of *Ω ⊂ ℂ* as *Ω ∪ ∂Ω*.
 - \[Bounded] Say *Ω ⊂ ℂ* is **bounded** if *∃M > 0* s.t. *Ω ⊂ B<sub>M</sub>(0)*.
 - \[Compact] Say *Ω ⊂ ℂ* is **compact** if *Ω* is closed and bounded.
-- \[Connected] Say *Ω ⊂ ℂ* is **connected** if *∃* two disjoint **open** sets *A, B* s.t. *Ω ⊂ A∪B* but *Ω ⊄ A* and *Ω ⊄ B*.
+- \[Connected] Say *Ω ⊂ ℂ* is **disconnected** if *∃* two disjoint **open** sets *A, B* s.t. *Ω ⊂ A∪B* but *Ω ⊄ A* and *Ω ⊄ B*. Say *Ω ⊂ ℂ* is **connected** otherwise.
 - \[Region] Say *Ω ⊂ ℂ* is a **region** if *Ω* is open and connected.
 - \[Complete] A metric space *(S, d)* is **complete** if every Cauchy sequence converges.
 
