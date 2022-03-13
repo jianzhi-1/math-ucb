@@ -280,7 +280,7 @@ Solve *min<sub>x</sub> ‖Ax-y‖<sub>2</sub><sup>2</sup> + x<sup>T</sup>Wx* whe
 #### Midterm Prep 😤
 See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126_Midterm1Sheet.pdf)
 - [ ] 21 Spring
-- [ ] 20 Quiz 2
+- [x] 20 Quiz 2
 - [x] 20 Quiz 1
 - [ ] 19 Fall Midterm 2
 - [ ] 19 Fall Midterm 1
