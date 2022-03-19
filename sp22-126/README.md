@@ -8,10 +8,10 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 4: ; Moment Generating Functions (lec8)
 - [x] Week 5: Convergence (lec9);
 - [x] Week 6: Midterm 1; Information Theory (lec11)
-- [x] Week 7: Capacity (lec12); Markov Chain (lec13)
-- [ ] Week 8:
-- [ ] Week 9:
-- [ ] Week 10:
+- [x] Week 7: Capacity (lec12); Discrete-Time Markov Chain (lec13)
+- [x] Week 8: First Equations (lec14), Classification of Markov Chains (lec15)
+- [x] Week 9: Poisson Processes (lec16); Splitting & Merging, Random Incidence Paradox (lec17)
+- [x] Week 10: 🍃 Spring Break 🍃
 - [ ] Week 11:
 - [ ] Week 12:
 - [ ] Week 13:
