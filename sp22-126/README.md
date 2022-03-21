@@ -147,7 +147,23 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 - [x] 14 Fall
 
 #### Midterm 2 Prep 😤
-- [ ] YY Spring/Fall
+- [ ] 21 Fall
+- [ ] 21 Spring
+- [ ] 20 Fall
+- [ ] 20 Spring
+- [ ] 19 Fall
+- [ ] 19 Spring
+- [ ] 18 Fall
+- [ ] 18 Spring
+- [ ] 17 Fall
 
 #### Final Exam Prep 😤
-- [ ] YY Spring/Fall
+- [ ] 21 Fall
+- [ ] 21 Spring
+- [ ] 20 Fall
+- [ ] 20 Spring
+- [ ] 19 Fall
+- [ ] 19 Spring
+- [ ] 18 Fall
+- [ ] 18 Spring
+- [ ] 17 Fall
