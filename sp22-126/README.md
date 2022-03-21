@@ -2,7 +2,7 @@
 ### Probability and Random Processes
 UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 
-- [x] Week 1: Introduction (lec1); Probability review (lec2)
+- [x] Week 1: Introduction (lec1); Probability Review (lec2)
 - [x] Week 2: Distributions (lec3, lec4)
 - [x] Week 3:
 - [x] Week 4: ; Moment Generating Functions (lec8)
