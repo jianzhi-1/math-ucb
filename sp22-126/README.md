@@ -151,7 +151,7 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 - [ ] 21 Spring
 - [ ] 20 Fall
 - [ ] 20 Spring
-- [ ] 19 Fall
+- [x] 19 Fall
 - [x] 19 Spring
 - [x] 18 Fall
 - [x] 18 Spring
