@@ -8,7 +8,14 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11); Line integral (lec12)
 - [x] Week 5: Line integral (lec13); Path independence (lec14); 
 - [x] Week 6: President's Day; Midterm 1; (lec15);
-- [ ] Week 7: Cauchy Integral Formula (lec16)
+- [x] Week 7: Cauchy Integral Formula (lec16)
+- [x] Week 8:
+- [x] Week 9: ; Singularities
+- [x] Week 10: 🍃 Spring Break 🍃
+- [ ] Week 11:
+- [ ] Week 12:
+- [ ] Week 13:
+- [ ] Week 14:
 
 ### Topology in ℂ
 - \[Open disk] The open disk of radius *r > 0* about *z<sub>0</sub>* is given by *B<sub>r</sub>(z<sub>0</sub>) = {z ∈ ℂ | |z - z<sub>0</sub>| < r}*
