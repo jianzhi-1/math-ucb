@@ -154,8 +154,10 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 
 #### Midterm 1 Prep 😤
 - [x] 21 Practice 1A
+- [x] 21 Practice 1B
 - [x] 16 Fall
 
 #### Midterm 2 Prep 😤
+- [x] 21 Practice 2A
 
 #### Final Exam Prep 😤
