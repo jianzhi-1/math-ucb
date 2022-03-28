@@ -167,5 +167,6 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 #### Midterm 2 Prep 😤
 - [x] 21 Practice 2A
 - [x] 15 Fall
+- [x] 15 Fall Midterm 1 Sample
 
 #### Final Exam Prep 😤
