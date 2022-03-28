@@ -10,9 +10,9 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 6: President's Day; Midterm 1; (lec15);
 - [x] Week 7: Cauchy Integral Formula (lec16)
 - [x] Week 8:
-- [x] Week 9: ; Singularities
+- [x] Week 9: ;; Singularities
 - [x] Week 10: 🍃 Spring Break 🍃
-- [ ] Week 11: ; ; Midterm 2
+- [ ] Week 11: Singularities; ; Midterm 2
 - [ ] Week 12:
 - [ ] Week 13:
 - [ ] Week 14:
