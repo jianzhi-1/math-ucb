@@ -12,8 +12,8 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 8: First Equations (lec14), Classification of Markov Chains (lec15)
 - [x] Week 9: Poisson Processes (lec16); Splitting & Merging, Random Incidence Paradox (lec17)
 - [x] Week 10: 🍃 Spring Break 🍃
-- [ ] Week 11:
-- [ ] Week 12:
+- [x] Week 11: Continuous Time Markov Chain (lec18); Stationary Distributions for CTMC (lec19)
+- [ ] Week 12: Midterm 2; 
 - [ ] Week 13:
 - [ ] Week 14:
 - [ ] Week 15:
@@ -148,7 +148,7 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 
 #### Midterm 2 Prep 😤
 - [ ] 21 Fall
-- [ ] 21 Spring
+- [x] 21 Spring
 - [x] 20 Fall
 - [x] 20 Spring
 - [x] 19 Fall
