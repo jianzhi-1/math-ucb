@@ -147,7 +147,7 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 - [x] 14 Fall
 
 #### Midterm 2 Prep 😤
-See my [Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126_Midterm1Sheet.pdf)
+See my [Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126Midterm2.pdf)
 - [x] 21 Fall
 - [x] 21 Spring
 - [x] 20 Fall
