@@ -8,9 +8,9 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [x] Week 4: Low rank approximation (lec7); Least squares and variants (lec8)
 - [x] Week 5: Review of Linear Algebra (lec9); Linear Programming (lec10)
 - [x] Week 6: Quadratic Programming (lec11); Second Order Cone Programming (lec12)
-- [x] Week 7: Robust Optimization (lec13); (lec14)
-- [x] Week 8: (lec15); (lec16)
-- [x] Week 9: Midterm; Fenchel Duality, Farkas' Lemma (lec17)
+- [x] Week 7: Robust Optimization (lec13); Convexity (lec14)
+- [x] Week 8: Separation Theorem (lec15); Farkas' Lemma (lec16)
+- [x] Week 9: Midterm; Fenchel Duality (lec17)
 - [x] Week 10: 🍃 Spring Break 🍃
 - [x] Week 11: Midterm Review (lec18); Lagrange Duality (lec19)
 - [x] Week 12: Slater's Condition (lec20); Karush-Kuhn-Tucker (lec21)
