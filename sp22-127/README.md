@@ -10,10 +10,10 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [x] Week 6: Quadratic Programming (lec11); Second Order Cone Programming (lec12)
 - [x] Week 7: Robust Optimization (lec13); (lec14)
 - [x] Week 8: (lec15); (lec16)
-- [x] Week 9: Midterm; Fenchel Duality (lec17)
+- [x] Week 9: Midterm; Fenchel Duality, Farkas' Lemma (lec17)
 - [x] Week 10: 🍃 Spring Break 🍃
-- [ ] Week 11:
-- [ ] Week 12:
+- [x] Week 11: Midterm Review (lec18); Lagrange Duality (lec19)
+- [x] Week 12: Slater's Condition (lec20); Karush-Kuhn-Tucker (lec21)
 - [ ] Week 13:
 - [ ] Week 14:
 - [ ] Week 15:
