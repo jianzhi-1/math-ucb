@@ -12,10 +12,11 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 8:
 - [x] Week 9: ;; Singularities
 - [x] Week 10: 🍃 Spring Break 🍃
-- [ ] Week 11: Singularities; ; Midterm 2
-- [ ] Week 12:
-- [ ] Week 13:
-- [ ] Week 14:
+- [x] Week 11: Singularities; ; Midterm 2
+- [x] Week 12:
+- [x] Week 13:
+- [x] Week 14: Improper Integrals; Contour Integration
+- [x] Week 15: Conformal Mapping; Bilinear Transformation
 
 ### Topology in ℂ
 - \[Open disk] The open disk of radius *r > 0* about *z<sub>0</sub>* is given by *B<sub>r</sub>(z<sub>0</sub>) = {z ∈ ℂ | |z - z<sub>0</sub>| < r}*
@@ -160,16 +161,23 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-- [x] 21 Practice 1A
-- [x] 21 Practice 1B
+- [x] 22 Practice 1A
+- [x] 22 Practice 1B
 - [x] 16 Fall
 
 #### Midterm 2 Prep 😤
-- [x] 21 Practice 2A
+- [x] 22 Practice 2A
 - [x] 15 Fall
 - [x] 15 Fall Midterm 2 Sample (Partial)
 - [x] 15 Fall Midterm 1 Sample
 
 #### Final Exam Prep 😤
+- [x] 22 Practice 2A
+- [ ] 22 Practice 2B
+- [ ] 22 Practice 2C
 - [ ] 15 Fall Midterm 2
 - [ ] 15 Fall Midterm 2 Sample
+- [x] 15 Fall Final Sample
+- [ ] 15 Fall Final
+- [ ] 18 Spring 18.04 Practice 1
+- [ ] 18 Spring 18.04 Practice Final
