@@ -5,7 +5,7 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 1: 
 - [x] Week 2: 
 - [x] Week 3:
-- [x] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11); Line integral (lec12)
+- [x] Week 4: Holomorphic, Entire (lec10), Cauchy Riemann + Smoothness (lec11); Line Integral (lec12)
 - [x] Week 5: Line integral (lec13); Path independence (lec14); 
 - [x] Week 6: President's Day; Midterm 1; (lec15);
 - [x] Week 7: Cauchy Integral Formula (lec16)
@@ -13,8 +13,8 @@ UC Berkeley Spring 2022, taught by Prof Ryan Hass
 - [x] Week 9: ;; Singularities
 - [x] Week 10: 🍃 Spring Break 🍃
 - [x] Week 11: Singularities; ; Midterm 2
-- [x] Week 12:
-- [x] Week 13:
+- [x] Week 12: Laurent Series; Residue Theorem
+- [x] Week 13: Rouche's Theorem; 
 - [x] Week 14: Improper Integrals; Contour Integration
 - [x] Week 15: Conformal Mapping; Bilinear Transformation
 
