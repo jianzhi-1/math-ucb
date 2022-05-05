@@ -13,10 +13,10 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [x] Week 9: Midterm; Fenchel Duality (lec17)
 - [x] Week 10: 🍃 Spring Break 🍃
 - [x] Week 11: Midterm Review (lec18); Lagrange Duality (lec19)
-- [x] Week 12: Slater's Condition (lec20); Karush-Kuhn-Tucker (lec21)
-- [ ] Week 13:
-- [ ] Week 14:
-- [ ] Week 15:
+- [x] Week 12: Slater's Condition (lec20); KKT Conditions (lec21)
+- [x] Week 13: Interior Point Algorithm; Finding Feasible Point
+- [x] Week 14: Unconstrained Optimization Algorithm; Bisection, Gradient Descent
+- [x] Week 15: Support Vector Machine; Review
 
 ### Implementation
 ##### Headers
@@ -288,9 +288,11 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/
 
 #### Final Exam Prep 😤
 - [ ] YY Spring/Fall
-- [ ] 21 Spring
+- [ ] 20 Fall 
 - [ ] 19 Fall Midterm 2
+- [ ] 19 Spring
 - [ ] 19 Spring Midterm 2
+- [ ] 18 Spring
 - [ ] 18 Fall Midterm 2
 - [ ] 18 Spring
 - [ ] 16 Spring Midterm 2
