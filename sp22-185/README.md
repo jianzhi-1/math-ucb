@@ -175,7 +175,7 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 - [x] 22 Practice 2A
 - [ ] 22 Practice 2B
 - [ ] 22 Practice 2C
-- [ ] 15 Fall Midterm 2
+- [x] 15 Fall Midterm 2
 - [ ] 15 Fall Midterm 2 Sample
 - [x] 15 Fall Final Sample
 - [x] 15 Fall Final
