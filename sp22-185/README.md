@@ -186,4 +186,4 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 - [ ] 16 Fall Practice Final
 - [ ] 18 Spring 18.04 Practice 1
 - [ ] 18 Spring 18.04 Practice 2
-- [ ] 18 Spring 18.04 Practice Final
+- [x] 18 Spring 18.04 Practice Final
