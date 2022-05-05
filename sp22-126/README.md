@@ -13,10 +13,10 @@ UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 - [x] Week 9: Poisson Processes (lec16); Splitting & Merging, Random Incidence Paradox (lec17)
 - [x] Week 10: 🍃 Spring Break 🍃
 - [x] Week 11: Continuous Time Markov Chain (lec18); Stationary Distributions for CTMC (lec19)
-- [ ] Week 12: Midterm 2; 
-- [ ] Week 13:
-- [ ] Week 14:
-- [ ] Week 15:
+- [x] Week 12: Midterm 2; Erdo Renyi Random Graph (lec20)
+- [x] Week 13: MAP, MLE (lec21); Hypothesis Testing, Neyman Pearson Lemma (lec22)
+- [x] Week 14: MMSE, Hilbert Space of RV (lec23); LLSE (lec24)
+- [x] Week 15: Jointly Gaussian Random Variables (lec25); Kalman Filter (lec26)
 
 
 ### Lab Hacks
