@@ -3,10 +3,10 @@
 UC Berkeley Spring 2022, taught by Prof Kannan Ramchandran
 
 - [x] Week 1: Introduction (lec1); Probability Review (lec2)
-- [x] Week 2: Distributions (lec3, lec4)
-- [x] Week 3:
-- [x] Week 4: ; Moment Generating Functions (lec8)
-- [x] Week 5: Convergence (lec9);
+- [x] Week 2: Discrete Distributions (lec3); Continuous Distributions (lec4)
+- [x] Week 3: Probabilistic Bounds (lec5); Law of Iterated Expection and Total Variance (lec6)
+- [x] Week 4: Order Statistics (lec7); Moment Generating Functions (lec8)
+- [x] Week 5: Convergence (lec9); Chernoff Bound (lec10)
 - [x] Week 6: Midterm 1; Information Theory (lec11)
 - [x] Week 7: Capacity (lec12); Discrete-Time Markov Chain (lec13)
 - [x] Week 8: First Equations (lec14), Classification of Markov Chains (lec15)
