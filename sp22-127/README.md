@@ -16,7 +16,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 - [x] Week 12: Slater's Condition (lec20); KKT Conditions (lec21)
 - [x] Week 13: Interior Point Algorithm; Finding Feasible Point
 - [x] Week 14: Unconstrained Optimization Algorithm; Bisection, Gradient Descent
-- [x] Week 15: Support Vector Machine; Review
+- [x] Week 15: Support Vector Machine (lec26); System Problem, Equilibrium, Network Optimization (lec27)
 
 ### Implementation
 ##### Headers
