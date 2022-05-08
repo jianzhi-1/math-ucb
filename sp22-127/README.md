@@ -288,12 +288,3 @@ See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/
 
 #### Final Exam Prep 😤
 See my [Final Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126_Midterm1Sheet.pdf)
-- [ ] YY Spring/Fall
-- [ ] 20 Fall 
-- [ ] 19 Fall Midterm 2
-- [ ] 19 Spring
-- [ ] 19 Spring Midterm 2
-- [ ] 18 Spring
-- [ ] 18 Fall Midterm 2
-- [ ] 18 Spring
-- [ ] 16 Spring Midterm 2
