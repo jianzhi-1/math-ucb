@@ -173,17 +173,10 @@ Then the series *Σa<sub>n</sub>b<sub>n</sub>* converges.
 
 #### Final Exam Prep 😤
 - [x] 22 Practice 2A
-- [ ] 22 Practice 2B
-- [ ] 22 Practice 2C
+- [x] 22 Practice 2B
 - [x] 15 Fall Midterm 2
 - [x] 15 Fall Midterm 2 Sample
 - [x] 15 Fall Final Sample
 - [x] 15 Fall Final
-- [ ] 16 Fall Practice Midterm 1
-- [ ] 16 Fall Midterm 1
-- [ ] 16 Fall Practice Midterm 2
-- [ ] 16 Fall Midterm 2
-- [ ] 16 Fall Practice Final
-- [ ] 18 Spring 18.04 Practice 1
-- [ ] 18 Spring 18.04 Practice 2
+- [x] 16 Fall Practice Final
 - [x] 18 Spring 18.04 Practice Final
