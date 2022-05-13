@@ -161,6 +161,6 @@ See my [Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 #### Final Exam Prep 😤
 See my [Final Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126Midterm2Sheet.pdf)
 - [x] 20 Spring
-- [ ] 19 Spring
+- [x] 19 Spring
 - [ ] 18 Fall
 - [ ] 18 Spring
