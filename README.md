@@ -13,3 +13,5 @@
 - 185: Introduction to Complex Analysis
 
 ### Fall 2023 🍂
+- H113: Honors Introduction to Abstract Algebra
+- 202A: Introduction to Topology and Analysis
