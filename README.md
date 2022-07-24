@@ -13,5 +13,7 @@
 - 185: Introduction to Complex Analysis
 
 ### Fall 2023 🍂
-- H113: Honors Introduction to Abstract Algebra
-- 202A: Introduction to Topology and Analysis
+- 113: Introduction to Abstract Algebra
+- 150: (STAT) Stochastic Processes
+- 151A: (STAT) Linear Modelling: Theory and Applications
+- 153: (STAT) Introduction to Time Series
