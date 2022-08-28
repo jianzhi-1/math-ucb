@@ -15,5 +15,4 @@
 ### Fall 2023 🍂
 - 113: Introduction to Abstract Algebra
 - 150: (STAT) Stochastic Processes
-- 151A: (STAT) Linear Modelling: Theory and Applications
 - 153: (STAT) Introduction to Time Series
