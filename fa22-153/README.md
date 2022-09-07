@@ -11,6 +11,7 @@ UC Berkeley Fall 2022, taught by Professor Aditya
 
 ### Implementation
 ##### Headers
+```python
 %matplotlib inline
 import numpy as np
 import scipy
@@ -24,4 +25,5 @@ from scipy import stats
 ```
 
 ##### t-distributions
+
 Remember that scale is the standard deviation. Need to take square root.
