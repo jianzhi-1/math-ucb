@@ -16,12 +16,14 @@ UC Berkeley Fall 2022, taught by Professor Aditya
 import numpy as np
 import scipy
 import pandas as pd
-import cvxpy as cp
 import matplotlib.pyplot as plt
 import seaborn as sns
 from numpy import genfromtxt
-from scipy.optimize import linprog
-from scipy import stats
+import cvxpy as cp # convex optimization
+from scipy.optimize import linprog # matrix inverse
+from scipy import stats # t-distribution
+import statsmodels.api as sm # autocorrelation
+from statsmodels.graphics import tsaplots # autocorrelation
 ```
 
 ##### t-distributions
