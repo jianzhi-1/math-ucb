@@ -29,3 +29,8 @@ from statsmodels.graphics import tsaplots # autocorrelation
 ##### t-distributions
 
 Remember that scale is the standard deviation. Need to take square root.
+
+##### Discrete Fourier Transform
+```python
+# insert code here
+```
