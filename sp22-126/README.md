@@ -134,7 +134,7 @@ pg 119 Walrand
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126_Midterm1Sheet.pdf)
+See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126Midterm1Sheet.pdf)
 - [x] 21 Fall
 - [x] 21 Spring
 - [x] 20 Fall
@@ -159,7 +159,7 @@ See my [Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-12
 - [x] 17 Fall
 
 #### Final Exam Prep 😤
-See my [Final Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126Midterm2Sheet.pdf)
+See my [Final Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126FinalSheet.pdf)
 - [x] 20 Spring
 - [x] 19 Spring
 - [x] 18 Fall
