@@ -5,17 +5,18 @@ def u(x):
 
 # returns the periodogram given timeseries y
 def periodogram(y):
-  periodogram = []
-  for i in range(n//2):
-      bj = np.abs(np.dot(y, u(i)))**2/n  # bj = I(j/n) = |<y, u(i)>|^2/n
-      periodogram.append(bj)
-  return periodogram
+    pg = []
+    for i in range(n//2):
+        bj = np.abs(np.dot(y, u(i)))**2/n  # bj = I(j/n) = |<y, u(i)>|^2/n
+        pg.append(bj)
+    return pg
 
-plt.plot(np.arange(len(periodogram))/n, periodogram)
+pg = periodogram(y)
+plt.plot(np.arange(len(pg))/n, pg)
 plt.xlabel('Fourier frequency') 
 plt.ylabel('Periodogram')
 plt.title('Periodogram')
 plt.show()
-best_fourier_frequency = np.argmax(periodogram)/n
+best_fourier_frequency = np.argmax(pg)/n
 print("Fourier frequency = {}".format(best_fourier_frequency))
 print("Period = {}".format(1./best_fourier_frequency))
