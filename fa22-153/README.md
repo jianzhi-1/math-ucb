@@ -4,9 +4,9 @@ UC Berkeley Fall 2022, taught by Professor Aditya
 
 - [x] Week 0: Frequentist Linear Model (lec1)
 - [x] Week 1: Bayesian Linear Trend Model, Bayesian Constant Function (lab1)
-- [ ] Week 2: Bayesian Linear Seasonality Model (lec4)
-- [ ] Week 3: 
-- [ ] Week 4: 
+- [x] Week 2: Bayesian Linear Seasonality Model (lec4)
+- [x] Week 3: Periodogram, Spectral Analysis
+- [x] Week 4: Model Selection
 - [ ] Week 5: 
 
 ### Implementation
