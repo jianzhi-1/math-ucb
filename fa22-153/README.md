@@ -26,6 +26,16 @@ import statsmodels.api as sm # autocorrelation
 from statsmodels.graphics import tsaplots # autocorrelation
 ```
 
+##### Plotting
+```python
+plt.figure(figsize=(15,10))
+plt.plot(np.arange(n), y)
+plt.xlabel('Months since 2004') 
+plt.ylabel('Interest in "Playoffs" (United States)')
+plt.title('Interest in "Playoffs" (United States) since 2004')
+plt.show()
+```
+
 ##### t-distributions
 
 Remember that scale is the standard deviation. Need to take square root.
