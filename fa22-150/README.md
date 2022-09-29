@@ -21,7 +21,7 @@ UC Berkeley Fall 2022, taught by Professor Benson Au
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp22-126/EECS126Midterm1Sheet.pdf)
+See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-150/STAT150Midterm1Sheet.pdf)
 - [x] 22 Spring
 - [x] 21 Fall
 
