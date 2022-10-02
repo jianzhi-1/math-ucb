@@ -53,3 +53,8 @@ Remember that scale is the standard deviation. Need to take square root.
 ```python
 # insert code here
 ```
+
+##### R to CSV
+```R
+write.csv(df,"Desktop/STAT153/df.csv")
+```
