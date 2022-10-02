@@ -6,8 +6,8 @@ UC Berkeley Fall 2022, taught by Professor Aditya
 - [x] Week 1: Bayesian Linear Trend Model, Bayesian Constant Function
 - [x] Week 2: Bayesian Linear Seasonality Model
 - [x] Week 3: Periodogram, Spectral Analysis
-- [x] Week 4: Bayesian Model Selection, Evidence
-- [x] Week 5: Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), Cross-Validation, Approximation to Evidence, Zellner Prior
+- [x] Week 4: Bayesian Model Selection, Evidence, Approximation to Evidence
+- [x] Week 5: Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), Cross-Validation, Zellner Prior
 - [ ] Week 6:
 - [ ] Week 7:
 - [ ] Week 8:
