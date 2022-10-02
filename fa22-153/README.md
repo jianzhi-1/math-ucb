@@ -2,12 +2,21 @@
 ### Introduction to Time Series
 UC Berkeley Fall 2022, taught by Professor Aditya
 
-- [x] Week 0: Frequentist Linear Model (lec1)
-- [x] Week 1: Bayesian Linear Trend Model, Bayesian Constant Function (lab1)
-- [x] Week 2: Bayesian Linear Seasonality Model (lec4)
+- [x] Week 0: Frequentist Linear Model, Linear Regression
+- [x] Week 1: Bayesian Linear Trend Model, Bayesian Constant Function
+- [x] Week 2: Bayesian Linear Seasonality Model
 - [x] Week 3: Periodogram, Spectral Analysis
-- [x] Week 4: Bayesian Model Selection
-- [ ] Week 5: 
+- [x] Week 4: Bayesian Model Selection, Evidence
+- [x] Week 5: AIC, BIC, Cross-Validation, Approximation to Evidence, Zellner Prior
+- [ ] Week 6:
+- [ ] Week 7:
+- [ ] Week 8:
+- [ ] Week 9:
+- [ ] Week 10:
+- [ ] Week 11:
+- [ ] Week 12:
+- [ ] Week 13:
+- [ ] Week 14:
 
 ### Implementation
 ##### Headers
