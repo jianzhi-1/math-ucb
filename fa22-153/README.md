@@ -30,6 +30,7 @@ import seaborn as sns
 from numpy import genfromtxt
 import cvxpy as cp # convex optimization
 from scipy.optimize import linprog # matrix inverse
+from scipy.special import gamma, loggamma # model selection
 from scipy import stats # t-distribution
 import statsmodels.api as sm # autocorrelation
 from statsmodels.graphics import tsaplots # autocorrelation
