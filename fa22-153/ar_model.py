@@ -34,11 +34,11 @@ def ar_model_prediction(y, phi, n):
     phi: AR coefficients
     n: length to extend y to
     """
-  
-    while len(y) < n:
+    ynew = y.copy()
+    while len(ynew) < n:
         cur = 0
         for i in range(len(phi)):
             if i == 0: cur += phi[i]
-            else: cur += phi[i]*y[len(y) - i]
-        y.append(cur)
-    return y
+            else: cur += phi[i]*ynew[len(ynew) - i]
+        ynew.append(cur)
+    return ynew
