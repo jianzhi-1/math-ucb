@@ -11,3 +11,4 @@ from scipy.special import gamma, loggamma # model selection
 from scipy import stats # t-distribution
 import statsmodels.api as sm # autocorrelation
 from statsmodels.graphics import tsaplots # autocorrelation
+from statsmodels.tsa.arima.model import ARIMA # arima models
