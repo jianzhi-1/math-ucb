@@ -82,7 +82,16 @@ class MA1_Model():
         return res
     
     def uncertainty(self):
+        """returns the uncertainty intervals of muhat and thetahat at MLE"""
         hess = self.hessian_s(self.muhat, self.thetahat)
         mu_confidence_interval = stats.t.interval(0.95, self.n - 2, loc=self.muhat, scale=np.sqrt(1./(self.n-2)*self.s(self.muhat, self.thetahat)*(np.linalg.inv(1./2.*hess)[0][0])))
         theta_confidence_interval = stats.t.interval(0.95, self.n - 2, loc=self.thetahat, scale=np.sqrt(1./(self.n-2)*self.s(self.muhat, self.thetahat)*(np.linalg.inv(1./2.*hess)[1][1])))
         return mu_confidence_interval, theta_confidence_interval
+    
+    def prediction(self, t):
+        """predict extra t time step (UNTESTED!)"""
+        pred = np.zeros(self.n + t)
+        for i in range(len(pred)):
+            if i < self.n: pred[i] = self.y[i]
+            else: pred[i] = self.muhat # constant prediction
+        return pred
