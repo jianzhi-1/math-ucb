@@ -9,6 +9,8 @@ df$V1 # get column V1
 df["V3"]
 arima(df["V3"], order=c(0, 0, 1))
 
+# difference array
+arima(diff(diff(df$MRTSSM4453USN, lag=12)), order=c(0,0,1))
 
 # prediction and plotting
 pred = predict(arima(df$MRTSSM4453USN, order=c(0,0,2)), n.ahead=36)
