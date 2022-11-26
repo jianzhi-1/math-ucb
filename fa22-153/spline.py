@@ -1,5 +1,5 @@
 def log_likelihood(tau, sigma, Y, C=1e6):
-    n = len(y)
+    n = len(Y)
     X = np.zeros((n,n))
     for i in range(n):
         for j in range(n):
