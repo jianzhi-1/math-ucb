@@ -38,3 +38,4 @@ def spline(Y, taurange, sigmarange, C=1e6):
     return beta, besttau, bestsigma
 
 beta, besttau, bestsigma = spline(train_data, np.arange(0.001, 0.1, 0.002), np.arange(5., 10., 0.1))
+plt.plot(np.arange(n), make_X(n, n_train)@beta, label='smooth')
