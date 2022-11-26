@@ -30,3 +30,31 @@ def plot_acf_pacf(y, lags=None):
     plt.show()
 
 # STEP 2: Fit ARMA(p, q)
+def get_best_arima(Y, pmax=6, qmax=6):
+    prange = range(0, pmax+1)
+    qrange = range(0, qmax+1)
+    bestp_aic, bestq_aic = None, None
+    bestp_bic, bestq_bic = None, None
+    best_aic, best_bic = None, None
+    for p in prange:
+        for q in qrange:
+            mod = sm.tsa.SARIMAX(Y, order=(p, 0, q), seasonal_order=(1, 0, 0, 12))
+            res = mod.fit()
+            print("AIC", res.aic)
+            print("BIC", res.bic)
+            if best_aic is None or res.aic < best_aic:
+                best_aic = res.aic
+                bestp_aic, bestq_aic = p, q
+            if best_bic is None or res.bic < best_bic:
+                best_bic = res.bic
+                bestp_bic, bestq_bic = p, q
+    return (bestp_aic, bestq_aic), (bestp_bic, bestq_bic)
+
+def predict(Y, l, p, q):
+    mod = sm.tsa.SARIMAX(Y, order=(p, 0, q), seasonal_order=(1, 0, 0, 12))
+    res = mod.fit()
+    pred = np.array(res.predict(len(Y), len(Y) + l - 1))
+    return pred
+
+aic_best, bic_best = get_best_arima(d_residue)
+pred = predict(residue, n_test, bic_best[0], bic_best[1])
