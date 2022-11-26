@@ -59,3 +59,8 @@ Remember that scale is the standard deviation. Need to take square root.
 ```R
 write.csv(df,"Desktop/STAT153/df.csv")
 ```
+
+### R plotting
+```r
+dev.new(width=5, height=4)
+```
