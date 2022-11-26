@@ -36,3 +36,5 @@ def spline(Y, taurange, sigmarange, C=1e6):
     beta = (1./(bestsigma**2))*np.linalg.inv(np.linalg.inv(Q0) + (1./(bestsigma**2))*X.T@X)@X.T@Y
     
     return beta, besttau, bestsigma
+
+beta, besttau, bestsigma = spline(train_data, np.arange(0.001, 0.1, 0.002), np.arange(5., 10., 0.1))
