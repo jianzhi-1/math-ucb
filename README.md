@@ -16,3 +16,5 @@
 - 113: Introduction to Abstract Algebra
 - 150: (STAT) Stochastic Processes
 - 153: (STAT) Introduction to Time Series
+
+### Spring 2023 🍃
