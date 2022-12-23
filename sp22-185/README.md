@@ -1,6 +1,6 @@
 # MATH 185
 ### Introduction to Complex Analysis
-UC Berkeley Spring 2022, taught by Prof Ryan Hass
+UC Berkeley Spring 2022, taught by Professor Ryan Hass
 
 - [x] Week 1: 
 - [x] Week 2: 
