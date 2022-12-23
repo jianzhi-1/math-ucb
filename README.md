@@ -18,3 +18,6 @@
 - 153: (STAT) Introduction to Time Series
 
 ### Spring 2023 🍃
+- 114: Second Course in Abstract Algebra
+- 126: Introduction to Partial Differential Equations
+
