@@ -1,6 +1,6 @@
 # MATH 104
 ### Introduction to Analysis
-UC Berkeley Fall 2021, taught by Prof Koji Shimizu
+UC Berkeley Fall 2021, taught by Professor Koji Shimizu
 
 - [x] Week 0: Proofs, Real numbers (lec1)
 - [x] Week 1: Completeness Axiom, *max*, *min*, *sup*, *inf* (lec2), Convergence, ε-N, "Smart" Estimates (lec3)
