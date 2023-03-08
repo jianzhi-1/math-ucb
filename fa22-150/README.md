@@ -26,9 +26,11 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-15
 - [x] 21 Fall
 
 #### Midterm 2 Prep 😤
-See my [Midterm 2 Sheet]()
-- [ ] YY Fall/Spring
+See my [Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-150/STAT150Midterm2Sheet.pdf)
+- [x] 22 Spring
+- [x] 21 Fall
 
 #### Finals Prep 😤
-See my [Finals Sheet]()
-- [ ] YY Fall/Spring
+See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-150/STAT150FinalSheet.pdf)
+- [x] 22 Spring
+- [x] 21 Fall
