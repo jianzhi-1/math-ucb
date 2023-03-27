@@ -4,7 +4,7 @@ UC Berkeley Spring 2022, taught by Prof Thomas Courtade
 
 - [x] Week 1: Introduction (lec1); Linear algebra review (lec2)
 - [x] Week 2: Projection (lec3); Four fundamental subspaces (lec4)
-- [x] Week 3: Matric decompositions (lec5); Singular value decomposition (lec6)
+- [x] Week 3: Matrix decompositions (lec5); Singular value decomposition (lec6)
 - [x] Week 4: Low rank approximation (lec7); Least squares and variants (lec8)
 - [x] Week 5: Review of Linear Algebra (lec9); Linear Programming (lec10)
 - [x] Week 6: Quadratic Programming (lec11); Second Order Cone Programming (lec12)
