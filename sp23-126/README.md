@@ -1,7 +1,7 @@
 # MATH 126
 ### Introduction to Partial Differential Equations
 UC Berkeley Spring 2023, taught by Professor Federico Pasqualotto
-Introduction (lec1); Linear algebra review (lec2)
+- [x] Week 1:
 - [x] Week 2: 
 - [x] Week 3:
 - [x] Week 4:
