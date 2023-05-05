@@ -20,11 +20,11 @@ UC Berkeley Spring 2023, taught by Professor Federico Pasqualotto
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-[Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp23-126/MATH126Midterm1Sheet.pdf)
+[Midterm 1 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp23-126/Math126Midterm1Sheet.pdf)
 - [x] 23 Practice Midterm 1
 
 #### Midterm 2 Prep 😤
-[Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp23-126/MATH126Midterm2Sheet.pdf)
+[Midterm 2 Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp23-126/Math126Midterm2Sheet.pdf)
 - [x] 23 Practice Midterm 2
 
 #### Final Exam Prep 😤
