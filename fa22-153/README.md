@@ -64,3 +64,13 @@ write.csv(df,"Desktop/STAT153/df.csv")
 ```r
 dev.new(width=5, height=4)
 ```
+
+### Exam Area
+
+#### Midterm Prep 😤
+See my [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-153/STAT153MidtermSheet.pdf)
+- [x] Practice
+
+#### Finals Prep 😤
+See my [Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa22-153/STAT153FinalSheet.pdf)
+- [x] Practice
