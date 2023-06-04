@@ -11,10 +11,10 @@ UC Berkeley Spring 2023, taught by Professor Federico Pasqualotto
 - [x] Week 8: 
 - [x] Week 9: Separation of variables (lec17); Fourier series coefficient formulae (lec18)
 - [x] Week 10: 🍃 Spring Break 🍃
-- [ ] Week 11:
-- [ ] Week 12: 
-- [ ] Week 13:
-- [ ] Week 14:
+- [x] Week 11:
+- [x] Week 12: 
+- [x] Week 13:
+- [x] Week 14:
 - [x] Week 15: 1D Scalar Conservation Law; Calculus of Variations
 
 ### Exam Area
