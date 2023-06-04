@@ -29,4 +29,4 @@ UC Berkeley Spring 2023, taught by Professor Federico Pasqualotto
 
 #### Final Exam Prep 😤
 [Final Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/sp23-126/Math126FinalSheet.pdf)
-- [ ] 23 Practice Final
+- [x] 23 Practice Final
