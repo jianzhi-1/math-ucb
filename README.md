@@ -21,3 +21,7 @@
 - 114: Second Course in Abstract Algebra
 - 126: Introduction to Partial Differential Equations
 
+### Fall 2023 🍂
+
+### Spring 2024 🍃
+
