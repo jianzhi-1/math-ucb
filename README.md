@@ -22,6 +22,10 @@
 - 126: Introduction to Partial Differential Equations
 
 ### Fall 2023 🍂
+- 128A: Numerical Analysis
+- 202A: Introduction to Topology and Analysis
+- 218A: Probability Theory
+- 222A: Partial Differential Equations
 
 ### Spring 2024 🍃
 
