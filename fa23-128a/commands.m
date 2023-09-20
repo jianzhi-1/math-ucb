@@ -1,3 +1,6 @@
+interval = struct("a", 0.1, "b", 1.0)
+[x, out] = bisection(f, interval, params)
+
 params = struct("tol", 1e-2, "MaxIt", 20);
 f = @(x) 2*x*cos(2*x) - (x - 2)^2;
 [fun, dfun, x, out] = NewtonMethod(f, df, 3.5, params);
