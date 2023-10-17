@@ -8,8 +8,8 @@ UC Berkeley Fall 2023, taught by Professor Ming Gu
 - [x] Week 3: 
 - [x] Week 4: 
 - [x] Week 5: 
-- [ ] Week 6:
-- [ ] Week 7:
+- [x] Week 6:
+- [x] Week 7:
 - [ ] Week 8:
 - [ ] Week 9:
 - [ ] Week 10:
@@ -22,7 +22,8 @@ UC Berkeley Fall 2023, taught by Professor Ming Gu
 
 #### Midterm Prep 😤
 [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa23-128a/MATH128AMidtermSheet.pdf)
-- [ ] Practice
+- [x] Practice
+- [ ] Fall 22
 
 #### Finals Prep 😤
 [Finals Sheet]()
