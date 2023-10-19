@@ -23,7 +23,7 @@ UC Berkeley Fall 2023, taught by Professor Ming Gu
 #### Midterm Prep 😤
 [Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa23-128a/MATH128AMidtermSheet.pdf)
 - [x] Practice
-- [ ] Fall 22
+- [x] Fall 22
 
 #### Finals Prep 😤
 [Finals Sheet]()
