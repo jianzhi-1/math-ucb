@@ -9,6 +9,7 @@ f = @(x) 2*x*cos(2*x) - (x - 2)^2;
 format longg; % more decimal places
 
 g = @(x) 1 + sin(x)^2;
+intv = [1 2];
 x0 = 1;
 params = struct("tol", 2e-14, "MaxIt", 30);
 [x, out] = SteffensenMethod(g, x0, params)
