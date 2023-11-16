@@ -8,7 +8,7 @@ def trapezoid_newton(f, fy, a, b, N, alpha, M, tol=1e-6):
     w = alpha
     arr = [(t, w)]
 
-    for i in range(N + 1):
+    for i in range(N):
         k1 = w + h/2*f(t, w)
         w0 = k1
         j = 1
@@ -23,7 +23,7 @@ def trapezoid_newton(f, fy, a, b, N, alpha, M, tol=1e-6):
                 w0 = w
                 if j > M:
                     raise Exception("max iterations exceeded")
-        t = a + i*h
+        t = a + (i + 1)*h
         arr.append((t, w))
     return arr
 
