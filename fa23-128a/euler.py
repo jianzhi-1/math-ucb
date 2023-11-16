@@ -5,4 +5,4 @@ def euler(f, a, b, N, alpha):
     for i in range(1, N + 1):
         w.append(w[-1] + h*f(t[-1], w[-1]))
         t.append(a + i*h)
-    return t, w
+    return list(zip(t, w))
