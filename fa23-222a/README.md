@@ -21,13 +21,10 @@ UC Berkeley Fall 2023, taught by Professor Sung-jin Oh
 ### Exam Area
 
 #### Midterm 1 Prep 😤
-[Midterm Sheet]()
+[Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa23-222a/MATH222AMidterm1Prep.pdf)
 
 #### Midterm 2 Prep 😤
-[Midterm Sheet]()
-- [ ] Practice
-- [ ] Fall 22
+[Midterm Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa23-222a/MATH222AMidterm2Prep.pdf)
 
 #### Finals Prep 😤
-[Finals Sheet]()
-- [ ] Practice
+[Finals Sheet](https://github.com/jianzhi-1/math-ucb/blob/main/fa23-222a/MATH222AFinalPrep.pdf)
