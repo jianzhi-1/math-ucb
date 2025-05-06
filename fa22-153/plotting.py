@@ -1,6 +1,7 @@
 plt.figure(figsize=(15,10))
 plt.scatter(x, y, label="data")
 plt.plot(x, X@betastar, c="orange", label="model")
+plt.grid(True)
 plt.xlabel("x") 
 plt.ylabel("y")
 plt.legend()
